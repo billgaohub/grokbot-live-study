@@ -1,5 +1,5 @@
-failures_ledger_id: FAIL-LEDGER-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
+failures_ledger_id: FAIL-LEDGER-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
 
 failures:
   - failure_id: FAIL-001
@@ -12,3 +12,14 @@ failures:
     severity: "HIGH_EXECUTION_IMPACT (Blocked primary task goal of audience data collection)"
     detection_channel: "EXTERNAL_HUMAN_FEEDBACK (Chat feedback from audience alerted presenter)"
     resolution_ref: "INT-003"
+
+  - failure_id: FAIL-002
+    observation_ref: "OBS-027"
+    timestamp: "T+05:28:00"
+    actor: "Potato Lab Founding Team (Human + Bots)"
+    failure_type: "REGULATORY_PERMITTING_LEAD_TIME_INCOMPATIBILITY"
+    root_cause: "Hosting an authentic pop-up restaurant in San Francisco requires municipal health department permits, food handler certifications, and ABC alcohol licensing with lead times spanning weeks, which physically exceeds the 72-hour challenge execution envelope."
+    observable_symptom: "Team identified legal impossibility of operating a compliant physical restaurant pop-up within the 3-day sprint; blocked continuation of restaurant menu and kitchen software track."
+    severity: "CRITICAL_STRATEGIC_BLOCKER (Forced complete product scope abandonment and pivot)"
+    detection_channel: "DOMAIN_KNOWLEDGE_INSPECTION (Hosts recognized real-world legal permitting constraints)"
+    resolution_ref: "INT-004"

@@ -1,5 +1,5 @@
-verification_ledger_id: VER-LEDGER-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
+verification_ledger_id: VER-LEDGER-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
 
 correction_chains:
   - chain_id: CORR-CHAIN-001
@@ -25,6 +25,29 @@ correction_chains:
         description: "Audience successfully submits coffee survey responses; live counter on screen confirms throughput."
     recovery_verdict: "SUCCESSFUL_HUMAN_STEERED_RECOVERY"
 
+  - chain_id: CORR-CHAIN-002
+    title: "Regulatory Permitting Failure & Strategic Exhibition Pivot"
+    start_timestamp: "T+05:28:00"
+    end_timestamp: "T+05:45:00"
+    chain_steps:
+      - step: 1
+        event_type: "FAILURE"
+        ref: "FAIL-002 / OBS-027"
+        description: "SF health department and alcohol permit lead times make physical pop-up restaurant legally impossible within 72h."
+      - step: 2
+        event_type: "HUMAN_DETECTION_AND_INTERVENTION"
+        ref: "INT-004"
+        description: "Founding team convenes on stream, abandons restaurant software track, and redirects bots to Grok Bot art exhibition."
+      - step: 3
+        event_type: "AGENT_RECOVERY_ACTION"
+        ref: "OBS-027"
+        description: "Bots reconfigure waitlist copy, ticketing models, and venue-finder parameters towards raw warehouse spaces."
+      - step: 4
+        event_type: "EXTERNAL_VERIFICATION"
+        ref: "VER-002 / OBS-020"
+        description: "Updated digital art exhibition ticketing concept successfully deployed and confirmed on shipbythurs.day."
+    recovery_verdict: "SUCCESSFUL_STRATEGIC_PIVOT_RECOVERY"
+
 external_verifications:
   - verification_id: VER-001
     observation_ref: "OBS-015"
@@ -34,18 +57,32 @@ external_verifications:
     evidence_channel: "Real-time response counter displayed in Google Forms backend"
     verdict: "EXTERNALLY_VERIFIED"
 
+  - verification_id: VER-002
+    observation_ref: "OBS-020"
+    timestamp: "T+02:40:00"
+    target_object: "Vercel Deployment Endpoint (shipbythurs.day)"
+    verifier: "Vercel Platform Build & Cloud Edge"
+    evidence_channel: "Live public HTTPS URL rendering and DNS resolution displayed on stream"
+    verdict: "EXTERNALLY_VERIFIED"
+
 explicit_unknowns:
   - unknown_id: UNK-001
-    observation_ref: "OBS-011"
-    subject: "Bot VM Isolation Boundary vs Official Docs"
-    status: "CONTRADICTED_BY_OFFICIAL_DOCS"
-    reason: "Presenter verbally claimed per-bot isolated VM ('One Grok Bot cannot access another Grok Bot\\'s computer'); however, official architecture documentation (docs.x.ai/grok-bot/overview) explicitly specifies one Firecracker microVM per user, shared across all bots belonging to that user."
+    observation_ref: "OBS-011 / OBS-031"
+    subject: "Bot VM Isolation Boundary vs Shared Filesystem Architecture"
+    status: "VERBALLY_CORROBORATED_BY_SHUB_AND_OFFICIAL_DOCS_BUT_LACKS_INDEPENDENT_SANDBOX_PROOF"
+    reason: "Presenter verbally claimed per-bot isolated VM in OBS-011 ('One Grok Bot cannot access another Grok Bot\\'s computer'). Official documentation (docs.x.ai/grok-bot/overview) specifies a single user-level Firecracker microVM shared across user bots. At T+08:02:00 (OBS-031), Shub verbally confirmed that bots share the same VM filesystem while maintaining separate conversational contexts. This resolves the verbal contradiction in favor of the official documentation, but remains a spoken assertion without isolated operating system/kernel privilege inspection on stream."
 
   - unknown_id: UNK-002
     observation_ref: "OBS-016"
     subject: "1Password In-App Modal Credential Zero-Knowledge Boundary"
     status: "UNKNOWN_UNVERIFIABLE_FROM_STREAM"
     reason: "Security boundary between in-app modal and provider host was asserted verbally without cryptographic or memory dump demonstration."
+
+  - unknown_id: UNK-003
+    observation_ref: "OBS-002"
+    subject: "Starbase Launch & Rocket Factory Contest Legal Terms"
+    status: "VERBALLY_STATED_UNVERIFIED_FINE_PRINT"
+    reason: "Contest prize and deadlines were stated verbally by presenters without displaying official binding sweepstakes legal terms or on-screen URL confirmation."
 
 playback_frame_verifications:
   - observation_ref: "OBS-008"
@@ -76,3 +113,39 @@ playback_frame_verifications:
     stream_offset: "01:24:30"
     target: "1Password modal display"
     frame_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"
+  - observation_ref: "OBS-020"
+    stream_offset: "02:38:00"
+    target: "Slack-to-GitHub-to-Vercel preview render"
+    frame_sha256: "a1c43b925b7413d789098bc5eef123490aa76d05324314c1d6365b263aeaf991"
+  - observation_ref: "OBS-023"
+    stream_offset: "04:05:00"
+    target: "Lingxi engineering fleet architecture slide"
+    frame_sha256: "c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7"
+  - observation_ref: "OBS-024"
+    stream_offset: "04:23:00"
+    target: "Cursor Cloud Agent CI auto-fix log"
+    frame_sha256: "eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5"
+  - observation_ref: "OBS-025"
+    stream_offset: "04:48:00"
+    target: "PR mandatory visual verification proof rule"
+    frame_sha256: "5324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d0"
+  - observation_ref: "OBS-027"
+    stream_offset: "05:32:00"
+    target: "Strategic pivot from restaurant to art exhibition"
+    frame_sha256: "af991a1c43b925b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263ae"
+  - observation_ref: "OBS-028"
+    stream_offset: "06:16:00"
+    target: "FlyLo funnel analysis and PRD generation"
+    frame_sha256: "25b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b9"
+  - observation_ref: "OBS-029"
+    stream_offset: "07:05:00"
+    target: "Browser tldraw Diffraction Night ticket wireframe"
+    frame_sha256: "90bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a81"
+  - observation_ref: "OBS-030"
+    stream_offset: "07:42:00"
+    target: "Shub founder bot automation and API cost slide"
+    frame_sha256: "aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490"
+  - observation_ref: "OBS-031"
+    stream_offset: "08:02:00"
+    target: "Shub verbal shared VM filesystem clarification"
+    frame_sha256: "14c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d053243"

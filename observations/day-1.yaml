@@ -1,9 +1,9 @@
-observations_collection_id: OBS-COLL-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
+observations_collection_id: OBS-COLL-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
 source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw (Broadcast 1YGNrbXEeazGw)"
 media_mirror_reference: "https://www.bilibili.com/video/BV19fYf6kELz/ (BV19fYf6kELz - 31513s)"
-study_window: "T+00:00:00 to T+01:30:00 (Galaxy Day 1 First 90m)"
-total_observations: 16
+study_window: "T+00:00:00 to T+08:45:13 (Galaxy Day 1 Full Stream)"
+total_observations: 33
 
 observations:
   - observation_id: OBS-001
@@ -325,3 +325,343 @@ observations:
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
     evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30 (frame: frame_obs016_1password_security.jpg, sha256: b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848)"
+
+  - observation_id: OBS-017
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:38:00"
+    timestamp_end: "T+01:43:00"
+    actor: "Roshan Sadanani & Marky McMarkface (Bot)"
+    target: "X Audience Synthesis & Market Research"
+    observation_kind: "ACTION"
+    observed_content: "Roshan connects the X marketplace connector and prompts Marky McMarkface to synthesize thousands of audience suggestions on X; the bot clusters feedback against building traditional SaaS and surfaces hardware and venture studio concepts."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:40:00"
+
+  - observation_id: OBS-018
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:56:54"
+    timestamp_end: "T+02:04:00"
+    actor: "Matt Palmer, Lauren Tan, Roshan Sadanani"
+    target: "Product Direction Convergence & Bot Instantiation"
+    observation_kind: "GOAL_SETTING"
+    observed_content: "Team reviews top 5 research picks and converges on 'Pop-up OS for restaurants'; establishes company 'Potato Lab' under GitHub org 'shipbythursday'; instantiates chief-of-staff bot 'steve' and prototyper bot 'grokpot'."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:58:00"
+
+  - observation_id: OBS-019
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+02:16:00"
+    timestamp_end: "T+02:22:00"
+    actor: "grokpot (Bot) & Lauren Tan"
+    target: "Multi-variant Waitlist Prototyping"
+    observation_kind: "ACTION"
+    observed_content: "grokpot generates three low-fi HTML/CSS waitlist landing page variants (Night-market / Ticket-stub / City-pin); hosts inspect render output in browser and select the Night-market theme ('Spin up a stall. Own the night.')."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:18:00"
+
+  - observation_id: OBS-020
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+02:35:00"
+    timestamp_end: "T+02:42:00"
+    actor: "Lauren Tan & steve (Bot)"
+    target: "Slack-to-GitHub-to-Vercel Autonomous Deployment"
+    observation_kind: "ACTION"
+    observed_content: "Lauren prompts @steve in Slack #all-shipbythursday to scaffold landing page into GitHub repo shipbythursday/popup; bot pushes commit and triggers live Vercel preview deployment within approximately 3 minutes."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
+
+  - observation_id: OBS-021
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+02:46:00"
+    timestamp_end: "T+02:49:00"
+    actor: "Lauren Tan"
+    target: "Early Stage PR Bypass Policy"
+    observation_kind: "POLICY_ENFORCEMENT"
+    observed_content: "Following steve opening a ~2,000-line initial PR, Lauren establishes an explicit operational policy: bypass PR reviews and push directly to main branch during initial bootstrap phase to maximize deployment velocity."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:47:00"
+
+  - observation_id: OBS-022
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+03:08:00"
+    timestamp_end: "T+03:14:00"
+    actor: "Operator Research Bot"
+    target: "SF Restaurant Lead Scraping & Prospecting"
+    observation_kind: "ACTION"
+    observed_content: "Hosts configure Operator Research bot (spawned from dr eggbot template) to automatically discover and list San Francisco restaurant operators and venue owners into a founding Notion database."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=03:10:00"
+
+  - observation_id: OBS-023
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+04:00:00"
+    timestamp_end: "T+04:12:00"
+    actor: "Lingxi Li"
+    target: "Multi-Agent Engineering Fleet Hierarchy"
+    observation_kind: "ARCHITECTURE_CLARIFICATION"
+    observed_content: "Lingxi presents the multi-bot engineering fleet architecture as an alternative to monolithic bots: decomposing work across specialized agents including Chief-of-Staff (Craig/Lingxixi), UI specialist, DevEx (Steve), Infra (Hogan), and Ops (Jenny), with human interaction concentrated at the CoS layer."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
+
+  - observation_id: OBS-024
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+04:20:00"
+    timestamp_end: "T+04:28:00"
+    actor: "Lingxi Li & Cursor Cloud Agents"
+    target: "Autonomous CI Red-Build Detection & Auto-fix Loop"
+    observation_kind: "ACTION"
+    observed_content: "Demonstrates automated CI build failure remediation: monitoring bot detects failing CI build on GitHub, spins up a private Cursor Cloud Agent to inspect test failure logs, applies code patches to resolve the error, and automatically submits and merges the fix PR."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00"
+
+  - observation_id: OBS-025
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+04:46:00"
+    timestamp_end: "T+04:52:00"
+    actor: "Lauren Tan"
+    target: "PR Visual Verification Proof Policy"
+    observation_kind: "POLICY_ENFORCEMENT"
+    observed_content: "Lauren institutes a strict repository governance rule: all pull requests modifying frontend or user-facing interfaces must include physical video recordings or screenshot proofs generated by bots before approval, preventing blind merges."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00"
+
+  - observation_id: OBS-026
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+05:06:00"
+    timestamp_end: "T+05:14:00"
+    actor: "Lauren Tan & Matt Palmer"
+    target: "Deterministic Verification Skill & Event Target Date Lock"
+    observation_kind: "ACTION"
+    observed_content: "Lauren outlines create-verification-skill to give bots deterministic CLI-based end-to-end verification without requiring human manual clicks; Matt formally anchors communications to an October 15 live event target date."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:10:00"
+
+  - observation_id: OBS-027
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+05:28:00"
+    timestamp_end: "T+05:36:00"
+    actor: "Lauren Tan, Matt Palmer, Roshan Sadanani"
+    target: "Regulatory Barrier & Strategic Product Pivot"
+    observation_kind: "FAILURE_AND_PIVOT"
+    observed_content: "Team encounters insurmountable real-world friction: SF municipal health department permits and alcohol licensing lead times require weeks of advance notice, making a compliant pop-up restaurant impossible within the 72h challenge (FAIL-002); hosts intervene (INT-004) to pivot product scope to a 'Grok Bot-themed art exhibition' in a raw warehouse."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
+
+  - observation_id: OBS-028
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+06:12:00"
+    timestamp_end: "T+06:24:00"
+    actor: "Kevin Niparko & Roshan Sadanani"
+    target: "Cross-Functional PM Agent Pipeline"
+    observation_kind: "ACTION"
+    observed_content: "Kevin demonstrates the cross-functional PM pod on the FlyLo app: data bot Ashley detects funnel conversion dropoff (search-to-fare drop ~33.9% in demo data), product bot Pete drafts a PRD in Notion, design bot Pixel produces Figma Option A/B, and EM bot Emily decomposes tasks for cloud agents."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00"
+
+  - observation_id: OBS-029
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+07:02:00"
+    timestamp_end: "T+07:14:00"
+    actor: "Lauren Tan & prototyper bot"
+    target: "Agent-Driven Interactive Wireframing via Browser tldraw"
+    observation_kind: "ACTION"
+    observed_content: "Lauren prompts prototyper bot to drive tldraw in the browser to draft interactive visual wireframes; team conceptualizes 'Diffraction Night' holographic and PCB-badge physical collectible ticket architectures for the exhibition."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00"
+
+  - observation_id: OBS-030
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+07:38:00"
+    timestamp_end: "T+07:48:00"
+    actor: "Shub"
+    target: "Founder Bot Automation & Tool Invocation Cost Trade-offs"
+    observation_kind: "ACTION"
+    observed_content: "Shub demonstrates founder workflows: Close Bot (call preparation via Granola transcripts), Prod Bot (daily release rundown), and Stalk Bot (competitor teardowns); explicitly articulates that full browser-use entails high token latency and monetary cost, advising founders to prefer direct API integrations wherever possible."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00"
+
+  - observation_id: OBS-031
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+08:00:00"
+    timestamp_end: "T+08:04:00"
+    actor: "Shub"
+    target: "VM Filesystem Sharing Architecture Statement"
+    observation_kind: "SPOKEN_STATEMENT"
+    observed_content: "Shub verbally explains that multiple Grok Bots instantiated by a user share the same underlying VM filesystem while maintaining separate conversational memory contexts. This spoken claim corroborates current official documentation (docs.x.ai/grok-bot/overview) and clarifies the conflicting verbal claim recorded in OBS-011, though it does not constitute an independent physical sandbox test."
+    claim_status: "SUPPORTED"
+    support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00"
+
+  - observation_id: OBS-032
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+08:28:00"
+    timestamp_end: "T+08:36:00"
+    actor: "Jenny & Matt Palmer"
+    target: "Scout Venue Bot Hard-Constraint Parameterization"
+    observation_kind: "ACTION"
+    observed_content: "Jenny details lessons from running ~22 bots, recommending parameterizing a Scout bot with hard-coded filters for SF venue hunting: checking outside food policies, preferred vendor requirements, and municipal curfew constraints."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:32:00"
+
+  - observation_id: OBS-033
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+08:44:00"
+    timestamp_end: "T+08:45:13"
+    actor: "Matt Palmer, Lauren Tan, Roshan Sadanani"
+    target: "Day 1 Infrastructure Baseline Verification & Sign-off"
+    observation_kind: "VERIFICATION"
+    observed_content: "Hosts audit and verify Day 1 closing infrastructure deliverables: Slack workspace active, Notion knowledge base initialized, GitHub organization with multiple repositories, Vercel landing page live on shipbythurs.day, October 15 event date set, and art exhibition scope locked; stream signs off at 08:45:13."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:44:30"

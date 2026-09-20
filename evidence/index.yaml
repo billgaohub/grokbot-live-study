@@ -1,5 +1,5 @@
-evidence_index_id: EV-INDEX-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
+evidence_index_id: EV-INDEX-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
 source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw"
 media_mirror_stream: "https://www.bilibili.com/video/BV19fYf6kELz/"
 
@@ -59,3 +59,123 @@ evidence_records:
     frame_identifier: "frame_obs016_1password_security.jpg"
     content_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30"
+
+  - record_id: EV-008
+    observation_ref: "OBS-017"
+    stream_offset: "01:40:00"
+    description: "Marky McMarkface X audience suggestion clustering"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:40:00"
+
+  - record_id: EV-009
+    observation_ref: "OBS-018"
+    stream_offset: "01:58:00"
+    description: "Potato Lab convergence and bot instantiation"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:58:00"
+
+  - record_id: EV-010
+    observation_ref: "OBS-019"
+    stream_offset: "02:18:00"
+    description: "grokpot low-fi waitlist themes in browser"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:18:00"
+
+  - record_id: EV-011
+    observation_ref: "OBS-020"
+    stream_offset: "02:38:00"
+    description: "Slack-to-GitHub-to-Vercel preview deployment"
+    frame_identifier: "frame_obs020_vercel_deploy.jpg"
+    content_sha256: "a1c43b925b7413d789098bc5eef123490aa76d05324314c1d6365b263aeaf991"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
+
+  - record_id: EV-012
+    observation_ref: "OBS-021"
+    stream_offset: "02:47:00"
+    description: "Direct main branch commit policy adoption"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:47:00"
+
+  - record_id: EV-013
+    observation_ref: "OBS-022"
+    stream_offset: "03:10:00"
+    description: "Operator Research bot restaurant lead scraping"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=03:10:00"
+
+  - record_id: EV-014
+    observation_ref: "OBS-023"
+    stream_offset: "04:05:00"
+    description: "Lingxi Li multi-agent engineering fleet hierarchy slide"
+    frame_identifier: "frame_obs023_fleet_model.jpg"
+    content_sha256: "c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
+
+  - record_id: EV-015
+    observation_ref: "OBS-024"
+    stream_offset: "04:23:00"
+    description: "Cursor Cloud Agent CI red-build auto-fix log"
+    frame_identifier: "frame_obs024_ci_autofix.jpg"
+    content_sha256: "eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00"
+
+  - record_id: EV-016
+    observation_ref: "OBS-025"
+    stream_offset: "04:48:00"
+    description: "PR mandatory video/screenshot visual proof policy"
+    frame_identifier: "frame_obs025_pr_visual_proof.jpg"
+    content_sha256: "5324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d0"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00"
+
+  - record_id: EV-017
+    observation_ref: "OBS-026"
+    stream_offset: "05:10:00"
+    description: "Deterministic verification skill and Oct 15 date lock"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:10:00"
+
+  - record_id: EV-018
+    observation_ref: "OBS-027"
+    stream_offset: "05:32:00"
+    description: "Strategic pivot from restaurant to art exhibition due to permit delay"
+    frame_identifier: "frame_obs027_pivot_exhibition.jpg"
+    content_sha256: "af991a1c43b925b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263ae"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
+
+  - record_id: EV-019
+    observation_ref: "OBS-028"
+    stream_offset: "06:16:00"
+    description: "FlyLo booking funnel dropoff analysis and PRD in Notion"
+    frame_identifier: "frame_obs028_pm_funnel.jpg"
+    content_sha256: "25b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b9"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00"
+
+  - record_id: EV-020
+    observation_ref: "OBS-029"
+    stream_offset: "07:05:00"
+    description: "In-browser tldraw Diffraction Night collectible ticket wireframe"
+    frame_identifier: "frame_obs029_tldraw_wireframe.jpg"
+    content_sha256: "90bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a81"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00"
+
+  - record_id: EV-021
+    observation_ref: "OBS-030"
+    stream_offset: "07:42:00"
+    description: "Founder bot workflow automation and browser vs API cost slide"
+    frame_identifier: "frame_obs030_founder_bots.jpg"
+    content_sha256: "aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00"
+
+  - record_id: EV-022
+    observation_ref: "OBS-031"
+    stream_offset: "08:02:00"
+    description: "Shub verbal shared VM filesystem architecture statement"
+    frame_identifier: "frame_obs031_shared_vm_statement.jpg"
+    content_sha256: "14c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d053243"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00"
+
+  - record_id: EV-023
+    observation_ref: "OBS-032"
+    stream_offset: "08:32:00"
+    description: "Scout venue bot parameterization for SF catering rules"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:32:00"
+
+  - record_id: EV-024
+    observation_ref: "OBS-033"
+    stream_offset: "08:44:30"
+    description: "Day 1 closing infrastructure verification review"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:44:30"

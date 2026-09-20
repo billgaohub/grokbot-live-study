@@ -1,5 +1,5 @@
-interventions_ledger_id: INT-LEDGER-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
+interventions_ledger_id: INT-LEDGER-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
 
 interventions:
   - intervention_id: INT-001
@@ -33,3 +33,15 @@ interventions:
     bot_recovery_action: "Data Dan opens Google Forms share modal, toggles general access to public, and updates link."
     verification_ref: "VER-001"
     outcome: "Form permissions successfully resolved, audience able to submit responses."
+
+  - intervention_id: INT-004
+    observation_ref: "OBS-027"
+    timestamp: "T+05:32:00"
+    type: "STRATEGIC_PIVOT_AND_BOT_REDIRECTION"
+    actor: "Lauren Tan, Matt Palmer, Roshan Sadanani (Humans)"
+    target_bot: "Potato Lab Bot Fleet (steve, grokpot, tater)"
+    trigger: "FAIL-002: Real-world SF food and alcohol permitting lead times legally blocked physical restaurant pop-up within 72h"
+    intervention_action: "Humans hold strategic roundtable on stream and verbally deprecate restaurant software tracks; instruct bots to redirect scope to a Grok Bot-themed art exhibition and warehouse event."
+    bot_recovery_action: "Bots decommission restaurant menu generation workflows and re-orient landing page, ticketing, and venue-finder models toward raw warehouse spaces and artist submissions."
+    verification_ref: "VER-002"
+    outcome: "Execution unblocked; team successfully converges on Merch · Venue · Ticketing triad without permitting liability."

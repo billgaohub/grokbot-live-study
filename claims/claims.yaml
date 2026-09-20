@@ -1,6 +1,6 @@
-claims_ledger_id: CLM-LEDGER-GROKBOT-DAY1-MVP
-evaluated_at: "2026-09-20T18:36:00+08:00"
-source_ref: "OBS-COLL-GROKBOT-DAY1-MVP"
+claims_ledger_id: CLM-LEDGER-GROKBOT-DAY1-FULL
+evaluated_at: "2026-09-20T21:10:00+08:00"
+source_ref: "OBS-COLL-GROKBOT-DAY1-FULL"
 
 claims:
   - claim_id: CLM-001
@@ -58,3 +58,67 @@ claims:
     claim_status: "UNKNOWN"
     support_level: "UNVERIFIED"
     verification_rationale: "Architecture details not demonstrated on stream; flagged as unverified verbal claim."
+
+  - claim_id: CLM-008
+    observation_refs: ["OBS-020"]
+    statement: "Landing page was scaffolded, pushed to GitHub, and deployed live on Vercel within minutes via Slack agent prompts."
+    claim_type: "DEPLOYMENT_VELOCITY"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Live DNS and HTTPS rendering on shipbythurs.day demonstrated on stream."
+
+  - claim_id: CLM-009
+    observation_refs: ["OBS-021"]
+    statement: "Bypassing PR reviews in favor of direct main commits maximizes initial bootstrap velocity."
+    claim_type: "GOVERNANCE_HEURISTIC"
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    verification_rationale: "Presenter instituted operational rule during live sprint."
+
+  - claim_id: CLM-010
+    observation_refs: ["OBS-024"]
+    statement: "Automated monitoring bot can detect red CI builds and dispatch Cursor Cloud Agents to apply and merge fixes."
+    claim_type: "AUTONOMOUS_CI_REMEDIATION"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Demonstrated live by Lingxi Li in engineering deep dive."
+
+  - claim_id: CLM-011
+    observation_refs: ["OBS-025"]
+    statement: "Mandatory video/screenshot verification artifacts attached to PRs prevent blind bot merging."
+    claim_type: "VERIFICATION_DISCIPLINE"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Implemented in shipbythursday repository rules on stream."
+
+  - claim_id: CLM-012
+    observation_refs: ["OBS-027"]
+    statement: "Physical pop-up restaurant concept was blocked by external municipal regulatory and permit lead times."
+    claim_type: "ENVIRONMENTAL_CONSTRAINT"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Team openly discussed legal permitting hurdles and abandoned restaurant concept in favor of art exhibition."
+
+  - claim_id: CLM-013
+    observation_refs: ["OBS-030"]
+    statement: "Browser-use incurs higher token latency and monetary cost compared to headless API integrations."
+    claim_type: "PERFORMANCE_AND_COST"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Articulated with performance breakdowns in founder session."
+
+  - claim_id: CLM-014
+    observation_refs: ["OBS-031"]
+    statement: "Multiple Grok Bots for a user share the same underlying VM filesystem while maintaining separate conversational contexts."
+    claim_type: "SYSTEM_ARCHITECTURE"
+    claim_status: "SUPPORTED"
+    support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    verification_rationale: "Verbally stated by Shub at T+08:02:00, corroborating docs.x.ai/grok-bot/overview; resolves prior verbal discrepancy in CLM-005, though without physical sandbox OS kernel proof."
+
+  - claim_id: CLM-015
+    observation_refs: ["OBS-033"]
+    statement: "Day 1 infrastructure stood up: Slack, Notion, GitHub org, live Vercel lander, and locked October 15 event date."
+    claim_type: "MILESTONE_DELIVERY"
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    verification_rationale: "Verified across live browser tabs during closing stream review."

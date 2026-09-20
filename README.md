@@ -46,7 +46,7 @@ This study is an **`ACTIVE_FIELD_STUDY`** progressing through phased historical 
 | **Repository Existence** | `VERIFIED` | Public citable research repository |
 | **Public Entry v0.1** | `VERIFIED` | Initial calibrated release |
 | **Day 1 First 90m** | `VERIFIED` (16 atomic observations) | Initial kickoff & permission failure |
-| **Day 1 Full Coverage** | `INCOMPLETE` | ~08:45:13 full broadcast |
+| **Day 1 Full Coverage** | **`VERIFIED`** (24 segments, 33 observations) | ~08:45:13 (31,513s) full reconstruction |
 | **Day 2 Coverage** | `NOT YET STUDIED` | ~08:23:00 multi-agent sprint |
 | **Day 3 Coverage** | `NOT YET STUDIED` | ~07:58:00 launch, 300 PRs & showcase |
 | **3-Day Cross-Day Synthesis** | `NOT STARTED` | Multi-agent coordination patterns |
@@ -121,9 +121,9 @@ grokbot-live-study/
 ├── SOURCE_INDEX.md                    # Primary broadcast and mirror provenance
 ├── LICENSE                            # Dual MIT / CC BY 4.0 license
 ├── timeline/
-│   └── day-1.md                       # Chronological narrative of first 90 minutes
+│   └── day-1.md                       # 24 contiguous segments covering full 8h45m (31,513s)
 ├── observations/
-│   └── day-1.yaml                     # 16 atomic observations with orthogonal axes
+│   └── day-1.yaml                     # 33 atomic observations with orthogonal axes
 ├── claims/
 │   └── claims.yaml                    # Propositional claims and support grades
 ├── failures/
@@ -133,6 +133,7 @@ grokbot-live-study/
 ├── verification/
 │   └── verification.yaml              # Causal recovery chains and contradiction checks
 ├── analyses/
+│   ├── day-1.md                       # Full Day 1 comprehensive synthesis and architectural audit
 │   └── derived-rules.md               # Empirical findings on approval gates and UI agents
 ├── evidence/
 │   └── index.yaml                     # Abstract evidence locators (hashes and offsets)
