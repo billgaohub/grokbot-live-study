@@ -86,66 +86,195 @@ explicit_unknowns:
 
 playback_frame_verifications:
   - observation_ref: "OBS-008"
-    stream_offset: "00:48:30"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "00:48:30"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs008_teach_task.jpg"
+    frame_path: "evidence/frames/frame_obs008_teach_task.jpg"
+    frame_sha256: "b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714"
     target: "Google Slides Teach-a-Task trace"
-    frame_sha256: "4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-010"
-    stream_offset: "00:54:30"
-    target: "Auto-review approval gate"
-    frame_sha256: "7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "00:54:30"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs010_approval_gate.jpg"
+    frame_path: "evidence/frames/frame_obs010_approval_gate.jpg"
+    frame_sha256: "ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61"
+    target: "Auto-review approval gate modal"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-011"
-    stream_offset: "00:58:15"
-    target: "VM isolation statement"
-    frame_sha256: "e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "00:58:15"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs011_isolation_claim.jpg"
+    frame_path: "evidence/frames/frame_obs011_isolation_claim.jpg"
+    frame_sha256: "e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd"
+    target: "VM isolation spoken assertion"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    epistemic_note: "SPOKEN_STATEMENT + AUTHORITATIVE_DOC_ALIGNED != PHYSICAL_SYSTEM_TEST"
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-013"
-    stream_offset: "01:07:30"
-    target: "Permission denied failure alert"
-    frame_sha256: "d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "01:07:30"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs013_permission_denied.jpg"
+    frame_path: "evidence/frames/frame_obs013_permission_denied.jpg"
+    frame_sha256: "3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8"
+    target: "Permission denied failure alert in chat"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-014"
-    stream_offset: "01:07:30"
-    target: "Human steering command in chat"
-    frame_sha256: "3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "01:07:30"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs014_human_steering.jpg"
+    frame_path: "evidence/frames/frame_obs014_human_steering.jpg"
+    frame_sha256: "7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f"
+    target: "Human steering command in chat (make link public)"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-015"
-    stream_offset: "01:11:15"
-    target: "Audience live submissions counter"
-    frame_sha256: "ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "01:11:15"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs015_external_verification.jpg"
+    frame_path: "evidence/frames/frame_obs015_external_verification.jpg"
+    frame_sha256: "24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e"
+    target: "Audience live submissions counter increment"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-016"
-    stream_offset: "01:24:30"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "01:24:30"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs016_1password_security.jpg"
+    frame_path: "evidence/frames/frame_obs016_1password_security.jpg"
+    frame_sha256: "16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996"
     target: "1Password modal display"
-    frame_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T14:59:39+08:00"
+
   - observation_ref: "OBS-020"
-    stream_offset: "02:38:00"
-    target: "Slack-to-GitHub-to-Vercel preview render"
-    frame_sha256: "a1c43b925b7413d789098bc5eef123490aa76d05324314c1d6365b263aeaf991"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "02:38:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs020_vercel_deploy.jpg"
+    frame_path: "evidence/frames/frame_obs020_vercel_deploy.jpg"
+    frame_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
+    target: "Vercel potato-labs project deploy preview render"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-023"
-    stream_offset: "04:05:00"
-    target: "Lingxi engineering fleet architecture slide"
-    frame_sha256: "c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "04:05:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs023_fleet_model.jpg"
+    frame_path: "evidence/frames/frame_obs023_fleet_model.jpg"
+    frame_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
+    target: "Lingxi engineering fleet architecture slide (Why Grok Bot)"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-024"
-    stream_offset: "04:23:00"
-    target: "Cursor Cloud Agent CI auto-fix log"
-    frame_sha256: "eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "04:23:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs024_ci_autofix.jpg"
+    frame_path: "evidence/frames/frame_obs024_ci_autofix.jpg"
+    frame_sha256: "88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39"
+    target: "Lingxi FlyLo browser automation demonstration"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-025"
-    stream_offset: "04:48:00"
-    target: "PR mandatory visual verification proof rule"
-    frame_sha256: "5324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d0"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "04:48:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs025_pr_visual_proof.jpg"
+    frame_path: "evidence/frames/frame_obs025_pr_visual_proof.jpg"
+    frame_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
+    target: "Founding Eng bot orchestration and PR #2 interaction"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-027"
-    stream_offset: "05:32:00"
-    target: "Strategic pivot from restaurant to art exhibition"
-    frame_sha256: "af991a1c43b925b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263ae"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "05:32:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs027_pivot_exhibition.jpg"
+    frame_path: "evidence/frames/frame_obs027_pivot_exhibition.jpg"
+    frame_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
+    target: "Strategic pivot & PR visual proof standing rule in steve chat"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-028"
-    stream_offset: "06:16:00"
-    target: "FlyLo funnel analysis and PRD generation"
-    frame_sha256: "25b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b9"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "06:16:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs028_pm_funnel.jpg"
+    frame_path: "evidence/frames/frame_obs028_pm_funnel.jpg"
+    frame_sha256: "c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd"
+    target: "FlyLo purchase funnel leak analysis and Ashley 6am routine"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-029"
-    stream_offset: "07:05:00"
-    target: "Browser tldraw Diffraction Night ticket wireframe"
-    frame_sha256: "90bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a81"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "07:05:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs029_tldraw_wireframe.jpg"
+    frame_path: "evidence/frames/frame_obs029_tldraw_wireframe.jpg"
+    frame_sha256: "30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7"
+    target: "tldraw Diffraction Night ticket front and merch wireframes"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-030"
-    stream_offset: "07:42:00"
-    target: "Shub founder bot automation and API cost slide"
-    frame_sha256: "aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "07:42:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs030_founder_bots.jpg"
+    frame_path: "evidence/frames/frame_obs030_founder_bots.jpg"
+    frame_sha256: "e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889"
+    target: "Prod Bot founder rundown decision cards and daily routine"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
+
   - observation_ref: "OBS-031"
-    stream_offset: "08:02:00"
-    target: "Shub verbal shared VM filesystem clarification"
-    frame_sha256: "14c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d053243"
+    media_source: "BV19fYf6kELz"
+    seek_timestamp: "08:02:00"
+    review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    frame_identifier: "frame_obs031_shared_vm_statement.jpg"
+    frame_path: "evidence/frames/frame_obs031_shared_vm_statement.jpg"
+    frame_sha256: "416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c"
+    target: "Shub verbal shared VM filesystem architecture statement"
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    epistemic_note: "SPOKEN_STATEMENT + AUTHORITATIVE_DOC_ALIGNED != PHYSICAL_SYSTEM_TEST"
+    reviewed_at: "2026-09-20T21:30:00+08:00"

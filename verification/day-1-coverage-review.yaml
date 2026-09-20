@@ -1,0 +1,407 @@
+coverage_review_id: COV-REV-GROKBOT-DAY1-FULL
+evaluated_at: '2026-09-20T21:35:00+08:00'
+total_duration_seconds: 31513
+total_duration_hms: 08:45:13
+primary_broadcast_authority: https://x.com/i/broadcasts/1YGNrbXEeazGw
+media_mirror_stream: https://www.bilibili.com/video/BV19fYf6kELz/ (31,513s)
+total_segments_count: 24
+unclassified_gaps_seconds: 0
+mathematical_conservation_verified: true
+segments:
+- segment_id: SEG-01
+  name: Opening & Challenge Framing
+  media_range: 00:00:00 - 00:10:00
+  duration_seconds: 600
+  classification: MANAGEMENT / GOAL_SETTING
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-001
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Verified hosts Matt, Lauren, Roshan introduce 72h company build
+    challenge.
+- segment_id: SEG-02
+  name: Contest Announcement & Initial Teasers
+  media_range: 00:10:00 - 00:20:00
+  duration_seconds: 600
+  classification: ANNOUNCEMENT / CONTEST
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-002
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Contest announced; daily bot workflows discussed; sweepstakes
+    terms verbally stated.
+- segment_id: SEG-03
+  name: Stack Architecture & Clean Slate Setup
+  media_range: 00:20:00 - 00:29:28
+  duration_seconds: 568
+  classification: INFRA / CLEAN_SLATE
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-003
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Clean slate org shipbythursday shown on screen; initial bot
+    accounts prepped.
+- segment_id: SEG-04
+  name: Intermission Screen (101 Pre-Transition)
+  media_range: 00:29:28 - 00:30:45
+  duration_seconds: 77
+  classification: IDLE_BROADCAST_BREAK
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: VISUAL_RANGE_CONFIRMATION
+  materiality_adjudicated: NO_EVENT
+  candidate_events: []
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Stream displays intermission transition card; zero presenter
+    or bot activity.
+- segment_id: SEG-05
+  name: 'Grok Bot 101: Pillars & Team Instantiation'
+  media_range: 00:30:45 - 00:45:00
+  duration_seconds: 855
+  classification: TUTORIAL / TEAM_INIT
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_AND_PRIMITIVES
+  candidate_events:
+  - OBS-004
+  - OBS-005
+  - OBS-006
+  - OBS-007
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Roman Ugarte and Amrita present 4 pillars and instantiate demo
+    team.
+- segment_id: SEG-06
+  name: Teach-a-Task, Parallel Execution & Auto-Review Guardrails
+  media_range: 00:45:00 - 01:00:00
+  duration_seconds: 900
+  classification: FEATURE / TEACH_AND_GATE
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-008
+  - OBS-009
+  - OBS-010
+  - OBS-011
+  extracted_frames:
+  - obs: OBS-008
+    ts: 00:48:30
+    file: frame_obs008_teach_task.jpg
+    sha256: b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714
+  - obs: OBS-010
+    ts: 00:54:30
+    file: frame_obs010_approval_gate.jpg
+    sha256: ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61
+  - obs: OBS-011
+    ts: 00:58:15
+    file: frame_obs011_isolation_claim.jpg
+    sha256: e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Teach-a-Task cursor recording, approval gate blocking modal,
+    and VM isolation spoken statement physically verified via extracted frames.
+- segment_id: SEG-07
+  name: Live Permission Failure, Steering & Multi-Agent Coordination
+  media_range: 01:00:00 - 01:14:33
+  duration_seconds: 873
+  classification: FAILURE / STEERING
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-012
+  - OBS-013
+  - OBS-014
+  - OBS-015
+  extracted_frames:
+  - obs: OBS-013
+    ts: 01:07:30
+    file: frame_obs013_permission_denied.jpg
+    sha256: 3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8
+  - obs: OBS-014
+    ts: 01:07:30
+    file: frame_obs014_human_steering.jpg
+    sha256: 7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f
+  - obs: OBS-015
+    ts: 01:11:15
+    file: frame_obs015_external_verification.jpg
+    sha256: 24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: FAIL-001 (Google Form permission denied), INT-003 (steering
+    prompt), and VER-001 (live responses counter increment) physically verified via
+    extracted frames.
+- segment_id: SEG-08
+  name: Grok Bot 101 Q&A & Enterprise Security Discussion
+  media_range: 01:14:33 - 01:29:38
+  duration_seconds: 905
+  classification: SECURITY / QA
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-016
+  extracted_frames:
+  - obs: OBS-016
+    ts: 01:24:30
+    file: frame_obs016_1password_security.jpg
+    sha256: 16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: 1Password in-app credential modal physically verified via frame
+    extraction; noted as UNK-002 due to unverifiable zero-knowledge cryptographic
+    boundary.
+- segment_id: SEG-09
+  name: Intermission Screen (101 Post-Transition)
+  media_range: 01:29:38 - 01:32:25
+  duration_seconds: 167
+  classification: IDLE_BROADCAST_BREAK
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: VISUAL_RANGE_CONFIRMATION
+  materiality_adjudicated: NO_EVENT
+  candidate_events: []
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Stream transition buffer returning from 101 presentation to
+    main studio table.
+- segment_id: SEG-10
+  name: Studio Ideation & Peter Yang Guest Discussion
+  media_range: 01:32:25 - 01:56:54
+  duration_seconds: 1469
+  classification: RESEARCH / IDEATION
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-017
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Peter Yang discussion; Marky McMarkface X marketplace suggestion
+    clustering.
+- segment_id: SEG-11
+  name: 'Direction Convergence: Restaurant Pop-up Platform & Potato Lab'
+  media_range: 01:56:54 - 02:10:10
+  duration_seconds: 796
+  classification: PRODUCT / CONVERGENCE
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-018
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Convergence on Pop-up OS for restaurants; Potato Lab org and
+    bot roles steve and grokpot created.
+- segment_id: SEG-12
+  name: Rapid Prototyping & Architecture Selection
+  media_range: 02:10:10 - 02:30:22
+  duration_seconds: 1212
+  classification: BUILD / PROTOTYPING
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-019
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: grokpot waitlist variations generated; Next.js + Tailwind +
+    Drizzle stack confirmed.
+- segment_id: SEG-13
+  name: Vercel Deployment & Landing Page Ship to Main
+  media_range: 02:30:22 - 02:55:37
+  duration_seconds: 1515
+  classification: BUILD / DEPLOYMENT
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-020
+  - OBS-021
+  extracted_frames:
+  - obs: OBS-020
+    ts: 02:38:00
+    file: frame_obs020_vercel_deploy.jpg
+    sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Vercel project creation (potato-labs teamSlug) and live deployment
+    verified; direct-to-main policy adopted.
+- segment_id: SEG-14
+  name: 'Guest Discussion: Codie — Distribution, Proof Vault & SMB AI'
+  media_range: 02:55:37 - 03:19:33
+  duration_seconds: 1436
+  classification: BUSINESS / GTM_STRATEGY
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-022
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Codie advisory on Proof Vaults; Operator Research bot dispatched
+    to scrape SF restaurant leads.
+- segment_id: SEG-15
+  name: Midday Intermission / Broadcast Break
+  media_range: 03:19:33 - 03:48:46
+  duration_seconds: 1753
+  classification: IDLE_BROADCAST_BREAK
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: VISUAL_RANGE_CONFIRMATION
+  materiality_adjudicated: NO_EVENT
+  candidate_events: []
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Extended midday break (29 minutes 13 seconds). Stream displays
+    BRB graphic and ambient music. Zero presenter or agent actions.
+- segment_id: SEG-16
+  name: Morning Recap & Engineering Session Teaser
+  media_range: 03:48:46 - 03:54:08
+  duration_seconds: 322
+  classification: MANAGEMENT / RECAP
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: VISUAL_RANGE_CONFIRMATION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events: []
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Panel recaps morning progress and introduces Lingxi Li for engineering
+    deep dive.
+- segment_id: SEG-17
+  name: 'Deep-Dive: Grok Bot for Engineers with Lingxi Li'
+  media_range: 03:54:08 - 04:39:15
+  duration_seconds: 2707
+  classification: ENGINEERING / WORKFLOW_DEMO
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-023
+  - OBS-024
+  extracted_frames:
+  - obs: OBS-023
+    ts: 04:05:00
+    file: frame_obs023_fleet_model.jpg
+    sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3
+  - obs: OBS-024
+    ts: 04:23:00
+    file: frame_obs024_ci_autofix.jpg
+    sha256: 88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Lingxi Li fleet architecture slides (Why Grok Bot) and FlyLo
+    browser workflow demo physically verified via extracted frames.
+- segment_id: SEG-18
+  name: 'Studio Build: Verification Skills, PR Proofs & Venue Finder'
+  media_range: 04:39:15 - 05:20:00
+  duration_seconds: 2445
+  classification: BUILD / VERIFICATION_SYSTEMS
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-025
+  - OBS-026
+  extracted_frames:
+  - obs: OBS-025
+    ts: 04:48:00
+    file: frame_obs025_pr_visual_proof.jpg
+    sha256: dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: 'Founding Eng bot Slack orchestration and PR #2 interaction
+    physically verified; verification skill and Oct 15 date lock confirmed.'
+- segment_id: SEG-19
+  name: 'Product Pivot: Restaurant Pop-up -> Grok Bot Art Exhibition'
+  media_range: 05:20:00 - 05:53:57
+  duration_seconds: 2037
+  classification: PRODUCT / PIVOT
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-027
+  extracted_frames:
+  - obs: OBS-027
+    ts: 05:32:00
+    file: frame_obs027_pivot_exhibition.jpg
+    sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: FAIL-002 (SF permit reality block) leads to INT-004 (exhibition
+    pivot) and standing rule requiring media in PR descriptions physically verified
+    in steve chat.
+- segment_id: SEG-20
+  name: 'Deep-Dive: Grok Bot for Product Managers with Kevin & Roshan'
+  media_range: 05:53:57 - 06:41:14
+  duration_seconds: 2837
+  classification: PRODUCT_MANAGEMENT / WORKFLOW_DEMO
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-028
+  extracted_frames:
+  - obs: OBS-028
+    ts: 06:16:00
+    file: frame_obs028_pm_funnel.jpg
+    sha256: c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: FlyLo purchase funnel leak analysis (search+fare 53.8% vs seat
+    82.4%) and Ashley automated 6am routine physically verified on screen.
+- segment_id: SEG-21
+  name: 'Product Workshop: Eric (Karat Financial) & Merch / Ticketing Architecture'
+  media_range: 06:41:14 - 07:23:30
+  duration_seconds: 2536
+  classification: PRODUCT / ARCHITECTURE
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-029
+  extracted_frames:
+  - obs: OBS-029
+    ts: 07:05:00
+    file: frame_obs029_tldraw_wireframe.jpg
+    sha256: 30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: tldraw Diffraction Night ticket front and merch wireframes (Holo
+    Premium , GA ) and bot stats widget physically verified on screen.
+- segment_id: SEG-22
+  name: 'Deep-Dive: Grok Bot for Founders with Shub'
+  media_range: 07:23:30 - 08:20:19
+  duration_seconds: 3409
+  classification: FOUNDER_OPS / ARCHITECTURE
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+  candidate_events:
+  - OBS-030
+  - OBS-031
+  extracted_frames:
+  - obs: OBS-030
+    ts: 07:42:00
+    file: frame_obs030_founder_bots.jpg
+    sha256: e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889
+  - obs: OBS-031
+    ts: 08:02:00
+    file: frame_obs031_shared_vm_statement.jpg
+    sha256: 416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Prod Bot founder rundown decision cards and Shub verbal clarification
+    on shared VM filesystem architecture physically verified on stream.
+- segment_id: SEG-23
+  name: 'Operations Advisory: Jenny (22 Bot Fleet & Scout Venue Bot)'
+  media_range: 08:20:19 - 08:44:14
+  duration_seconds: 1435
+  classification: OPERATIONS / ADVISORY
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-032
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Jenny fleet experience and Scout venue bot parameterization
+    for SF catering rules.
+- segment_id: SEG-24
+  name: Day 1 Wrap-up & Sign-off
+  media_range: 08:44:14 - 08:45:13
+  duration_seconds: 59
+  classification: MANAGEMENT / WRAP_UP
+  access_status: ACCESSED_AND_REVIEWED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+  candidate_events:
+  - OBS-033
+  reviewed_at: '2026-09-20T21:30:00+08:00'
+  verification_notes: Final Day 1 summary and sign-off by panel.

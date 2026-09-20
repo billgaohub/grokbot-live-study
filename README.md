@@ -46,11 +46,19 @@ This study is an **`ACTIVE_FIELD_STUDY`** progressing through phased historical 
 | **Repository Existence** | `VERIFIED` | Public citable research repository |
 | **Public Entry v0.1** | `VERIFIED` | Initial calibrated release |
 | **Day 1 First 90m** | `VERIFIED` (16 atomic observations) | Initial kickoff & permission failure |
-| **Day 1 Full Coverage** | **`VERIFIED`** (24 segments, 33 observations) | ~08:45:13 (31,513s) full reconstruction |
+| **Day 1 Full Coverage** | `VERIFIED` (24 segments, 33 observations, 16 physical frame artifacts) | ~08:45:13 (31,513s) full reconstruction |
 | **Day 2 Coverage** | `NOT YET STUDIED` | ~08:23:00 multi-agent sprint |
 | **Day 3 Coverage** | `NOT YET STUDIED` | ~07:58:00 launch, 300 PRs & showcase |
 | **3-Day Cross-Day Synthesis** | `NOT STARTED` | Multi-agent coordination patterns |
 | **Operational Decision** | **`PROCEED`** | Phased empirical coverage expansion |
+
+### Day 1 Physical Review Provenance (`GROKBOT_DAY1_PHYSICAL_REVIEW_REPAIR_002A`)
+Following rigorous epistemic governance audit, Day 1 coverage enforces physical evidence reality over structural declaration:
+- **Timeline Mathematical Conservation**: 24 segments, exactly 31,513 seconds (08:45:13), 0 unclassified gaps (`timeline/day-1.md`).
+- **Segment Coverage Records**: All 24 segments have explicit physical review records with verified `access_status` and `review_mode` (`verification/day-1-coverage-review.yaml`).
+- **Real Frame Artifacts & Hashes**: 16 content-reviewed observations (`OBS-008`, `010`, `011`, `013`, `014`, `015`, `016`, `020`, `023`, `024`, `025`, `027`, `028`, `029`, `030`, `031`) resolve to authentic physical video frames extracted via `ffmpeg` from replay mirror `BV19fYf6kELz` into `evidence/frames/`, verified with byte-level SHA-256 matching.
+- **Epistemic Separation**: `OBS-031` explicitly demarcated: $\text{Spoken Assertion} + \text{Authoritative Doc Alignment} \ne \text{Physical System Test}$.
+- **Automated Verification**: Verified via executable gate script `scripts/audit_day1_physical_provenance.py`.
 
 ### Target Repository Architecture
 As full 3-day coverage expands, the repository structure evolves into a day-partitioned hierarchy:

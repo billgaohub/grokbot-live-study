@@ -9,7 +9,7 @@ evidence_records:
     stream_offset: "00:48:30"
     description: "Google Slides Teach-a-Task demonstration"
     frame_identifier: "frame_obs008_teach_task.jpg"
-    content_sha256: "4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca"
+    content_sha256: "b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30"
 
   - record_id: EV-002
@@ -17,7 +17,7 @@ evidence_records:
     stream_offset: "00:54:30"
     description: "Email Ethan Auto-review approval gate modal"
     frame_identifier: "frame_obs010_approval_gate.jpg"
-    content_sha256: "7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9"
+    content_sha256: "ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30"
 
   - record_id: EV-003
@@ -25,7 +25,7 @@ evidence_records:
     stream_offset: "00:58:15"
     description: "Spoken architecture assertion on VM isolation"
     frame_identifier: "frame_obs011_isolation_claim.jpg"
-    content_sha256: "e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1"
+    content_sha256: "e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15"
 
   - record_id: EV-004
@@ -33,7 +33,7 @@ evidence_records:
     stream_offset: "01:07:30"
     description: "Google Forms permission denied chat reports"
     frame_identifier: "frame_obs013_permission_denied.jpg"
-    content_sha256: "d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274"
+    content_sha256: "3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
 
   - record_id: EV-005
@@ -41,7 +41,7 @@ evidence_records:
     stream_offset: "01:07:30"
     description: "Amrita chat steering command to make link public"
     frame_identifier: "frame_obs014_human_steering.jpg"
-    content_sha256: "3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8"
+    content_sha256: "7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
 
   - record_id: EV-006
@@ -49,7 +49,7 @@ evidence_records:
     stream_offset: "01:11:15"
     description: "Google Forms live counter incrementing response throughput"
     frame_identifier: "frame_obs015_external_verification.jpg"
-    content_sha256: "ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3"
+    content_sha256: "24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15"
 
   - record_id: EV-007
@@ -57,7 +57,7 @@ evidence_records:
     stream_offset: "01:24:30"
     description: "1Password in-app modal credential card"
     frame_identifier: "frame_obs016_1password_security.jpg"
-    content_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"
+    content_sha256: "16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30"
 
   - record_id: EV-008
@@ -83,7 +83,7 @@ evidence_records:
     stream_offset: "02:38:00"
     description: "Slack-to-GitHub-to-Vercel preview deployment"
     frame_identifier: "frame_obs020_vercel_deploy.jpg"
-    content_sha256: "a1c43b925b7413d789098bc5eef123490aa76d05324314c1d6365b263aeaf991"
+    content_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
 
   - record_id: EV-012
@@ -103,7 +103,7 @@ evidence_records:
     stream_offset: "04:05:00"
     description: "Lingxi Li multi-agent engineering fleet hierarchy slide"
     frame_identifier: "frame_obs023_fleet_model.jpg"
-    content_sha256: "c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7"
+    content_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
 
   - record_id: EV-015
@@ -111,7 +111,7 @@ evidence_records:
     stream_offset: "04:23:00"
     description: "Cursor Cloud Agent CI red-build auto-fix log"
     frame_identifier: "frame_obs024_ci_autofix.jpg"
-    content_sha256: "eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5"
+    content_sha256: "88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00"
 
   - record_id: EV-016
@@ -119,7 +119,7 @@ evidence_records:
     stream_offset: "04:48:00"
     description: "PR mandatory video/screenshot visual proof policy"
     frame_identifier: "frame_obs025_pr_visual_proof.jpg"
-    content_sha256: "5324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d0"
+    content_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00"
 
   - record_id: EV-017
@@ -133,7 +133,7 @@ evidence_records:
     stream_offset: "05:32:00"
     description: "Strategic pivot from restaurant to art exhibition due to permit delay"
     frame_identifier: "frame_obs027_pivot_exhibition.jpg"
-    content_sha256: "af991a1c43b925b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263ae"
+    content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
 
   - record_id: EV-019
@@ -141,7 +141,7 @@ evidence_records:
     stream_offset: "06:16:00"
     description: "FlyLo booking funnel dropoff analysis and PRD in Notion"
     frame_identifier: "frame_obs028_pm_funnel.jpg"
-    content_sha256: "25b7c3d52a8190bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b9"
+    content_sha256: "c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00"
 
   - record_id: EV-020
@@ -149,7 +149,7 @@ evidence_records:
     stream_offset: "07:05:00"
     description: "In-browser tldraw Diffraction Night collectible ticket wireframe"
     frame_identifier: "frame_obs029_tldraw_wireframe.jpg"
-    content_sha256: "90bc5eef123490aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a81"
+    content_sha256: "30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00"
 
   - record_id: EV-021
@@ -157,7 +157,7 @@ evidence_records:
     stream_offset: "07:42:00"
     description: "Founder bot workflow automation and browser vs API cost slide"
     frame_identifier: "frame_obs030_founder_bots.jpg"
-    content_sha256: "aa76d05324314c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490"
+    content_sha256: "e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00"
 
   - record_id: EV-022
@@ -165,7 +165,7 @@ evidence_records:
     stream_offset: "08:02:00"
     description: "Shub verbal shared VM filesystem architecture statement"
     frame_identifier: "frame_obs031_shared_vm_statement.jpg"
-    content_sha256: "14c1d6365b263aeaf991a1c43b925b7c3d52a8190bc5eef123490aa76d053243"
+    content_sha256: "416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00"
 
   - record_id: EV-023

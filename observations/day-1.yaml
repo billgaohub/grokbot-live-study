@@ -164,7 +164,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30 (frame: frame_obs008_teach_task.jpg, sha256: 4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30 (frame: frame_obs008_teach_task.jpg, sha256: b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714)"
 
   - observation_id: OBS-009
     source_ref: "SRC-PRI-001"
@@ -204,7 +204,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30 (frame: frame_obs010_approval_gate.jpg, sha256: 7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30 (frame: frame_obs010_approval_gate.jpg, sha256: ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61)"
 
   - observation_id: OBS-011
     source_ref: "SRC-PRI-001"
@@ -224,7 +224,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15 (frame: frame_obs011_isolation_claim.jpg, sha256: e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15 (frame: frame_obs011_isolation_claim.jpg, sha256: e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd)"
 
   - observation_id: OBS-012
     source_ref: "SRC-PRI-001"
@@ -264,7 +264,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs013_permission_denied.jpg, sha256: d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs013_permission_denied.jpg, sha256: 3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8)"
 
   - observation_id: OBS-014
     source_ref: "SRC-PRI-001"
@@ -284,7 +284,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs014_human_steering.jpg, sha256: 3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs014_human_steering.jpg, sha256: 7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f)"
 
   - observation_id: OBS-015
     source_ref: "SRC-PRI-001"
@@ -304,7 +304,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15 (frame: frame_obs015_external_verification.jpg, sha256: ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15 (frame: frame_obs015_external_verification.jpg, sha256: 24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e)"
 
   - observation_id: OBS-016
     source_ref: "SRC-PRI-001"
@@ -324,7 +324,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30 (frame: frame_obs016_1password_security.jpg, sha256: b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30 (frame: frame_obs016_1password_security.jpg, sha256: 16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996)"
 
   - observation_id: OBS-017
     source_ref: "SRC-PRI-001"
@@ -404,7 +404,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00 (frame: frame_obs020_vercel_deploy.jpg, sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7)"
 
   - observation_id: OBS-021
     source_ref: "SRC-PRI-001"
@@ -464,7 +464,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00 (frame: frame_obs023_fleet_model.jpg, sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3)"
 
   - observation_id: OBS-024
     source_ref: "SRC-PRI-001"
@@ -484,7 +484,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00 (frame: frame_obs024_ci_autofix.jpg, sha256: 88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39)"
 
   - observation_id: OBS-025
     source_ref: "SRC-PRI-001"
@@ -504,7 +504,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00 (frame: frame_obs025_pr_visual_proof.jpg, sha256: dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92)"
 
   - observation_id: OBS-026
     source_ref: "SRC-PRI-001"
@@ -544,7 +544,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00 (frame: frame_obs027_pivot_exhibition.jpg, sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c)"
 
   - observation_id: OBS-028
     source_ref: "SRC-PRI-001"
@@ -564,7 +564,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00 (frame: frame_obs028_pm_funnel.jpg, sha256: c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd)"
 
   - observation_id: OBS-029
     source_ref: "SRC-PRI-001"
@@ -584,7 +584,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00 (frame: frame_obs029_tldraw_wireframe.jpg, sha256: 30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7)"
 
   - observation_id: OBS-030
     source_ref: "SRC-PRI-001"
@@ -604,7 +604,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00 (frame: frame_obs030_founder_bots.jpg, sha256: e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889)"
 
   - observation_id: OBS-031
     source_ref: "SRC-PRI-001"
@@ -616,6 +616,7 @@ observations:
     observed_content: "Shub verbally explains that multiple Grok Bots instantiated by a user share the same underlying VM filesystem while maintaining separate conversational memory contexts. This spoken claim corroborates current official documentation (docs.x.ai/grok-bot/overview) and clarifies the conflicting verbal claim recorded in OBS-011, though it does not constitute an independent physical sandbox test."
     claim_status: "SUPPORTED"
     support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    epistemic_note: "SPOKEN_STATEMENT + AUTHORITATIVE_DOC_ALIGNED != PHYSICAL_SYSTEM_TEST. Spoken assertion corroborating docs.x.ai/grok-bot/overview; does not constitute a physical sandbox kernel penetration test."
     review_depth:
       identity_pinned: true
       metadata_verified: true
@@ -624,7 +625,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00 (frame: frame_obs031_shared_vm_statement.jpg, sha256: 416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c)"
 
   - observation_id: OBS-032
     source_ref: "SRC-PRI-001"
