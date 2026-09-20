@@ -1,0 +1,327 @@
+observations_collection_id: OBS-COLL-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw (Broadcast 1YGNrbXEeazGw)"
+media_mirror_reference: "https://www.bilibili.com/video/BV19fYf6kELz/ (BV19fYf6kELz - 31513s)"
+study_window: "T+00:00:00 to T+01:30:00 (Galaxy Day 1 First 90m)"
+total_observations: 16
+
+observations:
+  - observation_id: OBS-001
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:01:20"
+    timestamp_end: "T+00:05:00"
+    actor: "Matt Palmer, Lauren Tan, Roshan Sadanani"
+    target: "Grok Bot Galaxy 3-day challenge"
+    observation_kind: "ACTION"
+    observed_content: "Hosts announce plan to build an operational company in 3 days using Grok Bot and AI teammates from scratch (research -> plan -> product)."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:01:20"
+
+  - observation_id: OBS-002
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:02:45"
+    timestamp_end: "T+00:05:30"
+    actor: "Matt Palmer"
+    target: "Starship Launch Contest"
+    observation_kind: "ANNOUNCEMENT"
+    observed_content: "Announces contest rewarding users who quote post with bot description + template link with a trip to a Starship launch or Hawthorne factory tour."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:02:45"
+
+  - observation_id: OBS-003
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:21:00"
+    timestamp_end: "T+00:24:30"
+    actor: "Lauren Tan"
+    target: "pStack Marketplace plugin"
+    observation_kind: "SPOKEN_STATEMENT"
+    observed_content: "Lauren claims pStack shipped ~2,500 PRs last month (~83/day) utilizing automated bot merge workflows."
+    claim_status: "UNTESTED"
+    support_level: "UNVERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:21:00"
+
+  - observation_id: OBS-004
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:25:00"
+    timestamp_end: "T+00:27:00"
+    actor: "Lauren Tan & Matt Palmer"
+    target: "github.com/shipbythursday"
+    observation_kind: "STATE_CHANGE"
+    observed_content: "Hosts create and reference a clean-slate GitHub organization 'shipbythursday' with zero pre-existing repositories or bots."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:25:00"
+
+  - observation_id: OBS-005
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:32:00"
+    timestamp_end: "T+00:36:00"
+    actor: "Roman Ugarte"
+    target: "AI Maturity Curve Slide"
+    observation_kind: "ANNOUNCEMENT"
+    observed_content: "Presentation slide shows four phases: Ask (Chatbots) -> Do (Copilots) -> Delegate (Autonomous Bot) -> Staff (Teams of Bots)."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:32:00"
+
+  - observation_id: OBS-006
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:36:30"
+    timestamp_end: "T+00:40:00"
+    actor: "Amrita"
+    target: "Data Dan Bot"
+    observation_kind: "ACTION"
+    observed_content: "Amrita creates Data Dan bot and voice-dictates parameters for a coffee consumption Google Form (listing SF coffee shops: Ritual, Philz, Sightglass, Blue Bottle)."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:36:30"
+
+  - observation_id: OBS-007
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:41:00"
+    timestamp_end: "T+00:44:00"
+    actor: "Data Dan (Grok Bot)"
+    target: "Linux Desktop GUI Session / Browser Interface"
+    observation_kind: "STATE_CHANGE"
+    observed_content: "Screen displays Data Dan controlling an independent Linux desktop session, opening a browser and navigating to Google Forms."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:41:00"
+
+  - observation_id: OBS-008
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:46:00"
+    timestamp_end: "T+00:49:30"
+    actor: "Amrita & Slide Sonya Bot"
+    target: "Google Slides Fly-in Animation"
+    observation_kind: "ACTION"
+    observed_content: "Teach-a-Task demonstration: Amrita physically controls the cursor on Slide Sonya's screen to build a multi-step animation sequence in Google Slides."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30 (frame: frame_obs008_teach_task.jpg, sha256: 4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca)"
+
+  - observation_id: OBS-009
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:49:30"
+    timestamp_end: "T+00:52:00"
+    actor: "Slide Sonya Bot"
+    target: "Skill Synthesis"
+    observation_kind: "ACTION"
+    observed_content: "Slide Sonya processes the recorded human cursor trace and generates a reusable, callable parameterized skill 'Fly-in animation'."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:49:30"
+
+  - observation_id: OBS-010
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:53:15"
+    timestamp_end: "T+00:56:45"
+    actor: "Auto-review Classifier"
+    target: "Email Ethan Bot"
+    observation_kind: "INTERVENTION"
+    observed_content: "Auto-review interceptor blocks Email Ethan from sending an external communication, displaying an approval prompt requiring explicit human confirmation. Execution remains blocked for 195 seconds."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30 (frame: frame_obs010_approval_gate.jpg, sha256: 7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9)"
+
+  - observation_id: OBS-011
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+00:57:00"
+    timestamp_end: "T+00:59:30"
+    actor: "Amrita"
+    target: "VM Isolation Architecture"
+    observation_kind: "SPOKEN_STATEMENT"
+    observed_content: "States that each bot runs on an isolated Linux virtual machine and 'One Grok Bot cannot access another Grok Bot\\'s computer'."
+    claim_status: "CONTRADICTED"
+    support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15 (frame: frame_obs011_isolation_claim.jpg, sha256: e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1)"
+
+  - observation_id: OBS-012
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:04:00"
+    timestamp_end: "T+01:06:30"
+    actor: "Data Dan Bot"
+    target: "Survey QR Code"
+    observation_kind: "STATE_CHANGE"
+    observed_content: "Data Dan completes the Google Form, generates a QR code image, and displays it on screen for the livestream audience to scan."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:04:00"
+
+  - observation_id: OBS-013
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:06:30"
+    timestamp_end: "T+01:08:00"
+    actor: "Livestream Audience"
+    target: "Google Form Access"
+    observation_kind: "FAILURE"
+    observed_content: "Audience members scanning the QR code encounter a Google Forms 'Permission Denied / No Access' error because sharing settings defaulted to private/domain-restricted."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs013_permission_denied.jpg, sha256: d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274)"
+
+  - observation_id: OBS-014
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:08:00"
+    timestamp_end: "T+01:10:30"
+    actor: "Amrita (Human) & Data Dan (Bot)"
+    target: "Form Sharing Permissions"
+    observation_kind: "RECOVERY"
+    observed_content: "Amrita intervenes upon observing audience failure, steering Data Dan to 'make link public'; Auto-review opens Google Forms share modal and reconfigures permissions."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30 (frame: frame_obs014_human_steering.jpg, sha256: 3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8)"
+
+  - observation_id: OBS-015
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:10:30"
+    timestamp_end: "T+01:12:00"
+    actor: "Data Dan & Audience"
+    target: "Public Access Verification"
+    observation_kind: "RECOVERY"
+    observed_content: "Form accessibility is verified as audience submissions begin registering in the form backend without authentication blockers."
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15 (frame: frame_obs015_external_verification.jpg, sha256: ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3)"
+
+  - observation_id: OBS-016
+    source_ref: "SRC-PRI-001"
+    timestamp_start: "T+01:21:00"
+    timestamp_end: "T+01:23:30"
+    actor: "Amrita"
+    target: "1Password Integration Security Model"
+    observation_kind: "SPOKEN_STATEMENT"
+    observed_content: "Claims enterprise secrets are managed via an in-app modal where credentials are not exposed to the provider backend."
+    claim_status: "UNKNOWN"
+    support_level: "UNVERIFIED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "DIRECT_MEDIA_STREAM"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30 (frame: frame_obs016_1password_security.jpg, sha256: b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848)"

@@ -1,0 +1,61 @@
+evidence_index_id: EV-INDEX-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw"
+media_mirror_stream: "https://www.bilibili.com/video/BV19fYf6kELz/"
+
+evidence_records:
+  - record_id: EV-001
+    observation_ref: "OBS-008"
+    stream_offset: "00:48:30"
+    description: "Google Slides Teach-a-Task demonstration"
+    frame_identifier: "frame_obs008_teach_task.jpg"
+    content_sha256: "4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30"
+
+  - record_id: EV-002
+    observation_ref: "OBS-010"
+    stream_offset: "00:54:30"
+    description: "Email Ethan Auto-review approval gate modal"
+    frame_identifier: "frame_obs010_approval_gate.jpg"
+    content_sha256: "7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30"
+
+  - record_id: EV-003
+    observation_ref: "OBS-011"
+    stream_offset: "00:58:15"
+    description: "Spoken architecture assertion on VM isolation"
+    frame_identifier: "frame_obs011_isolation_claim.jpg"
+    content_sha256: "e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15"
+
+  - record_id: EV-004
+    observation_ref: "OBS-013"
+    stream_offset: "01:07:30"
+    description: "Google Forms permission denied chat reports"
+    frame_identifier: "frame_obs013_permission_denied.jpg"
+    content_sha256: "d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
+
+  - record_id: EV-005
+    observation_ref: "OBS-014"
+    stream_offset: "01:07:30"
+    description: "Amrita chat steering command to make link public"
+    frame_identifier: "frame_obs014_human_steering.jpg"
+    content_sha256: "3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
+
+  - record_id: EV-006
+    observation_ref: "OBS-015"
+    stream_offset: "01:11:15"
+    description: "Google Forms live counter incrementing response throughput"
+    frame_identifier: "frame_obs015_external_verification.jpg"
+    content_sha256: "ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15"
+
+  - record_id: EV-007
+    observation_ref: "OBS-016"
+    stream_offset: "01:24:30"
+    description: "1Password in-app modal credential card"
+    frame_identifier: "frame_obs016_1password_security.jpg"
+    content_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30"

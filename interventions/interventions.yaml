@@ -1,0 +1,35 @@
+interventions_ledger_id: INT-LEDGER-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+
+interventions:
+  - intervention_id: INT-001
+    observation_ref: "OBS-008"
+    timestamp: "T+00:46:00"
+    type: "PROACTIVE_TEACHING"
+    actor: "Amrita (Human)"
+    target_bot: "Slide Sonya"
+    trigger: "Routine human capability transfer"
+    intervention_action: "Human takes control of bot's cursor inside Google Slides to manually demonstrate complex object fly-in animation."
+    outcome: "Bot records trajectory and synthesizes reusable skill."
+
+  - intervention_id: INT-002
+    observation_ref: "OBS-010"
+    timestamp: "T+00:53:15"
+    type: "GATE_AUTHORIZATION"
+    actor: "Amrita (Human)"
+    target_bot: "Email Ethan"
+    trigger: "Auto-review policy block on outbound communication"
+    intervention_action: "Human reviews draft recipient/content modal and clicks 'Allow once' (blocked for 195 seconds)."
+    outcome: "Action permitted to execute."
+
+  - intervention_id: INT-003
+    observation_ref: "OBS-014"
+    timestamp: "T+01:08:00"
+    type: "FAILURE_CORRECTION_AND_STEERING"
+    actor: "Amrita (Human)"
+    target_bot: "Data Dan"
+    trigger: "FAIL-001: Audience reported 'no access' on survey form QR code"
+    intervention_action: "Human intervenes verbally and textually, giving high-level corrective instruction 'make link public'."
+    bot_recovery_action: "Data Dan opens Google Forms share modal, toggles general access to public, and updates link."
+    verification_ref: "VER-001"
+    outcome: "Form permissions successfully resolved, audience able to submit responses."

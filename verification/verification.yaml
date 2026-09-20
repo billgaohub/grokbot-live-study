@@ -1,0 +1,78 @@
+verification_ledger_id: VER-LEDGER-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+
+correction_chains:
+  - chain_id: CORR-CHAIN-001
+    title: "Google Form Sharing Permission Recovery"
+    start_timestamp: "T+01:06:30"
+    end_timestamp: "T+01:11:00"
+    chain_steps:
+      - step: 1
+        event_type: "FAILURE"
+        ref: "FAIL-001 / OBS-013"
+        description: "Bot creates Google Form with default restricted permissions; audience reports no access."
+      - step: 2
+        event_type: "HUMAN_DETECTION_AND_INTERVENTION"
+        ref: "INT-003"
+        description: "Presenter Amrita notices chat failure reports and issues targeted steering instruction: 'make link public'."
+      - step: 3
+        event_type: "AGENT_RECOVERY_ACTION"
+        ref: "OBS-014"
+        description: "Data Dan opens Forms share settings modal via GUI and updates access to public."
+      - step: 4
+        event_type: "EXTERNAL_VERIFICATION"
+        ref: "VER-001 / OBS-015"
+        description: "Audience successfully submits coffee survey responses; live counter on screen confirms throughput."
+    recovery_verdict: "SUCCESSFUL_HUMAN_STEERED_RECOVERY"
+
+external_verifications:
+  - verification_id: VER-001
+    observation_ref: "OBS-015"
+    timestamp: "T+01:10:30"
+    target_object: "Google Form Public Endpoint"
+    verifier: "Live Audience Submissions"
+    evidence_channel: "Real-time response counter displayed in Google Forms backend"
+    verdict: "EXTERNALLY_VERIFIED"
+
+explicit_unknowns:
+  - unknown_id: UNK-001
+    observation_ref: "OBS-011"
+    subject: "Bot VM Isolation Boundary vs Official Docs"
+    status: "CONTRADICTED_BY_OFFICIAL_DOCS"
+    reason: "Presenter verbally claimed per-bot isolated VM ('One Grok Bot cannot access another Grok Bot\\'s computer'); however, official architecture documentation (docs.x.ai/grok-bot/overview) explicitly specifies one Firecracker microVM per user, shared across all bots belonging to that user."
+
+  - unknown_id: UNK-002
+    observation_ref: "OBS-016"
+    subject: "1Password In-App Modal Credential Zero-Knowledge Boundary"
+    status: "UNKNOWN_UNVERIFIABLE_FROM_STREAM"
+    reason: "Security boundary between in-app modal and provider host was asserted verbally without cryptographic or memory dump demonstration."
+
+playback_frame_verifications:
+  - observation_ref: "OBS-008"
+    stream_offset: "00:48:30"
+    target: "Google Slides Teach-a-Task trace"
+    frame_sha256: "4f1837ff449339cb1a415ff68f184e1b4b245ff6ea5779c13ee41a1532f3bfca"
+  - observation_ref: "OBS-010"
+    stream_offset: "00:54:30"
+    target: "Auto-review approval gate"
+    frame_sha256: "7f0a6d595856407d57053597d391038e12140bb69e9e1b2123d4677ee5db2ee9"
+  - observation_ref: "OBS-011"
+    stream_offset: "00:58:15"
+    target: "VM isolation statement"
+    frame_sha256: "e8eb19d44869c9ea24d262d515a452ef891da8b8fdfd475ef7c050ef7773dbb1"
+  - observation_ref: "OBS-013"
+    stream_offset: "01:07:30"
+    target: "Permission denied failure alert"
+    frame_sha256: "d7848df1bf785465bb3180c4ea1ef2eec2bfe8f9933583be5945cb97d096d274"
+  - observation_ref: "OBS-014"
+    stream_offset: "01:07:30"
+    target: "Human steering command in chat"
+    frame_sha256: "3c5970c7cf54316d3e8e19c016e788730bb39b4b9b657422f974cb3be8a57ba8"
+  - observation_ref: "OBS-015"
+    stream_offset: "01:11:15"
+    target: "Audience live submissions counter"
+    frame_sha256: "ad2c4249a029312b918a38adad2c64b5e28a2a4660eb058479e0a0d5ee7d21c3"
+  - observation_ref: "OBS-016"
+    stream_offset: "01:24:30"
+    target: "1Password modal display"
+    frame_sha256: "b3fc4948ff11fa89f7831fa2e02206aa76d05324314c1d6365b263aeaf17d848"

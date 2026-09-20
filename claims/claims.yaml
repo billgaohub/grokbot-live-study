@@ -1,0 +1,60 @@
+claims_ledger_id: CLM-LEDGER-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+source_ref: "OBS-COLL-GROKBOT-DAY1-MVP"
+
+claims:
+  - claim_id: CLM-001
+    observation_refs: ["OBS-001"]
+    statement: "Hosts will build an operational business in 3 days using Grok Bot."
+    claim_type: "PROMISSORY_GOAL"
+    claim_status: "UNTESTED"
+    support_level: "UNVERIFIED"
+    verification_rationale: "Longitudinal 72-hour outcome; not verifiable in first 90 minutes."
+
+  - claim_id: CLM-002
+    observation_refs: ["OBS-003"]
+    statement: "pStack shipped ~2,500 PRs last month via bot merge workflows."
+    claim_type: "METRIC_CLAIM"
+    claim_status: "UNTESTED"
+    support_level: "UNVERIFIED"
+    verification_rationale: "Self-reported spoken presenter metric; external PR ledger not audited on screen."
+
+  - claim_id: CLM-003
+    observation_refs: ["OBS-007"]
+    statement: "Data Dan operates in a Linux desktop GUI session."
+    claim_type: "EXECUTION_ENVIRONMENT"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Linux desktop GUI and browser sessions directly verified on screen."
+
+  - claim_id: CLM-004
+    observation_refs: ["OBS-010"]
+    statement: "Auto-review interceptor blocks unauthorized outbound communications."
+    claim_type: "POLICY_ENFORCEMENT"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Email Ethan blocked until explicit 'Allow once' confirmation modal clicked."
+
+  - claim_id: CLM-005
+    observation_refs: ["OBS-011"]
+    statement: "One Grok Bot cannot access another Grok Bot's computer."
+    claim_type: "SECURITY_ISOLATION"
+    claim_status: "CONTRADICTED"
+    support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    verification_rationale: "Contradicted by published official documentation (docs.x.ai/grok-bot/overview), which specifies a Firecracker microVM allocated per user, shared across user bots."
+
+  - claim_id: CLM-006
+    observation_refs: ["OBS-012", "OBS-013"]
+    statement: "Data Dan successfully produced an accessible public survey form on first attempt."
+    claim_type: "EXECUTION_OUTCOME"
+    claim_status: "CONTRADICTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Initial generation resulted in domain-restricted permissions causing immediate failure (OBS-013); corrected later via human steering (OBS-014)."
+
+  - claim_id: CLM-007
+    observation_refs: ["OBS-016"]
+    statement: "1Password integration keeps secrets local to in-app modal without server-side exposure."
+    claim_type: "SECURITY_MECHANISM"
+    claim_status: "UNKNOWN"
+    support_level: "UNVERIFIED"
+    verification_rationale: "Architecture details not demonstrated on stream; flagged as unverified verbal claim."

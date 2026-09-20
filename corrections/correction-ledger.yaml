@@ -1,0 +1,24 @@
+correction_ledger_id: CORR-LEDGER-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+
+corrections:
+  - correction_id: CORR-GROK-001
+    target_ref: "OBS-002"
+    correction_type: "TIMING_DISCREPANCY"
+    prior_value: "Timestamp T+00:10:30 (Derived from secondary builder notes)"
+    corrected_value: "Timestamp T+00:02:45 (Corroborated directly against media mirror stream)"
+    rationale: "Secondary notes recorded the later re-summary of the Starship contest; direct mirror seek confirmed announcement occurred at 00:02:45."
+
+  - correction_id: CORR-GROK-002
+    target_ref: "OBS-011 / CLM-005"
+    correction_type: "FACTUAL_CONTRADICTION"
+    prior_value: "Presenter claim: 'One Grok Bot cannot access another Grok Bot\\'s computer'"
+    corrected_value: "Official documentation: docs.x.ai/grok-bot/overview specifies one Firecracker microVM per user, shared across user bots"
+    rationale: "Authoritative architectural documentation contradicts verbal presentation statement."
+
+  - correction_id: CORR-GROK-003
+    target_ref: "OBS-008 through OBS-016"
+    correction_type: "MODALITY_CALIBRATION"
+    prior_value: "review_method: VIDEO_AUDIO_PLAYBACK"
+    corrected_value: "media_access: DIRECT_MEDIA_STREAM, video_review: FRAME_EXTRACTION_AND_VISUAL_REVIEW, subtitle_review: BURNED_SUBTITLE_VISUAL_REVIEW, audio_review: NOT_INDEPENDENTLY_REVIEWED"
+    rationale: "Audio waveform and spoken utterances were not independently reviewed algorithmically; scalar enum decomposed into accurate orthogonal modalities."

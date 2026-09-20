@@ -1,0 +1,14 @@
+failures_ledger_id: FAIL-LEDGER-GROKBOT-DAY1-MVP
+evaluated_at: "2026-09-20T18:36:00+08:00"
+
+failures:
+  - failure_id: FAIL-001
+    observation_ref: "OBS-013"
+    timestamp: "T+01:06:30"
+    actor: "Data Dan (Grok Bot)"
+    failure_type: "ENVIRONMENTAL_DEFAULT_PERMISSION_MISCONFIGURATION"
+    root_cause: "Agent created a Google Form using default domain-restricted sharing permissions rather than public 'anyone with link' permissions required for livestream audience."
+    observable_symptom: "Livestream audience scanned displayed QR code and received 'Permission Denied / No Access' error."
+    severity: "HIGH_EXECUTION_IMPACT (Blocked primary task goal of audience data collection)"
+    detection_channel: "EXTERNAL_HUMAN_FEEDBACK (Chat feedback from audience alerted presenter)"
+    resolution_ref: "INT-003"
