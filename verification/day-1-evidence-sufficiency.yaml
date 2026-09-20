@@ -1,0 +1,313 @@
+schema_version: "2.0.0"
+audit_ledger_id: "DAY1-EVIDENCE-SUFFICIENCY-AUDIT-001"
+evaluated_at: "2026-09-20T22:00:00+08:00"
+auditor: "Antigravity & Bill Gate Human Sovereignty"
+task_ref: "GROKBOT_DAY1_EVIDENCE_SUFFICIENCY_REPAIR_002B"
+media_mirror_reference: "https://www.bilibili.com/video/BV19fYf6kELz/ (31,513s)"
+overall_sufficiency_status: "PASS_WITH_CALIBRATED_SUPPORT"
+
+summary:
+  total_content_reviewed_observations: 16
+  fully_supported_count: 11
+  partially_supported_count: 5
+  unsupported_count: 0
+  evidence_bundles_configured: 5
+  misplaced_evidence_realigned: true
+  gate_verdict: "EVIDENCE_SUFFICIENCY_PASS"
+
+adjudications:
+  - observation_id: "OBS-008"
+    title: "Google Slides Teach-a-Task Cursor Recording Demonstration"
+    claim_components:
+      - human_cursor_recording_demonstrated: true
+      - multi_step_animation_sequence_captured: true
+      - agent_operates_in_linux_desktop_gui: true
+    evidence_bundle:
+      - stream_offset: "00:48:30"
+        frame_identifier: "frame_obs008_teach_task.jpg"
+        sha256: "b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714"
+        proves: "Google Slides desktop GUI session and coordinate recording"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frame explicitly captures the active Teach-a-Task modal and recording trajectory on Google Slides."
+
+  - observation_id: "OBS-010"
+    title: "Email Ethan Auto-Review Approval Gate Modal"
+    claim_components:
+      - outbound_communication_blocked_by_policy: true
+      - approval_modal_rendered_with_diff: true
+      - execution_halted_pending_human_click: true
+    evidence_bundle:
+      - stream_offset: "00:54:30"
+        frame_identifier: "frame_obs010_approval_gate.jpg"
+        sha256: "ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61"
+        proves: "Auto-review approval gate modal halting outbound email draft"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Approval gate modal clearly displayed with Allow/Deny controls and draft diff."
+
+  - observation_id: "OBS-011"
+    title: "VM Isolation Spoken Assertion"
+    claim_components:
+      - presenter_asserts_per_bot_vm_isolation: true
+      - physical_kernel_isolation_demonstrated: false
+      - contradiction_with_firecracker_docs: true
+    evidence_bundle:
+      - stream_offset: "00:58:15"
+        frame_identifier: "frame_obs011_isolation_claim.jpg"
+        sha256: "e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd"
+        proves: "Presenter speaking on stage making isolation assertion"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "AUTHORITATIVE_DOC_ALIGNED"
+      reviewer_basis: "Frame confirms spoken assertion on stream. Claim is contradicted by published documentation (docs.x.ai/grok-bot/overview); lacks physical sandbox test."
+
+  - observation_id: "OBS-013"
+    title: "Google Forms Permission Denied Chat Reports (FAIL-001)"
+    claim_components:
+      - bot_generated_form_has_restricted_permissions: true
+      - audience_reports_permission_failure: true
+      - live_interaction_blocked: true
+    evidence_bundle:
+      - stream_offset: "01:07:30"
+        frame_identifier: "frame_obs013_permission_denied.jpg"
+        sha256: "3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8"
+        proves: "Audience failure reports in chat regarding form permissions"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Real-time failure reports clearly visible in stream chat panel."
+
+  - observation_id: "OBS-014"
+    title: "Amrita Human Steering Command in Chat (INT-003)"
+    claim_components:
+      - human_detects_failure_from_chat: true
+      - targeted_natural_language_instruction_issued: true
+      - bot_initiates_permission_modal_change: true
+    evidence_bundle:
+      - stream_offset: "01:07:30"
+        frame_identifier: "frame_obs014_human_steering.jpg"
+        sha256: "7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f"
+        proves: "Amrita prompting bot to make link public"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Exact steering instruction 'make link public' captured in chat UI."
+
+  - observation_id: "OBS-015"
+    title: "Google Forms Live Submissions Counter Increment (VER-001)"
+    claim_components:
+      - bot_updates_permissions_to_public: true
+      - external_audience_submits_responses: true
+      - live_counter_verifies_remediation: true
+    evidence_bundle:
+      - stream_offset: "01:11:15"
+        frame_identifier: "frame_obs015_external_verification.jpg"
+        sha256: "24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e"
+        proves: "Live response counter incrementing on screen"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Counter display provides undeniable external proof of recovery."
+
+  - observation_id: "OBS-016"
+    title: "1Password In-App Modal Credential Card (UNK-002)"
+    claim_components:
+      - 1password_integration_modal_displayed: true
+      - credential_selection_interface_functional: true
+      - zero_knowledge_cryptographic_boundary_proven: false
+    evidence_bundle:
+      - stream_offset: "01:24:30"
+        frame_identifier: "frame_obs016_1password_security.jpg"
+        sha256: "16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996"
+        proves: "1Password UI modal rendered inside desktop app"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+      reviewer_basis: "UI presence verified; underlying zero-knowledge cryptographic claim remains UNK-002."
+
+  - observation_id: "OBS-020"
+    title: "Slack-to-GitHub-to-Vercel Autonomous Deployment Sequence (~4.5m)"
+    claim_components:
+      - slack_instruction_issued_to_steve: true
+      - vercel_connector_authorized: true
+      - repo_scaffolded_and_pushed_to_github: true
+      - vercel_preview_deployment_live: true
+      - duration_bounded_within_5min: true
+    evidence_bundle:
+      - stream_offset: "02:35:00"
+        frame_identifier: "frame_obs020_a_slack_prompt.jpg"
+        sha256: "0fbd0260bca42b958c1c723a2cfabb30cee6491c4108cd37ac8d205906477340"
+        proves: "Steve chat authorizes Vercel connector to deploy shipbythursday/popup"
+      - stream_offset: "02:38:00"
+        frame_identifier: "frame_obs020_vercel_deploy.jpg"
+        sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
+        proves: "Vercel new project UI showing potato-labs team and active deploy import"
+      - stream_offset: "02:39:30"
+        frame_identifier: "frame_obs020_b_live_confirm.jpg"
+        sha256: "762164941090d4921983e82d95904f97e8ec790e9484860554149cb2fae23393"
+        proves: "Lauren verbally confirms live deployment ('I deployed' / 我部署了)"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "3-frame sequence proves complete causal chain: prompt at 02:35 -> Vercel import at 02:38 -> live confirmation at 02:39:30 (elapsed: ~4.5 minutes)."
+
+  - observation_id: "OBS-023"
+    title: "Lingxi Li Autonomous Agent & Cursor Cloud Agent Architecture Presentation"
+    claim_components:
+      - first_party_cursor_cloud_agent_integration_shown: true
+      - memory_and_routines_primitive_proven: true
+      - chief_of_staff_craig_managing_cloud_agents_proven: true
+      - specialized_fleet_decomposition_cos_ui_devex_ops: false
+    evidence_bundle:
+      - stream_offset: "04:02:00"
+        frame_identifier: "frame_obs023_a_grok_overview.jpg"
+        sha256: "8c2a2f6965bf97f214f8f75325f4f8bcdefafd64ba1c4facf820a967159eb3c6"
+        proves: "Slide shows 4 quadrants: Manage Cursor Cloud Agents and Memory & Routines with Craig"
+      - stream_offset: "04:05:00"
+        frame_identifier: "frame_obs023_fleet_model.jpg"
+        sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
+        proves: "Why Grok Bot slide emphasizing first-party coding agent integration"
+      - stream_offset: "04:08:00"
+        frame_identifier: "frame_obs023_b_away_routine.jpg"
+        sha256: "c35d942d34dd7dc8ab3ec0fd482a4718d784a931b6418484a4634a9b4621fa9e"
+        proves: "Slide explains bots examine transcripts and proofs to push back on cloud agents"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "PARTIALLY_SCREEN_CORROBORATED"
+      reviewer_basis: "Slides physically prove Cursor Cloud Agent integration, routines, and Craig bot role; specific 5-role fleet hierarchy (UI/DevEx/Infra/Ops) was verbally articulated, not detailed on slides."
+
+  - observation_id: "OBS-024"
+    title: "FlyLo P0 Production Bug Detection & Multi-Agent Cloud Routine Supervision"
+    claim_components:
+      - multi_frontend_read_only_audit_dispatched: true
+      - p0_trip_lookup_stub_bug_detected_on_live_site: true
+      - p0_fix_agent_dispatched_on_3min_watch: true
+      - human_establishes_5min_watchdog_against_agent_drift: true
+    evidence_bundle:
+      - stream_offset: "04:26:00"
+        frame_identifier: "frame_obs024_a_multi_repo_audit.jpg"
+        sha256: "963c7e1b1b8c2a5607f2d5f4f8bf60ec0e526e0ca6a6bbef83899d014b3f17ad"
+        proves: "Craig orchestrates 4-frontend audit across booking-frontend, web, crew-app, factory"
+      - stream_offset: "04:30:00"
+        frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
+        sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
+        proves: "P0 trip lookup bug reported, confirmed as stub, fix agent dispatched, 5-min supervisory routine setup"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Recalibrated from generic 'CI auto-fix' to true on-screen workflow: multi-repo audit, live P0 bug remediation, and 5-min watchdog against sleep-100/drift."
+
+  - observation_id: "OBS-025"
+    title: "Mandatory PR Visual Verification Proof Policy & Verification Skill"
+    claim_components:
+      - standing_rule_every_pr_requires_media_in_description: true
+      - tater_owns_verification_skill_and_rule_update: true
+      - media_specified_in_description_not_committed_to_repo: true
+      - browser_tab_shows_verification_media_requirement: true
+    evidence_bundle:
+      - stream_offset: "04:48:00"
+        frame_identifier: "frame_obs025_pr_visual_proof.jpg"
+        sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
+        proves: "Founding Eng chat and PR #2 workflow"
+      - stream_offset: "05:32:00"
+        frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
+        sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
+        proves: "Steve chat explicitly documents: 'every PR that can affect the product needs video/screenshots in the description... still: media in the pr description, not committed into proof/.'"
+      - stream_offset: "05:38:00"
+        frame_identifier: "frame_obs025_c_pr_media_tab.jpg"
+        sha256: "1fd231bfa7fa9d04a92b2b6c6d645af29529968aee353db69fcc23ee3b88c3e2"
+        proves: "Browser tab open to 'Make verification media a PR requirement'"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Misplaced 05:32:00 frame re-aligned to OBS-025, providing literal, word-for-word textual proof of the PR visual verification rule."
+
+  - observation_id: "OBS-027"
+    title: "Strategic Pivot from Restaurant Pop-up to Grok Bot Art Exhibition (INT-004)"
+    claim_components:
+      - human_issues_explicit_pivot_prompt_in_chat: true
+      - team_abandons_restaurant_in_favor_of_art_exhibition: true
+      - venue_finder_scope_generalized_to_warehouses: true
+      - chief_of_staff_steve_locks_decision: true
+    evidence_bundle:
+      - stream_offset: "05:44:00"
+        frame_identifier: "frame_obs027_a_pivot_prompt.jpg"
+        sha256: "153ac625a3cf8d0178308ae751507b3d7a2ef990ef670e5b342c7fcf520f975f"
+        proves: "Lauren prompt: 'ok small change of plan - instead of a restaurant popup, we\\'re gonna do a grok bot themed art exhibition. so we\\'ll still need the venue finder, but maybe make it a bit more generic... warehouses, big open spaces... we\\'ll add restaurants later'"
+      - stream_offset: "05:45:00"
+        frame_identifier: "frame_obs027_b_pivot_locked.jpg"
+        sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
+        proves: "Steve confirms: 'locked: first popup is a grok bot-themed art exhibition. venue finder stays, but generic — first type is mixed-use / warehouse / big open rooms. restaurants later.'"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Direct physical capture of the exact pivot instruction and bot confirmation on screen. Verbal permit barrier discussion in panel corroborated by chat pivot."
+
+  - observation_id: "OBS-028"
+    title: "FlyLo Mobile Purchase Funnel Drop-off Analysis & Ashley Automated Routine"
+    claim_components:
+      - ashley_6am_daily_funnel_routine_active: true
+      - mobile_dropoff_identified_as_search_fare_53_8_percent: true
+      - assumption_that_leak_was_seat_selection_refuted: true
+      - notion_prd_drafting_delegated_to_pete: true
+    evidence_bundle:
+      - stream_offset: "06:16:00"
+        frame_identifier: "frame_obs028_pm_funnel.jpg"
+        sha256: "c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd"
+        proves: "Ashley chat with funnel analytics, 53.8% search+fare leak correction, and 6am daily pulse routine"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "PARTIALLY_SCREEN_CORROBORATED"
+      reviewer_basis: "Funnel data and automated routine fully verified on screen; full Notion PRD document was delegated to Pete in chat rather than displayed as completed standalone page."
+
+  - observation_id: "OBS-029"
+    title: "Grok Bot Art Exhibition Merch, Ticketing & In-Browser tldraw Canvas"
+    claim_components:
+      - three_pillars_defined_venue_tickets_merch: true
+      - tldraw_canvas_rendered_in_browser: true
+      - pricing_tiers_defined_ga_25_holo_premium_75: true
+      - active_bot_fleet_widget_shows_27_bots: true
+    evidence_bundle:
+      - stream_offset: "07:05:00"
+        frame_identifier: "frame_obs029_tldraw_wireframe.jpg"
+        sha256: "30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7"
+        proves: "Browser tldraw canvas with ticket wireframes, Holo Premium $75, GA $25, and 27-bot widget"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frame explicitly displays all claimed components: ticket layout, pricing tiers, merch drop list, and active bot telemetry."
+
+  - observation_id: "OBS-030"
+    title: "Prod Bot Founder Rundown Routines & Decision Gates"
+    claim_components:
+      - prod_bot_runs_daily_9am_rundown: true
+      - structured_decision_card_rendered_with_options: true
+      - founder_decision_gating_priority_calls: true
+    evidence_bundle:
+      - stream_offset: "07:42:00"
+        frame_identifier: "frame_obs030_founder_bots.jpg"
+        sha256: "e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889"
+        proves: "Shub demonstrating Prod Bot decision card and daily rundown routine"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frame clearly shows interactive 'Which product calls do you want locked in?' decision card and daily routine schedule."
+
+  - observation_id: "OBS-031"
+    title: "Shub Shared VM Filesystem Architecture Statement"
+    claim_components:
+      - presenter_explains_shared_vm_filesystem_architecture: true
+      - statement_corroborates_official_firecracker_docs: true
+      - physical_sandbox_or_kernel_isolation_tested: false
+    evidence_bundle:
+      - stream_offset: "08:02:00"
+        frame_identifier: "frame_obs031_shared_vm_statement.jpg"
+        sha256: "416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c"
+        proves: "Shub presenting on stage explaining chief-of-staff bot and VM architecture"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "AUTHORITATIVE_DOC_ALIGNED"
+      reviewer_basis: "Spoken assertion verbally corroborating docs.x.ai/grok-bot/overview; explicitly calibrated as Spoken Statement != Physical System Test."

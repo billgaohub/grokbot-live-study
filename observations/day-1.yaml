@@ -216,6 +216,7 @@ observations:
     observed_content: "States that each bot runs on an isolated Linux virtual machine and 'One Grok Bot cannot access another Grok Bot\\'s computer'."
     claim_status: "CONTRADICTED"
     support_level: "AUTHORITATIVE_DOC_ALIGNED"
+    epistemic_note: "SPOKEN_STATEMENT + AUTHORITATIVE_DOC_ALIGNED != PHYSICAL_SYSTEM_TEST. Spoken assertion on stage; contradicted by official documentation (docs.x.ai/grok-bot/overview); lacks physical OS kernel sandbox penetration test."
     review_depth:
       identity_pinned: true
       metadata_verified: true
@@ -314,8 +315,9 @@ observations:
     target: "1Password Integration Security Model"
     observation_kind: "SPOKEN_STATEMENT"
     observed_content: "Claims enterprise secrets are managed via an in-app modal where credentials are not exposed to the provider backend."
-    claim_status: "UNKNOWN"
-    support_level: "UNVERIFIED"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+    epistemic_note: "1Password modal UI rendered inside desktop app verified on screen; underlying zero-knowledge cryptographic boundary remains unverified from stream (UNK-002)."
     review_depth:
       identity_pinned: true
       metadata_verified: true
@@ -391,9 +393,9 @@ observations:
     timestamp_start: "T+02:35:00"
     timestamp_end: "T+02:42:00"
     actor: "Lauren Tan & steve (Bot)"
-    target: "Slack-to-GitHub-to-Vercel Autonomous Deployment"
+    target: "Slack-to-GitHub-to-Vercel Autonomous Deployment (~4.5m Sequence)"
     observation_kind: "ACTION"
-    observed_content: "Lauren prompts @steve in Slack #all-shipbythursday to scaffold landing page into GitHub repo shipbythursday/popup; bot pushes commit and triggers live Vercel preview deployment within approximately 3 minutes."
+    observed_content: "Lauren prompts @steve in Slack #all-shipbythursday to scaffold landing page into GitHub repo shipbythursday/popup and authorizes Vercel connector; bot pushes commit and triggers live Vercel preview deployment on potato-labs team; Lauren verbally confirms deployment live on stream ('I deployed' / 我部署了) after ~4.5 minutes."
     claim_status: "SUPPORTED"
     support_level: "PHYSICAL_EVIDENCE_VERIFIED"
     review_depth:
@@ -404,7 +406,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00 (frame: frame_obs020_vercel_deploy.jpg, sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00 (bundle: frame_obs020_a_slack_prompt.jpg [sha256: 0fbd0260bca42b958c1c723a2cfabb30cee6491c4108cd37ac8d205906477340], frame_obs020_vercel_deploy.jpg [sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7], frame_obs020_b_live_confirm.jpg [sha256: 762164941090d4921983e82d95904f97e8ec790e9484860554149cb2fae23393])"
 
   - observation_id: OBS-021
     source_ref: "SRC-PRI-001"
@@ -451,11 +453,12 @@ observations:
     timestamp_start: "T+04:00:00"
     timestamp_end: "T+04:12:00"
     actor: "Lingxi Li"
-    target: "Multi-Agent Engineering Fleet Hierarchy"
+    target: "Multi-Agent Engineering Fleet Hierarchy & Cloud Agent Presentation"
     observation_kind: "ARCHITECTURE_CLARIFICATION"
     observed_content: "Lingxi presents the multi-bot engineering fleet architecture as an alternative to monolithic bots: decomposing work across specialized agents including Chief-of-Staff (Craig/Lingxixi), UI specialist, DevEx (Steve), Infra (Hogan), and Ops (Jenny), with human interaction concentrated at the CoS layer."
-    claim_status: "SUPPORTED"
-    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PARTIALLY_SCREEN_CORROBORATED"
+    epistemic_note: "Cursor Cloud Agent integration and Craig bot routine physically proven on screen; 5-role fleet hierarchy (UI/DevEx/Infra/Ops) was verbally stated by Lingxi, not detailed on slides."
     review_depth:
       identity_pinned: true
       metadata_verified: true
@@ -464,16 +467,16 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00 (frame: frame_obs023_fleet_model.jpg, sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00 (bundle: frame_obs023_a_grok_overview.jpg [sha256: 8c2a2f6965bf97f214f8f75325f4f8bcdefafd64ba1c4facf820a967159eb3c6], frame_obs023_fleet_model.jpg [sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3], frame_obs023_b_away_routine.jpg [sha256: c35d942d34dd7dc8ab3ec0fd482a4718d784a931b6418484a4634a9b4621fa9e])"
 
   - observation_id: OBS-024
     source_ref: "SRC-PRI-001"
     timestamp_start: "T+04:20:00"
-    timestamp_end: "T+04:28:00"
+    timestamp_end: "T+04:30:30"
     actor: "Lingxi Li & Cursor Cloud Agents"
-    target: "Autonomous CI Red-Build Detection & Auto-fix Loop"
+    target: "FlyLo P0 Production Bug Detection & Multi-Agent Cloud Routine Supervision"
     observation_kind: "ACTION"
-    observed_content: "Demonstrates automated CI build failure remediation: monitoring bot detects failing CI build on GitHub, spins up a private Cursor Cloud Agent to inspect test failure logs, applies code patches to resolve the error, and automatically submits and merges the fix PR."
+    observed_content: "Lingxi demonstrates multi-repo read-only audit across 4 frontends (booking-frontend, web, crew-app, factory); detects live P0 trip lookup stub failure on FlyLo; dispatches fix agent on 3-minute watch; human operator configures 5-minute supervisory watchdog routine to detect and interrupt agent drift (e.g., sleep 100 loops or excessive conservatism)."
     claim_status: "SUPPORTED"
     support_level: "PHYSICAL_EVIDENCE_VERIFIED"
     review_depth:
@@ -484,16 +487,16 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00 (frame: frame_obs024_ci_autofix.jpg, sha256: 88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:30:00 (bundle: frame_obs024_a_multi_repo_audit.jpg [sha256: 963c7e1b1b8c2a5607f2d5f4f8bf60ec0e526e0ca6a6bbef83899d014b3f17ad], frame_obs024_b_p0_bug_routine.jpg [sha256: 16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026])"
 
   - observation_id: OBS-025
     source_ref: "SRC-PRI-001"
     timestamp_start: "T+04:46:00"
-    timestamp_end: "T+04:52:00"
-    actor: "Lauren Tan"
-    target: "PR Visual Verification Proof Policy"
+    timestamp_end: "T+05:38:00"
+    actor: "Lauren Tan & Steve (Bot)"
+    target: "PR Visual Verification Proof Policy & Verification Skill"
     observation_kind: "POLICY_ENFORCEMENT"
-    observed_content: "Lauren institutes a strict repository governance rule: all pull requests modifying frontend or user-facing interfaces must include physical video recordings or screenshot proofs generated by bots before approval, preventing blind merges."
+    observed_content: "Lauren and Steve institute a strict repository governance rule: all pull requests modifying frontend or user-facing interfaces must include physical video recordings or screenshot proofs in the PR description before approval ('verify skill always-on / media in the pr description, not committed into proof/')."
     claim_status: "SUPPORTED"
     support_level: "PHYSICAL_EVIDENCE_VERIFIED"
     review_depth:
@@ -504,7 +507,7 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00 (frame: frame_obs025_pr_visual_proof.jpg, sha256: dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00 (bundle: frame_obs025_pr_visual_proof.jpg [sha256: dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92], frame_obs025_b_visual_proof_rule.jpg [sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c], frame_obs025_c_pr_media_tab.jpg [sha256: 1fd231bfa7fa9d04a92b2b6c6d645af29529968aee353db69fcc23ee3b88c3e2])"
 
   - observation_id: OBS-026
     source_ref: "SRC-PRI-001"
@@ -529,11 +532,11 @@ observations:
   - observation_id: OBS-027
     source_ref: "SRC-PRI-001"
     timestamp_start: "T+05:28:00"
-    timestamp_end: "T+05:36:00"
-    actor: "Lauren Tan, Matt Palmer, Roshan Sadanani"
-    target: "Regulatory Barrier & Strategic Product Pivot"
+    timestamp_end: "T+05:46:00"
+    actor: "Lauren Tan, Matt Palmer, Roshan Sadanani & Steve (Bot)"
+    target: "Regulatory Barrier & Strategic Product Pivot to Art Exhibition (INT-004)"
     observation_kind: "FAILURE_AND_PIVOT"
-    observed_content: "Team encounters insurmountable real-world friction: SF municipal health department permits and alcohol licensing lead times require weeks of advance notice, making a compliant pop-up restaurant impossible within the 72h challenge (FAIL-002); hosts intervene (INT-004) to pivot product scope to a 'Grok Bot-themed art exhibition' in a raw warehouse."
+    observed_content: "Team encounters insurmountable real-world friction: SF municipal health department permits and alcohol licensing lead times require weeks of advance notice, making a compliant pop-up restaurant impossible within the 72h challenge (FAIL-002); Lauren issues explicit pivot instruction in chat ('ok small change of plan - instead of a restaurant popup, we\\'re gonna do a grok bot themed art exhibition'); Steve locks decision ('locked: first popup is a grok bot-themed art exhibition. venue finder stays, but generic — first type is mixed-use / warehouse / big open rooms. restaurants later')."
     claim_status: "SUPPORTED"
     support_level: "PHYSICAL_EVIDENCE_VERIFIED"
     review_depth:
@@ -544,18 +547,19 @@ observations:
       video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
       subtitle_review: "BURNED_SUBTITLE_VISUAL_REVIEW"
       audio_review: "NOT_INDEPENDENTLY_REVIEWED"
-    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00 (frame: frame_obs027_pivot_exhibition.jpg, sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c)"
+    evidence_locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:45:00 (bundle: frame_obs027_a_pivot_prompt.jpg [sha256: 153ac625a3cf8d0178308ae751507b3d7a2ef990ef670e5b342c7fcf520f975f], frame_obs027_b_pivot_locked.jpg [sha256: 73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b])"
 
   - observation_id: OBS-028
     source_ref: "SRC-PRI-001"
     timestamp_start: "T+06:12:00"
     timestamp_end: "T+06:24:00"
     actor: "Kevin Niparko & Roshan Sadanani"
-    target: "Cross-Functional PM Agent Pipeline"
+    target: "FlyLo Mobile Purchase Funnel Drop-off Analysis & Ashley Routine"
     observation_kind: "ACTION"
-    observed_content: "Kevin demonstrates the cross-functional PM pod on the FlyLo app: data bot Ashley detects funnel conversion dropoff (search-to-fare drop ~33.9% in demo data), product bot Pete drafts a PRD in Notion, design bot Pixel produces Figma Option A/B, and EM bot Emily decomposes tasks for cloud agents."
-    claim_status: "SUPPORTED"
-    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    observed_content: "Kevin demonstrates the cross-functional PM pod on the FlyLo app: data bot Ashley detects funnel conversion dropoff (search-to-fare drop ~53.8% in demo data), product bot Pete is tasked to draft a PRD in Notion, design bot Pixel produces Figma Option A/B, and EM bot Emily decomposes tasks for cloud agents."
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PARTIALLY_SCREEN_CORROBORATED"
+    epistemic_note: "Funnel data (53.8% search-to-fare drop) and 6am daily pulse routine verified on screen; full Notion PRD document was delegated to Pete in chat rather than displayed as completed standalone page."
     review_depth:
       identity_pinned: true
       metadata_verified: true

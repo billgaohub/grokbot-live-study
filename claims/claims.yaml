@@ -77,11 +77,11 @@ claims:
 
   - claim_id: CLM-010
     observation_refs: ["OBS-024"]
-    statement: "Automated monitoring bot can detect red CI builds and dispatch Cursor Cloud Agents to apply and merge fixes."
-    claim_type: "AUTONOMOUS_CI_REMEDIATION"
+    statement: "Multi-repo frontend audit detects live P0 trip lookup stub failure on FlyLo, and human operator establishes 5-minute supervisory watchdog routine against agent drift."
+    claim_type: "PRODUCTION_BUG_DETECTION_AND_AGENT_SUPERVISION"
     claim_status: "SUPPORTED"
     support_level: "PHYSICAL_EVIDENCE_VERIFIED"
-    verification_rationale: "Demonstrated live by Lingxi Li in engineering deep dive."
+    verification_rationale: "Recalibrated from generic 'CI auto-fix' to true on-screen workflow: multi-repo audit across 4 frontends, live P0 bug remediation dispatch, and 5-min supervisory routine against sleep-100/drift."
 
   - claim_id: CLM-011
     observation_refs: ["OBS-025"]

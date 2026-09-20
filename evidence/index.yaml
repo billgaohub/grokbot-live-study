@@ -80,11 +80,21 @@ evidence_records:
 
   - record_id: EV-011
     observation_ref: "OBS-020"
-    stream_offset: "02:38:00"
-    description: "Slack-to-GitHub-to-Vercel preview deployment"
+    stream_offset: "02:35:00 - 02:39:30"
+    description: "Slack-to-GitHub-to-Vercel preview deployment sequence (~4.5m)"
     frame_identifier: "frame_obs020_vercel_deploy.jpg"
     content_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
+    bundle_frames:
+      - frame_identifier: "frame_obs020_a_slack_prompt.jpg"
+        stream_offset: "02:35:00"
+        content_sha256: "0fbd0260bca42b958c1c723a2cfabb30cee6491c4108cd37ac8d205906477340"
+      - frame_identifier: "frame_obs020_vercel_deploy.jpg"
+        stream_offset: "02:38:00"
+        content_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
+      - frame_identifier: "frame_obs020_b_live_confirm.jpg"
+        stream_offset: "02:39:30"
+        content_sha256: "762164941090d4921983e82d95904f97e8ec790e9484860554149cb2fae23393"
 
   - record_id: EV-012
     observation_ref: "OBS-021"
@@ -100,27 +110,54 @@ evidence_records:
 
   - record_id: EV-014
     observation_ref: "OBS-023"
-    stream_offset: "04:05:00"
-    description: "Lingxi Li multi-agent engineering fleet hierarchy slide"
+    stream_offset: "04:02:00 - 04:08:00"
+    description: "Lingxi Li multi-agent engineering fleet hierarchy and Cursor Cloud Agent integration"
     frame_identifier: "frame_obs023_fleet_model.jpg"
     content_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
     locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
+    bundle_frames:
+      - frame_identifier: "frame_obs023_a_grok_overview.jpg"
+        stream_offset: "04:02:00"
+        content_sha256: "8c2a2f6965bf97f214f8f75325f4f8bcdefafd64ba1c4facf820a967159eb3c6"
+      - frame_identifier: "frame_obs023_fleet_model.jpg"
+        stream_offset: "04:05:00"
+        content_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
+      - frame_identifier: "frame_obs023_b_away_routine.jpg"
+        stream_offset: "04:08:00"
+        content_sha256: "c35d942d34dd7dc8ab3ec0fd482a4718d784a931b6418484a4634a9b4621fa9e"
 
   - record_id: EV-015
     observation_ref: "OBS-024"
-    stream_offset: "04:23:00"
-    description: "Cursor Cloud Agent CI red-build auto-fix log"
-    frame_identifier: "frame_obs024_ci_autofix.jpg"
-    content_sha256: "88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:23:00"
+    stream_offset: "04:26:00 - 04:30:00"
+    description: "FlyLo P0 trip lookup bug remediation and 5-minute supervisory routine setup"
+    frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
+    content_sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:30:00"
+    bundle_frames:
+      - frame_identifier: "frame_obs024_a_multi_repo_audit.jpg"
+        stream_offset: "04:26:00"
+        content_sha256: "963c7e1b1b8c2a5607f2d5f4f8bf60ec0e526e0ca6a6bbef83899d014b3f17ad"
+      - frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
+        stream_offset: "04:30:00"
+        content_sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
 
   - record_id: EV-016
     observation_ref: "OBS-025"
-    stream_offset: "04:48:00"
-    description: "PR mandatory video/screenshot visual proof policy"
-    frame_identifier: "frame_obs025_pr_visual_proof.jpg"
-    content_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:48:00"
+    stream_offset: "04:48:00 - 05:38:00"
+    description: "PR mandatory video/screenshot visual proof policy and verification rule in Steve chat"
+    frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
+    content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
+    bundle_frames:
+      - frame_identifier: "frame_obs025_pr_visual_proof.jpg"
+        stream_offset: "04:48:00"
+        content_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
+      - frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
+        stream_offset: "05:32:00"
+        content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
+      - frame_identifier: "frame_obs025_c_pr_media_tab.jpg"
+        stream_offset: "05:38:00"
+        content_sha256: "1fd231bfa7fa9d04a92b2b6c6d645af29529968aee353db69fcc23ee3b88c3e2"
 
   - record_id: EV-017
     observation_ref: "OBS-026"
@@ -130,11 +167,18 @@ evidence_records:
 
   - record_id: EV-018
     observation_ref: "OBS-027"
-    stream_offset: "05:32:00"
-    description: "Strategic pivot from restaurant to art exhibition due to permit delay"
-    frame_identifier: "frame_obs027_pivot_exhibition.jpg"
-    content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
+    stream_offset: "05:44:00 - 05:45:00"
+    description: "Strategic pivot prompt and lock from restaurant to Grok Bot art exhibition"
+    frame_identifier: "frame_obs027_b_pivot_locked.jpg"
+    content_sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
+    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:45:00"
+    bundle_frames:
+      - frame_identifier: "frame_obs027_a_pivot_prompt.jpg"
+        stream_offset: "05:44:00"
+        content_sha256: "153ac625a3cf8d0178308ae751507b3d7a2ef990ef670e5b342c7fcf520f975f"
+      - frame_identifier: "frame_obs027_b_pivot_locked.jpg"
+        stream_offset: "05:45:00"
+        content_sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
 
   - record_id: EV-019
     observation_ref: "OBS-028"

@@ -1,5 +1,6 @@
 verification_ledger_id: VER-LEDGER-GROKBOT-DAY1-FULL
 evaluated_at: "2026-09-20T21:10:00+08:00"
+sufficiency_audit_ref: "verification/day-1-evidence-sufficiency.yaml"
 
 correction_chains:
   - chain_id: CORR-CHAIN-001
@@ -178,6 +179,7 @@ playback_frame_verifications:
     frame_path: "evidence/frames/frame_obs020_vercel_deploy.jpg"
     frame_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
     target: "Vercel potato-labs project deploy preview render"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-020"
     subtitle_visible: true
     audio_independently_reviewed: false
     reviewed_at: "2026-09-20T21:30:00+08:00"
@@ -190,45 +192,50 @@ playback_frame_verifications:
     frame_path: "evidence/frames/frame_obs023_fleet_model.jpg"
     frame_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
     target: "Lingxi engineering fleet architecture slide (Why Grok Bot)"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-023"
+    epistemic_note: "PARTIALLY_SCREEN_CORROBORATED. Craig routine and Cursor Cloud Agent slides proven on screen; 5-role fleet hierarchy verbally articulated."
     subtitle_visible: true
     audio_independently_reviewed: false
     reviewed_at: "2026-09-20T21:30:00+08:00"
 
   - observation_ref: "OBS-024"
     media_source: "BV19fYf6kELz"
-    seek_timestamp: "04:23:00"
+    seek_timestamp: "04:30:00"
     review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
-    frame_identifier: "frame_obs024_ci_autofix.jpg"
-    frame_path: "evidence/frames/frame_obs024_ci_autofix.jpg"
-    frame_sha256: "88cb4e28422936c621731834b9e6af3b3822e310b6943d7e2fcd116e0c0d5c39"
-    target: "Lingxi FlyLo browser automation demonstration"
+    frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
+    frame_path: "evidence/frames/frame_obs024_b_p0_bug_routine.jpg"
+    frame_sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
+    target: "FlyLo P0 trip lookup bug detection and 5-minute supervisory watchdog routine"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-024"
     subtitle_visible: true
     audio_independently_reviewed: false
-    reviewed_at: "2026-09-20T21:30:00+08:00"
+    reviewed_at: "2026-09-20T22:00:00+08:00"
 
   - observation_ref: "OBS-025"
     media_source: "BV19fYf6kELz"
-    seek_timestamp: "04:48:00"
+    seek_timestamp: "05:32:00"
     review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
-    frame_identifier: "frame_obs025_pr_visual_proof.jpg"
-    frame_path: "evidence/frames/frame_obs025_pr_visual_proof.jpg"
-    frame_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
-    target: "Founding Eng bot orchestration and PR #2 interaction"
+    frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
+    frame_path: "evidence/frames/frame_obs025_b_visual_proof_rule.jpg"
+    frame_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
+    target: "PR mandatory visual proof policy and verification rule in Steve chat"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-025"
     subtitle_visible: true
     audio_independently_reviewed: false
-    reviewed_at: "2026-09-20T21:30:00+08:00"
+    reviewed_at: "2026-09-20T22:00:00+08:00"
 
   - observation_ref: "OBS-027"
     media_source: "BV19fYf6kELz"
-    seek_timestamp: "05:32:00"
+    seek_timestamp: "05:45:00"
     review_method: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
-    frame_identifier: "frame_obs027_pivot_exhibition.jpg"
-    frame_path: "evidence/frames/frame_obs027_pivot_exhibition.jpg"
-    frame_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
-    target: "Strategic pivot & PR visual proof standing rule in steve chat"
+    frame_identifier: "frame_obs027_b_pivot_locked.jpg"
+    frame_path: "evidence/frames/frame_obs027_b_pivot_locked.jpg"
+    frame_sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
+    target: "Strategic pivot prompt and lock from restaurant to Grok Bot art exhibition"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-027"
     subtitle_visible: true
     audio_independently_reviewed: false
-    reviewed_at: "2026-09-20T21:30:00+08:00"
+    reviewed_at: "2026-09-20T22:00:00+08:00"
 
   - observation_ref: "OBS-028"
     media_source: "BV19fYf6kELz"
@@ -238,6 +245,11 @@ playback_frame_verifications:
     frame_path: "evidence/frames/frame_obs028_pm_funnel.jpg"
     frame_sha256: "c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd"
     target: "FlyLo purchase funnel leak analysis and Ashley 6am routine"
+    evidence_bundle_ref: "verification/day-1-evidence-sufficiency.yaml#OBS-028"
+    epistemic_note: "PARTIALLY_SCREEN_CORROBORATED. 53.8% search-to-fare leak and 6am daily routine verified on screen; Notion PRD delegated to Pete in chat."
+    subtitle_visible: true
+    audio_independently_reviewed: false
+    reviewed_at: "2026-09-20T21:30:00+08:00"
     subtitle_visible: true
     audio_independently_reviewed: false
     reviewed_at: "2026-09-20T21:30:00+08:00"
