@@ -1,10 +1,11 @@
-# Grok Bot Live Study (Galaxy Day 1 Field Reconstruction)
+# Grok Bot Live Study: Empirical Field Reconstruction (xAI Galaxy 3-Day Sprint)
 
 [![Status](https://img.shields.io/badge/status-EMPIRICALLY_VERIFIED-brightgreen.svg)](STUDY_PROTOCOL.md)
-[![Scope](https://img.shields.io/badge/scope-Day_1_First_90m-blue.svg)](timeline/day-1.md)
+[![Scope](https://img.shields.io/badge/current%20scope-Day_1_First_90m-blue.svg)](timeline/day-1.md)
+[![Lifecycle](https://img.shields.io/badge/lifecycle-ACTIVE__FIELD__STUDY-blue.svg)](#lifecycle-state--evolution-roadmap)
 [![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY%204.0-green.svg)](LICENSE)
 
-> **Grok Bot Live Study** is an evidence-first, curated field-study record reconstructing the initial 90-minute livestream window (`T+00:00:00` to `T+01:30:00`) of xAI's Grok Bot Galaxy live-build event (September 15, 2026). It documents atomic observations, propositional claims, human approval gate latency, operational failures, and human-steered recovery loops.
+> **Grok Bot Live Study** is an evidence-first, curated field-study repository reconstructing xAI's **Grok Bot Galaxy** live-build sprint (September 15–17, 2026). It documents atomic observations, propositional claims, human approval gate latency, operational failures, multi-agent coordination, and human-steered recovery loops.
 
 ---
 
@@ -13,7 +14,7 @@
 To prevent epistemological circularity, this repository operates under a strict three-tier authority model:
 
 ```text
-Primary X Broadcast (1YGNrbXEeazGw)
+Primary X Broadcast (1YGNrbXEeazGw) & Mirrors
 = source factual authority (First-Party Ground Reality)
         ↓
 grokbot-live-study (This Repository)
@@ -29,18 +30,65 @@ agent-world-state (Specification & Validator)
 
 ---
 
-## 2. Study Scope & Review Modalities
+## 2. Event Scope, Lifecycle State & Evolution Roadmap
 
-### Scope Boundary
-While the overall Grok Bot Galaxy event was a three-day (72-hour) continuous live-build sprint, this v0.1 release specifically establishes the frozen empirical baseline for the **Day 1 First 90-Minute Window**:
-- **Temporal Window**: `T+00:00:00 → T+01:30:00` (Replay stream offset)
-- **Total Atomic Observations**: 16 (`OBS-001` through `OBS-016`)
-  - **7 Content-Verified Observations**: Direct visual inspection of extracted frames, UI components, cursor traces, and approval modals.
-  - **9 Mirror-Metadata Aligned Observations**: Segment boundaries corroborated against mirror chapter markers and broadcast summaries.
+### 3-Day Full Event Landscape (~25 Hours)
+The official xAI Grok Bot Galaxy event ran across three consecutive days (September 15–17, 2026), comprising roughly **25 hours of continuous field stream**:
+- **Day 1**: ~08:45:13 (31,513s, Replay mirror `BV19fYf6kELz`): Kickoff, agent setup, Google Slides cursor demonstrations, approval gate latencies, and initial Google Form failure/recovery.
+- **Day 2**: ~08:23:00: Deep multi-agent build sprint, bot swarm orchestration, specialized roles (marketing, sales, support bots), and codebase integration.
+- **Day 3**: ~07:58:00: Live production launch, real player gameplay, ~300 incoming PRs, merge bottlenecks, launch bugs, and final showcase.
 
-### Calibrated Review Modalities
-In alignment with strict epistemic defense principles, observer modalities are precisely decomposed:
-- **`media_access`**: `DIRECT_MEDIA_STREAM` (via Bilibili replay mirror `BV19fYf6kELz`, duration 31,513s / 08:45:13)
+### Lifecycle State
+This study is an **`ACTIVE_FIELD_STUDY`** progressing through phased historical reconstruction:
+
+| Dimension | Current Epistemic Status | Scope Target |
+|---|---|---|
+| **Repository Existence** | `VERIFIED` | Public citable research repository |
+| **Public Entry v0.1** | `VERIFIED` | Initial calibrated release |
+| **Day 1 First 90m** | `VERIFIED` (16 atomic observations) | Initial kickoff & permission failure |
+| **Day 1 Full Coverage** | `INCOMPLETE` | ~08:45:13 full broadcast |
+| **Day 2 Coverage** | `NOT YET STUDIED` | ~08:23:00 multi-agent sprint |
+| **Day 3 Coverage** | `NOT YET STUDIED` | ~07:58:00 launch, 300 PRs & showcase |
+| **3-Day Cross-Day Synthesis** | `NOT STARTED` | Multi-agent coordination patterns |
+| **Operational Decision** | **`PROCEED`** | Phased empirical coverage expansion |
+
+### Target Repository Architecture
+As full 3-day coverage expands, the repository structure evolves into a day-partitioned hierarchy:
+
+```text
+grokbot-live-study/
+├── timeline/
+│   ├── day-1.md                        # Day 1 timeline (T+00:00:00 to T+08:45:13)
+│   ├── day-2.md                        # Day 2 timeline (T+00:00:00 to T+08:23:00)
+│   └── day-3.md                        # Day 3 timeline (T+00:00:00 to T+07:58:00)
+├── observations/
+│   ├── day-1.yaml                      # Atomic observations for Day 1
+│   ├── day-2.yaml                      # Atomic observations for Day 2
+│   └── day-3.yaml                      # Atomic observations for Day 3
+├── analyses/
+│   ├── day-1.md                        # Day 1 focused analysis
+│   ├── day-2.md                        # Day 2 focused analysis
+│   ├── day-3.md                        # Day 3 focused analysis
+│   └── cross-day-synthesis.md          # 3-Day unified multi-agent synthesis
+├── corrections/
+│   └── correction-ledger.yaml          # Formal claim corrections & calibrations
+└── STUDY_PROTOCOL.md                   # Epistemic axes & sampling methodology
+```
+
+### Phased Empirical Methodology (Anti-Mechanical Transcribing)
+We explicitly reject mechanical second-by-second transcription of 25 hours of video. Instead, we enforce our proven risk-weighted extraction pipeline:
+
+$$\text{Full Source Access} \longrightarrow \text{Segment Demarcation} \longrightarrow \text{Critical Event Extraction} \longrightarrow \text{Atomic Observation} \longrightarrow \text{Physical Frame Review} \longrightarrow \text{Claim/Contradiction Audit} \longrightarrow \text{Cross-Day Synthesis}$$
+
+- **Third-Party Notes Policy**: Independent public community summaries (e.g. `Roenel/Grok-Bot-Galaxy-Notes`) serve strictly as **discovery leads and index markers**, never as factual authority. Every observation promoted to this study requires physical verification against primary media streams.
+- **Priority Research Phenomena**: Focus compute on high-leverage architectural phenomena:
+  - Production deployment gates and user feedback friction
+  - Multi-bot orchestration bottlenecks (marketing/sales/dev roles)
+  - Human merge gates and PR review queues (~300 PRs on Day 3)
+  - Failure recovery loops, rollback events, and runtime bugs
+
+### Calibrated Review Modalities (v0.1 Baseline)
+- **`media_access`**: `DIRECT_MEDIA_STREAM` (via Bilibili mirror `BV19fYf6kELz`, duration 31,513s / 08:45:13)
 - **`video_review`**: `FRAME_EXTRACTION_AND_VISUAL_REVIEW` (Precise timestamp seek and OCR inspection)
 - **`subtitle_review`**: `BURNED_SUBTITLE_VISUAL_REVIEW` (Burned-in bilingual subtitle stream verification)
 - **`audio_review`**: `NOT_INDEPENDENTLY_REVIEWED` (Audio waveforms and spoken utterances were not subject to isolated algorithmic transcription)
@@ -75,7 +123,7 @@ grokbot-live-study/
 ├── timeline/
 │   └── day-1.md                       # Chronological narrative of first 90 minutes
 ├── observations/
-│   └── observations.yaml              # 16 atomic observations with orthogonal axes
+│   └── day-1.yaml                     # 16 atomic observations with orthogonal axes
 ├── claims/
 │   └── claims.yaml                    # Propositional claims and support grades
 ├── failures/

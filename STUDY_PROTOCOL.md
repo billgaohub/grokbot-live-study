@@ -47,8 +47,31 @@ Observations are graded into four strictly defined support levels:
 
 ---
 
-## 4. Single Source of Truth Demarcation
+## 4. Single Source of Truth Demarcation & Epistemic Hierarchy
 
-- **Factual Authority**: Primary X Broadcast `1YGNrbXEeazGw` and official xAI documentation.
-- **Curated Record Authority**: This repository (`grokbot-live-study`), providing reproducible atomic event reconstructions.
-- **Derived Model Authority**: Downstream specification systems (e.g. `agent-world-state`), which ingest these records to validate abstract schemas.
+To prevent epistemological circularity and clarify authority boundaries:
+- **Source Factual Authority**: Primary X Broadcast `1YGNrbXEeazGw` and official xAI technical documentation.
+- **Media Mirror Reference**: Replay stream mirrors (e.g., Bilibili `BV19fYf6kELz` 31,513s) serving as timestamped physical playback mirrors.
+- **Curated Field-Study Record Authority**: This repository (`grokbot-live-study`), providing calibrated, atomic, and reproducible event reconstructions.
+- **Derived Model Authority**: Downstream specification and formal governance systems (e.g. `agent-world-state`), which ingest these records to validate abstract state transition models.
+
+---
+
+## 5. Phased Coverage Roadmap (Day 1, Day 2, Day 3)
+
+### Scope Breakdown (~25 Total Hours)
+1. **Day 1 (~08:45:13, BV19fYf6kELz / 31,513s)**:
+   - Initial 90m slice: Complete (`OBS-001` to `OBS-016`).
+   - Remainder (`T+01:30:00 → T+08:45:13`): Early game mechanics development, prompt tuning, initial web UI integration, developer coordination bottlenecks.
+2. **Day 2 (~08:23:00)**:
+   - Multi-agent swarm orchestration, specialized agent roles (marketing, sales, dev, customer support bots), code integration, test suite iteration.
+3. **Day 3 (~07:58:00)**:
+   - Live production release, real player gameplay, ~300 incoming pull requests, human-in-the-loop merge gate queuing, production bugs, and final showcase.
+
+### Sampling & Extraction Protocol
+To preserve high epistemic density without second-by-second transcription:
+1. **Segment Indexing**: Map the continuous video stream into logical work sessions and milestone markers.
+2. **Event Filtering**: Isolate state transitions, operational failures, human interventions, tool-call stalls, and architectural claims.
+3. **Physical Probing**: Seek to exact timestamps and extract key visual frames verifying UI states.
+4. **Third-Party Notes Policy**: Community summaries (e.g. `Roenel/Grok-Bot-Galaxy-Notes`) are strictly **discovery leads**, never factual authority. All assertions must be corroborated against primary footage.
+5. **Cross-Day Synthesis**: Contrast early single-agent friction (Day 1) against multi-agent swarm coordination and human merge bottlenecks (Day 2/3).
