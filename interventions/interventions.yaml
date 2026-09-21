@@ -75,3 +75,22 @@ interventions:
   intervention_action: Bot drafts refund response but system enforces mandatory human sign-off button; human operator reviews
     and approves payment adjustment.
   outcome: Autonomous bot prevented from executing unilateral financial disbursements.
+
+- intervention_id: INT-D3-001
+  observation_ref: OBS-D3-009
+  timestamp: T+02:40:00
+  type: SLACK_COORDINATED_EDGE_WAF_RECONFIGURATION
+  actor: Steve & DevOps Engineers (Human)
+  target_system: Cloudflare WAF & Edge Cache
+  trigger: Traffic spike drops user connections and triggers edge rate-limiting stalls (FAIL-D3-001)
+  intervention_action: Engineers manually coordinate in Slack channel to adjust WAF rate limit thresholds and edge caching bypass rules; stream temporarily paused to buffer traffic.
+  outcome: Edge connectivity restored; matchmaking queue resumes processing player traffic without continuous timeouts.
+- intervention_id: INT-D3-002
+  observation_ref: OBS-D3-019
+  timestamp: T+06:50:00
+  type: HUMAN_IN_THE_LOOP_MERGE_GATE_AND_PR_TRIAGE
+  actor: Bake Operator & Human Gatekeeper
+  target_system: GitHub Checks & Main Branch Merge Pipeline
+  trigger: High-volume PR churn causing CI check backlog across community and agent submissions
+  intervention_action: Human gatekeeper enforces selective PR triage; Bake bot inspects code changes, but final branch integration requires human review sign-off to prevent broken builds.
+  outcome: Main branch stability preserved under high-concurrency PR submissions; prevents repeat of uncoordinated merge crashes observed on Day 2.

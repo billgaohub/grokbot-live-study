@@ -50,8 +50,12 @@ Observations are graded into four strictly defined support levels:
 ## 4. Single Source of Truth Demarcation & Epistemic Hierarchy
 
 To prevent epistemological circularity and clarify authority boundaries:
-- **Source Factual Authority**: Primary X Broadcast `1YGNrbXEeazGw` and official xAI technical documentation.
-- **Media Mirror Reference**: Replay stream mirrors (e.g., Bilibili `BV19fYf6kELz` 31,513s) serving as timestamped physical playback mirrors.
+- **Source Factual Authority**: Primary X Broadcasts:
+  - Day 1 (2026-09-15): Broadcast ID `1mrxmysvovQxy` (Replay mirror `BV19fYf6kELz`, 31,513s / 08:45:13)
+  - Day 2 (2026-09-16): Broadcast ID `1PKqrNyvmYwGb` (30,199s / 08:23:19)
+  - Day 3 (2026-09-17): Broadcast ID `1YGNrbXEeazGw` (28,703s / 07:58:23)
+  alongside official xAI technical announcements.
+- **Media Mirror Reference**: Primary footage streams and timestamped physical playback captures.
 - **Curated Field-Study Record Authority**: This repository (`grokbot-live-study`), providing calibrated, atomic, and reproducible event reconstructions.
 - **Derived Model Authority**: Downstream specification and formal governance systems (e.g. `agent-world-state`), which ingest these records to validate abstract state transition models.
 

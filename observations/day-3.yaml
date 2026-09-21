@@ -1,0 +1,527 @@
+observations_collection_id: OBS-COLL-GROKBOT-DAY3-FULL
+evaluated_at: "2026-09-21T10:45:00+08:00"
+source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw (Broadcast 1YGNrbXEeazGw)"
+research_lead_authority: "Roenel/Grok-Bot-Galaxy-Notes (commit 218ebb6db09ddd140cabb0f0869428df7a27754f)"
+study_window: "T+00:00:00 to T+07:58:23 (Galaxy Day 3 Full Stream - 28,703s)"
+total_observations: 26
+
+observations:
+  - observation_id: OBS-D3-001
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+00:00:00"
+    timestamp_end: "T+00:10:00"
+    actor: "Studio Production"
+    target: "Grok Bot Galaxy Day 3 Title Card & Countdown"
+    observation_kind: "BROADCAST_SETUP"
+    observed_content: "Cold open title countdown slate with ambient audio setup, establishing Day 3 launch stream."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "BACKGROUND_AUDIO_VERIFIED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:00:00 (bundle: d3_0000_galaxy-title.png [sha256: 2925c4be5882735af5775458f4db3d6d554e1c1398d906302da0f40ede7b9373], d3_1000_panel.png [sha256: 1c22ad22bd90e798b9b3ab4fae230c104dcb5420e982e3d3d2560544ee8b5efd])"
+
+  - observation_id: OBS-D3-002
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+00:10:00"
+    timestamp_end: "T+00:20:00"
+    actor: "Studio Panel & Bake Agent"
+    target: "Launch Day Objectives & Bake Workspace Review"
+    observation_kind: "PLANNING_AND_INSPECTION"
+    observed_content: "Hosts introduce Day 3 goals (multiplayer release, community PR review). Bake chat workspace displays code repo status and PR review readiness."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:15:00 (bundle: d3_1500_bake-chat-demo.png [sha256: 40d824b58f46330f52db5827790a9be8647754e24051dfcf85d22828e7a2c300], d3_1629_bake_workspace.png [sha256: 82a4beb7c40e01a971d9ed35be3ecc29a99a309b36851da47bddbc53fc315e2e])"
+
+  - observation_id: OBS-D3-003
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+00:20:00"
+    timestamp_end: "T+00:38:47"
+    actor: "Presenters & Cupcake Battle Engine"
+    target: "Cupcake Multiplayer Live Battle Round 1"
+    observation_kind: "GAMEPLAY_TEST"
+    observed_content: "First public card battle of Cupcake ('They took round 1') played live on screen, followed by RevOps use case transition."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:20:00 (bundle: d3_2000_round1-cupcake.png [sha256: 2e0cf1ef8b1fb8dc44a8817a41bc8e16a93689f43d7f8bffe2de3d828e6b60f9], d3_3543_revops-marops-use-cases.png [sha256: 15b4f294bb10d2e73897af3fe946f7350514348a1e95a141afc2cbdba03bbb67])"
+
+  - observation_id: OBS-D3-004
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+00:38:47"
+    timestamp_end: "T+00:54:10"
+    actor: "RevOps Agents (Fisher, OP-1, Juno)"
+    target: "Sofia Lead Deck Generation & Lead Qualification"
+    observation_kind: "AGENT_PIPELINE_DEMO"
+    observed_content: "Autonomous RevOps pipeline parses incoming leads, generates Sofia lead card deck, and outlines pipeline acceleration."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:45:00 (bundle: d3_1508_op1-notes.png [sha256: 3048749e338f72fb4e4268b2ca4350ab8dab4782d113ecc3eee8538647e2542d], d3_1510_juno-workflow.png [sha256: 0b8f29a662174e7e4abfb6c257f8f7a6d91a67341222daf4f49805669d06e9ef], d3_1517_lead-card-sofia.png [sha256: 11a118b9f5be4e06957032069ae66d76f120f9c24fe07580fa0cd3bdf7f9ec43])"
+
+  - observation_id: OBS-D3-005
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+00:54:10"
+    timestamp_end: "T+01:24:59"
+    actor: "Presenter & Studio Hosts"
+    target: "Starbase Trip Challenge QR Code & Community Intake"
+    observation_kind: "PROMOTION_AND_QA"
+    observed_content: "Presenter displays QR code for Starbase launch trip competition and community bot submissions. Spoken reward fulfillment occurs off-stream."
+    claim_status: "CALIBRATED_SUPPORT"
+    support_level: "PARTIALLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:05:00 (bundle: d3_10050_questions.png [sha256: a031e77e0973f787e18fc1152cb329f39b8930a57e1609d7f07f5a5ea2e4f1e1], d3_10959_starbase-promo-qr.png [sha256: b2b415cee09ec7ee3a42f5e67658900920bcabf68506be460cbacefa7f3ef67f], d3_12158_grok-bot-galaxy-panel.png [sha256: f68f5408a7526dfd46e2907a344199b02a763e4b5763f84baaf18b08e6c22f54])"
+
+  - observation_id: OBS-D3-006
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+01:24:59"
+    timestamp_end: "T+01:42:37"
+    actor: "Engineers & Presenters"
+    target: "Launch Checklist Walkthrough & Card Draft Testing"
+    observation_kind: "VERIFICATION"
+    observed_content: "Launch checklist reviewed on screen. Card draft mechanics verified in live client ('You took round 1')."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:30:00 (bundle: d3_1555_launch-checklist.png [sha256: ba8d156d50c2881a8b561b91327559b3627896ae70a48f7b2aca5a8281cd74e4], d3_1602_card-draft.png [sha256: 12a9ad97b753039c50574877b402213ff7a8947d814b9d7141aacd70a8933fb4], d3_1602_end-you-took-round1.png [sha256: 3bd4f486ec6584d1bb3cdcb0bec20e2167e4bcd5c6ab80af87a7a657bb3e0185])"
+
+  - observation_id: OBS-D3-007
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+01:42:37"
+    timestamp_end: "T+01:58:49"
+    actor: "Studio Panel"
+    target: "Public Matchmaking QR Routing & Global Leaderboard Open"
+    observation_kind: "DEPLOYMENT_ACTION"
+    observed_content: "Public QR entrance code shown on stream routing users to SAP matchmaking queue; global leaderboard begins tracking external records."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:50:00 (bundle: d3_1620_sap_matches_qr.png [sha256: b2a9ba33830040211825e54872b89780ce522f35b7eb710e0824638a054777d3], d3_1652_global-leaderboard.png [sha256: c2d419da9089ba88a28d722797ec7446003a862798717f55619a9c15fbc7e405])"
+
+  - observation_id: OBS-D3-008
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+01:58:49"
+    timestamp_end: "T+02:14:40"
+    actor: "Operations Analytics"
+    target: "Cupcake 41.8% Win Rate Telemetry Slide"
+    observation_kind: "METRIC_REPORTING"
+    observed_content: "Screen presents operational KPI card with 41.8% win rate metric, public match outcomes, and deck distribution."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:05:00 (bundle: d3_1622_cupcake_kpis.png [sha256: d9bcd826acd9a889ef59d7075edd27bdea789ff824306b9dc3516e6e0a10acd2], d3_1625_public_match_result.png [sha256: 5764a8f98f0c03f2ce93a293aa60c2782485f40a72599abd1b91cb3b2fd86ea1])"
+
+  - observation_id: OBS-D3-009
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+02:14:40"
+    timestamp_end: "T+02:46:45"
+    actor: "Steve & Engineering Team (Slack)"
+    target: "WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration"
+    observation_kind: "INCIDENT_AND_INTERVENTION"
+    observed_content: "Traffic spike causes edge caching and Cloudflare WAF stalls (FAIL-D3-001). Steve and engineers coordinate via Slack to modify edge rules and rate limits (INT-D3-001)."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:35:00 (bundle: d3_1643_feedback-chart.png [sha256: 1db264c3842dee8cd1edf0adca1bca5a8cae2e2a3cde8d3d47ed3aada8ee8904], d3_1647_cupcake-phone.png [sha256: 91d298435d5ff0d8aad98040e071eaf2faac07e65575d4e5474740035f0d8884], d3_1654_crumb-chat.png [sha256: c032418748e95b60d9d8652dcd86104d5f3d53376edba8aa6a288cde769fe648], d3_1138_steve-slack-waf-edge.png [sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792], d3_1655_steve-slack-waf-edge.png [sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792])"
+
+  - observation_id: OBS-D3-010
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+02:46:45"
+    timestamp_end: "T+03:17:32"
+    actor: "Thursday Arena Players & Ops"
+    target: "Arena Match Flow, Victory Screen & Visitor Funnel Snapshot"
+    observation_kind: "GAMEPLAY_AND_FUNNEL_ANALYTICS"
+    observed_content: "Players configure card teams, match flow resolves to victory screen, and conversion funnel snapshot captures drop-offs."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:55:00 (bundle: d3_1424_thursday-arena-start.png [sha256: 9739f39d4e2ae4c02c1c195b91542813fd93721a0c0a1c00982d8ae704b64729], d3_1429_build-your-team.png [sha256: 0999bf2f14060f326509f1422224176de902119d9a6129babff994e162cd7ebc], d3_1430_win.png [sha256: 51a6da911328a3807bd75a28dad093483dfd272bf225ee3c74e7cade549c4e01], d3_1440_funnel-snapshot.png [sha256: 3a8f39f8dde903c5a5eec87cee9f82bea68e611c1bece6b730bdcc6a2833cee4])"
+
+  - observation_id: OBS-D3-011
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+03:17:32"
+    timestamp_end: "T+03:55:07"
+    actor: "Cerebro Marketing Agent & Operators"
+    target: "Cerebro Intelligence Dashboard & Clay Connector Webhook"
+    observation_kind: "AGENT_ORCHESTRATION"
+    observed_content: "Cerebro marketing agent launches with scoring dashboard; human engineer crafts Clay webhook connector prompt for lead enrichment."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=03:40:00 (bundle: d3_0322_thursday_arena_resume.png [sha256: 8b38d231326054e010737a52d0318d838ccd999cb79786db542b508175103789], d3_0331_marketing_operations_demo.png [sha256: 41fb175a74a88603ec5c2ae7e059e39250f94e96ba0e3fd5406f2659fcf72016], d3_0336_cerebro_chat_final.png [sha256: addb6c81cb576469b00d301950cf61f08b67992dd97a7a528e58e26534b4d429], d3_0339_cerebro_marketing-operations.png [sha256: 990877bea62e511213395cd41a4e71d4963bedc1516d9a7a01673fc39bb075cb], d3_0355_cerebro_clay_prompt.png [sha256: ff369e053f6a4a8365f0e5ec37e5cfb284a34b8539552ae1bbfb4e12741978ef])"
+
+  - observation_id: OBS-D3-012
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+03:55:07"
+    timestamp_end: "T+04:12:15"
+    actor: "Presenter & Studio Hosts"
+    target: "Enterprise Why Grok Bot Value Proposition Presentation"
+    observation_kind: "STRATEGY_PRESENTATION"
+    observed_content: "Slide presentation detailing Grok Bot ROI metrics, automated post-sales workflows, and team organizational redesign."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=04:05:00 (bundle: d3_0359_why_grok_bot_tiles.png [sha256: ec06c30cc5974fa0f7345880f70e777cd4c2234d8c968533a340ca267a24d75e], d3_0426_what-we-learned.png [sha256: da8cc9cbd9cce7ec7691670ac8ed4c4361a73c707ad554885732cf75018d9013])"
+
+  - observation_id: OBS-D3-013
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+04:12:15"
+    timestamp_end: "T+04:51:37"
+    actor: "Technical Panel & Audience"
+    target: "Stage Architecture Q&A & State Management Discussion"
+    observation_kind: "COMMUNITY_QA"
+    observed_content: "Technical panel addresses developer questions regarding agent memory persistence, VM boundaries, and cross-bot communication."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=04:30:00 (bundle: d3_0429_questions-stage.png [sha256: 123780795705133b346562026194162c342239a1bf55f06aeb63fc88dee29fdd], d3_12459_panel-end.png [sha256: b14d4958f2cb5c434889ba55745d9449b311a26a4996f979cf2f649bb8c4fc73])"
+
+  - observation_id: OBS-D3-014
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+04:51:37"
+    timestamp_end: "T+05:09:22"
+    actor: "Production Ops"
+    target: "Cupcake Production Launch Performance Dashboard"
+    observation_kind: "METRIC_MONITORING"
+    observed_content: "Production monitoring chart shows live match concurrency, win resolutions, and server load."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:00:00 (bundle: d3_0454_cupcake-launch-chart.png [sha256: db2cf4dca2f0eabad90dd00fb05440584c975ab71b59a63d10218d5b2aa1120b], d3_0505_win-screen.png [sha256: 6d1c734d1a06d7395666424b7978c836285c4b2fede31cb9fd42ee321593e7f0])"
+
+  - observation_id: OBS-D3-015
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+05:09:22"
+    timestamp_end: "T+05:44:57"
+    actor: "Frontend Engineers"
+    target: "Pokemon Card CSS Layout & BaseUI Migration"
+    observation_kind: "ENGINEERING_DEMO"
+    observed_content: "Developers showcase Pokemon card-style CSS styling updates and discuss progress migrating UI components to BaseUI."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:25:00 (bundle: d3_0512_voice-agents.png [sha256: 2816363657c087eca0119f9b0fc08ca2eef2db3d23c32cfc40aceecfb6e4be4f], d3_0522_pokemon-cards.png [sha256: 51cde2d117e88aaef8ba76930d0d3a50885e24bba13a364544aeaf1794b3261b], d3_052850_baseui-migration.png [sha256: d3f1de3cc412f8bc11d702cf88502130a831a4800bb375cd72a618850d729b41])"
+
+  - observation_id: OBS-D3-016
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+05:44:57"
+    timestamp_end: "T+06:06:34"
+    actor: "Marketing Agents & Human Operator"
+    target: "GTM Campaign Asset Synthesis & Competitor Matrix"
+    observation_kind: "CAMPAIGN_GENERATION"
+    observed_content: "Market research agent synthesizes competitor table, generates positioning brief, and formats GTM campaign sheet."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:55:00 (bundle: d3_0606_launching-marketing-campaign.png [sha256: 28e9c3369497c6e279424c7526d63c9b3405a36598d0c5ca776bdaa0b8bffaf2], d3_0610_competitor-table.png [sha256: 21690adf46bd3f0a5bb9b6971a2f17e3031c332aa389204aa5f63bda87628b4e], d3_0613_positioning-brief.png [sha256: 01e6b562ce588f4924c7a8cb312545250710cec32ba828c7046f9751c54c9cd6])"
+
+  - observation_id: OBS-D3-017
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+06:06:34"
+    timestamp_end: "T+06:25:06"
+    actor: "Project Manager Bot & Developer"
+    target: "Project Manager Outline Export to Cursor Terminal Compilation"
+    observation_kind: "CODE_COMPILATION_DEMO"
+    observed_content: "Project Manager dashboard exports UI outline directly into Cursor terminal; engineer triggers build command."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:15:00 (bundle: d3_0619_ui-outline-open-in-cursor.png [sha256: f12c710c9a9b929d3e8ea0c3a41930b7cbcfb5d8a27d5f62b27581210d09ccac], d3_0620_building-from-outline-terminal.png [sha256: f322611ffc3f52a3f499e657e75afc758913e77986471c99ec5679c03ce38516], d3_0625_project-manager_playing.png [sha256: 0c53bc4ff68fb9c34cd991dd9571f7d02804b5780de90c0f31fe35138e395191])"
+
+  - observation_id: OBS-D3-018
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+06:25:06"
+    timestamp_end: "T+06:41:53"
+    actor: "Marketing Presenter"
+    target: "Template Marketplace & Commercial QR Routing"
+    observation_kind: "MARKETPLACE_DEMO"
+    observed_content: "Showcase of agent template marketplace with QR routing for instant bot cloning and arena menu interaction."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:30:00 (bundle: d3_0629_what-we-learned-qr.png [sha256: ddd4fab8e2df6ba41d083779fcc21a018f7372489d8c4b43d9875872b939318d], d3_054457_thursday-arena-menu.png [sha256: 01ec95ff5d269286785efd35fe347f6a16a420e2174fa8c87d51807c6ac0091a])"
+
+  - observation_id: OBS-D3-019
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+06:41:53"
+    timestamp_end: "T+06:57:37"
+    actor: "Bake Agent & Human Gating"
+    target: "Traffic Surge, GitHub Checks Backlog & Bake PR Filtering"
+    observation_kind: "INCIDENT_AND_INTERVENTION"
+    observed_content: "Traffic spike causes GitHub Checks backlog across incoming community PRs. Bake reviews PRs under human merge gating (INT-D3-002). Exact '~300 PR' figure is verbally claimed, while CI congestion is visually observed."
+    claim_status: "CALIBRATED_SUPPORT"
+    support_level: "PARTIALLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:50:00 (bundle: d3_0646_traffic-graph.png [sha256: 1f32266774041a936b89642fd6257d9fcd1fa8e1f0c33a557a5f4e1546df11c2], d3_0652_leaderboard.png [sha256: 20af88c3ed94a498ba0a38d21af0c3f13fc698688380fb7a74ce60918636ad9f], d3_0657_bake-chat.png [sha256: 932279ed3ab1e305bee8c5c3108efdd6df9e484c77a97bc67c50bc6a2470c66f], d3_0657_github-checks.png [sha256: 6fc8fe7362b229b7af4eaf8712ef6bf38b6e8fc68d05fa2e1330aa43b424010e])"
+
+  - observation_id: OBS-D3-020
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+06:57:37"
+    timestamp_end: "T+07:37:41"
+    actor: "Presenter & Projects Manager"
+    target: "Sponsor Form Submission & Thursday Arena Rules Adjudication"
+    observation_kind: "COMMERCIAL_AND_RULES_DEMO"
+    observed_content: "Sponsor registration intake form validated on screen; game rules verified. Commercial fulfillment handled post-broadcast."
+    claim_status: "CALIBRATED_SUPPORT"
+    support_level: "PARTIALLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:15:00 (bundle: d3_0700_projects-manager.png [sha256: a4a548d0e269def0c8072ccb2515f22210513bfabf8ec5435422273d9f38366d], d3_0710_thursday-arena.png [sha256: 0c7d281c52be99e8de8a9cc4b23b2a41410520df3799f33f275d6934e74acaf9], d3_0737_rules-thursday-arena.png [sha256: 67a60e20f6ca094f3ed3de1f01d80cd4e6787ffd96e5132b59647a852ca69748])"
+
+  - observation_id: OBS-D3-021
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+07:37:41"
+    timestamp_end: "T+07:58:23"
+    actor: "Studio Hosts & Founders"
+    target: "Ship-by-Thursday Roadmap, Final Cupcake Metrics & Stream Close"
+    observation_kind: "FINAL_SHOWCASE"
+    observed_content: "Team presents final Cupcake KPI chart, total active players, Ship-by-Thursday milestone roadmap, ad-bid intake, and stream concludes with end card at 07:58:23."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:55:00 (bundle: d3_1950_cupcake-kpi-chart.png [sha256: 7c0e780f73fe97bc7ac379156ec4e0c0060008220e9715d1ab306a3e6308f675], d3_1951_total-users-chart.png [sha256: 068c079e5f3d5e099ae68a17accbcbdbc79894263f984a681d6b4edc9443a861], d3_1952_ship-by-thursday-roadmap.png [sha256: 4304cf93937536a94329cb49d0e639bd7a35b564b66a61822187df827b0a8445], d3_1953_mvp-factory-livestream-timeline.png [sha256: 5c83a4ca86a00e7a3cc95074b6db3c8af1778e990037b20b77a30950dc557c7f], d3_1956_ad-bid-form.png [sha256: c3a60a316284108e97ba2c5b51ebde852efe9e46a179fac6067fa773c50641ef], d3_1958_end-card-grok-bot-galaxy.png [sha256: 7a2249457190543197ee973eaf1f49683075666d9a87031f9fce6751a65cf1f5])"
+
+  - observation_id: OBS-D3-022
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+01:09:59"
+    timestamp_end: "T+01:24:59"
+    actor: "Broadcast Operations"
+    target: "Mid-Morning Break Slate & Intermission Transition"
+    observation_kind: "INTERMISSION"
+    observed_content: "Grok Bot Galaxy Be Right Back graphic displayed between morning Q&A and launch checklist."
+    claim_status: "METADATA_ALIGNED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "MIRROR_METADATA_ALIGNED"
+      video_review: "TIMECODE_AND_STREAM_MONITORING"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:15:00"
+
+  - observation_id: OBS-D3-023
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+03:02:07"
+    timestamp_end: "T+03:17:32"
+    actor: "Broadcast Operations"
+    target: "Afternoon Intermission Card"
+    observation_kind: "INTERMISSION"
+    observed_content: "Broadcast break between marketing sheet review and Cerebro agent startup."
+    claim_status: "METADATA_ALIGNED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "MIRROR_METADATA_ALIGNED"
+      video_review: "TIMECODE_AND_STREAM_MONITORING"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=03:10:00"
+
+  - observation_id: OBS-D3-024
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+04:40:00"
+    timestamp_end: "T+04:51:37"
+    actor: "Broadcast Operations"
+    target: "Pre-Production Monitoring Intermission Slate"
+    observation_kind: "INTERMISSION"
+    observed_content: "Stream intermission graphic following stage Q&A session."
+    claim_status: "METADATA_ALIGNED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "MIRROR_METADATA_ALIGNED"
+      video_review: "TIMECODE_AND_STREAM_MONITORING"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=04:45:00"
+
+  - observation_id: OBS-D3-025
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+07:17:30"
+    timestamp_end: "T+07:37:41"
+    actor: "Studio Panel"
+    target: "Grok Bot Credits Allotment & Community Slack Chatter"
+    observation_kind: "PANEL_DISCUSSION"
+    observed_content: "Panel discusses community credit allocations and Slack developer reactions prior to final showcase."
+    claim_status: "METADATA_ALIGNED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "MIRROR_METADATA_ALIGNED"
+      video_review: "TIMECODE_AND_STREAM_MONITORING"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:25:00"
+
+  - observation_id: OBS-D3-026
+    source_ref: "SRC-PRI-003"
+    timestamp_start: "T+07:55:00"
+    timestamp_end: "T+07:58:23"
+    actor: "Studio Production"
+    target: "Stream End Card & Final Stream Fade"
+    observation_kind: "BROADCAST_CLOSE"
+    observed_content: "Stream conclusion card at 07:58:23 marking the end of Grok Bot Galaxy 3-day challenge."
+    claim_status: "METADATA_ALIGNED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "MIRROR_METADATA_ALIGNED"
+      video_review: "TIMECODE_AND_STREAM_MONITORING"
+      subtitle_review: "NOT_APPLICABLE"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:58:23"

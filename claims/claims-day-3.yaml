@@ -1,0 +1,51 @@
+schema_version: "2.0.0"
+claims_ledger_id: "CLM-LEDGER-GROKBOT-DAY3-FULL"
+evaluated_at: "2026-09-21T10:45:00+08:00"
+source_ref: "OBS-COLL-GROKBOT-DAY3-FULL"
+total_claims: 5
+
+claims:
+  - claim_id: "CLM-D3-001"
+    hypothesis_ref: "HYP-D3-001"
+    observation_refs: ["OBS-D3-009"]
+    statement: "Public traffic spikes from livestream QR codes triggered Cloudflare WAF rate-limiting and edge stalls, requiring manual Slack intervention to restore service."
+    claim_type: "INFRASTRUCTURE_INCIDENT"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Directly verified on screen via mobile feedback charts, crumb chat stalls, and Steve's engineering Slack coordination adjusting WAF edge thresholds (FAIL-D3-001, INT-D3-001)."
+
+  - claim_id: "CLM-D3-002"
+    hypothesis_ref: "HYP-D3-002"
+    observation_refs: ["OBS-D3-019"]
+    statement: "An influx of approximately 300 community and bot pull requests generated a GitHub Checks queue backlog requiring human merge gating."
+    claim_type: "DEVELOPMENT_BOTTLENECK"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+    verification_rationale: "GitHub Checks queuing and Bake merge review triage are physically verified on UI (INT-D3-002); however, the exact figure of '~300 PRs' is a verbally reported metric without raw commit/PR API telemetry."
+
+  - claim_id: "CLM-D3-003"
+    hypothesis_ref: "HYP-D3-003"
+    observation_refs: ["OBS-D3-008"]
+    statement: "Cupcake multiplayer battle system recorded an operational 41.8% win rate across active player matches."
+    claim_type: "GAMEPLAY_METRIC"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+    verification_rationale: "Operational KPI slide physically displayed on stream with 41.8% win rate, total match count, and deck performance metrics across the test window."
+
+  - claim_id: "CLM-D3-004"
+    hypothesis_ref: "HYP-D3-004"
+    observation_refs: ["OBS-D3-011", "OBS-D3-017"]
+    statement: "Cerebro autonomous marketing agents can execute end-to-end campaign creation and compile frontend code without human intervention."
+    claim_type: "AUTONOMOUS_CAPABILITY"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Cerebro successfully synthesized audience scoring and market outlines; however, frontend compilation was not fully autonomous: human operators entered specific Clay connector prompts and initiated Cursor terminal build commands."
+
+  - claim_id: "CLM-D3-005"
+    hypothesis_ref: "HYP-D3-005"
+    observation_refs: ["OBS-D3-005", "OBS-D3-020"]
+    statement: "Commercial incentives (Starbase trip challenge and ad-bid sponsorships) were executed and fulfilled entirely on-stream."
+    claim_type: "COMMERCIAL_COMMITMENT"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+    verification_rationale: "Intake QR codes, template competition rules, and ad-bid forms were physically displayed on broadcast; however, off-stream commercial fulfillment and flight bookings were unobserved on-camera."

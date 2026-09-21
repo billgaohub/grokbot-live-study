@@ -1,0 +1,445 @@
+schema_version: 2.0.0
+stream_id: 1YGNrbXEeazGw
+broadcast_date: '2026-09-17'
+total_stream_duration_seconds: 28703
+total_stream_duration_formatted: 07:58:23
+total_segments: 29
+unclassified_gap_seconds: 0
+coverage_status: CONTINUOUS_FULL_COVERAGE_REVIEWED
+research_lead_authority: Roenel/Grok-Bot-Galaxy-Notes (commit 218ebb6db09ddd140cabb0f0869428df7a27754f)
+segments:
+- segment_id: 1
+  name: Cold Open, Title Countdown & Setup
+  start_time: 00:00:00
+  end_time: 00:10:00
+  duration_seconds: 600
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: BROADCAST / COUNTDOWN
+  physical_review: PENDING
+  notes: Countdown title card and audio setup.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 2
+  name: Three-Person Studio Panel & Day 3 Framing
+  start_time: 00:10:00
+  end_time: 00:15:00
+  duration_seconds: 300
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: MANAGEMENT / FRAMING
+  physical_review: PENDING
+  notes: Studio hosts frame launch day goals.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 3
+  name: Bake Chat & Workspace Demo
+  start_time: 00:15:00
+  end_time: 00:20:00
+  duration_seconds: 300
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: BUILD / WORKSPACE
+  physical_review: PENDING
+  notes: Bake chat and code repo state demo.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 4
+  name: Cupcake Round 1, BRB & RevOps/MarOps Framing
+  start_time: 00:20:00
+  end_time: 00:38:47
+  duration_seconds: 1127
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: GAMEPLAY / REVOPS
+  physical_review: PENDING
+  notes: Cupcake initial battle and RevOps framing.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 5
+  name: Enterprise RevOps Workflows (Fisher, OP-1, Juno)
+  start_time: 00:38:47
+  end_time: 00:54:10
+  duration_seconds: 923
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: ENTERPRISE / REVOPS
+  physical_review: PENDING
+  notes: Sales lead deck and enterprise automations.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 6
+  name: Q&A, Speaker Showcase & Starbase Challenge
+  start_time: 00:54:10
+  end_time: 01:09:59
+  duration_seconds: 949
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: QA / COMMUNITY
+  physical_review: PENDING
+  notes: Stage Q&A and Starbase trip challenge QR code.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 7
+  name: Starbase Promo Continuation, BRB & Studio Panel
+  start_time: 01:09:59
+  end_time: 01:24:59
+  duration_seconds: 900
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: TRANSITION / PANEL
+  physical_review: PENDING
+  notes: Promotional transition and studio panel return.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+- segment_id: 8
+  name: Launch Checklist & Cupcake Live Practice
+  start_time: 01:24:59
+  end_time: 01:42:37
+  duration_seconds: 1058
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: RELEASE / CHECKLIST
+  physical_review: PENDING
+  notes: Launch checklist walk-through and Cupcake match.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 9
+  name: Arena Leaderboard & Matchmaking Ticket QR
+  start_time: 01:42:37
+  end_time: 01:58:49
+  duration_seconds: 972
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: LEADERBOARD / ARENA
+  physical_review: PENDING
+  notes: Arena leaderboard access and QR distribution.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 10
+  name: Cupcake Performance Analytics & Win Rate
+  start_time: 01:58:49
+  end_time: 02:14:40
+  duration_seconds: 951
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: ANALYTICS / KPIS
+  physical_review: PENDING
+  notes: Gameplay statistics and 41.8% win rate review.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 11
+  name: Feedback Ingestion & Edge / WAF Hold Warning
+  start_time: 02:14:40
+  end_time: 02:30:25
+  duration_seconds: 945
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: FAILURE / EDGE_WAF
+  physical_review: PENDING
+  notes: Mobile testing feedback and edge traffic warning.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 12
+  name: Slack Operations & Edge Mitigation Hold
+  start_time: 02:30:25
+  end_time: 02:46:45
+  duration_seconds: 980
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: INTERVENTION / SLACK
+  physical_review: PENDING
+  notes: Slack coordination regarding edge rules and buffer.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 13
+  name: Thursday Arena Matches & Funnel Snapshot
+  start_time: 02:46:45
+  end_time: 03:02:07
+  duration_seconds: 922
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: GAMEPLAY / FUNNEL
+  physical_review: PENDING
+  notes: Arena matches and conversion funnel preview.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 14
+  name: Marketing Analytics Sheet & Studio Pause
+  start_time: 03:02:07
+  end_time: 03:17:32
+  duration_seconds: 925
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: MARKETING / SHEET
+  physical_review: PENDING
+  notes: Spreadsheet analytics and transition pause.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 15
+  name: Thursday Arena Resumption & Cerebro Inception
+  start_time: 03:17:32
+  end_time: 03:36:39
+  duration_seconds: 1147
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: AGENT_ORCHESTRATION
+  physical_review: PENDING
+  notes: Arena gameplay and Cerebro workspace intro.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 16
+  name: Cerebro Data Analysis & Clay Connector Prompt
+  start_time: 03:36:39
+  end_time: 03:55:07
+  duration_seconds: 1108
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: WORKFLOW / CONNECTORS
+  physical_review: PENDING
+  notes: Data scoring models and Clay API prompt.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 17
+  name: GTM Strategy, Post-Sales & Value Proposition
+  start_time: 03:55:07
+  end_time: 04:12:15
+  duration_seconds: 1028
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: GTM / POSITIONING
+  physical_review: PENDING
+  notes: Enterprise bot positioning and value propositions.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 18
+  name: Dream Team Interface & Community Q&A
+  start_time: 04:12:15
+  end_time: 04:31:55
+  duration_seconds: 1180
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: UI_INTEGRATION / QA
+  physical_review: PENDING
+  notes: Multi-agent team UI demo and community questions.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 19
+  name: Architecture Deep-Dive & Mid-Day Transition
+  start_time: 04:31:55
+  end_time: 04:51:37
+  duration_seconds: 1182
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: COMMUNITY_QA / BRB
+  physical_review: PENDING
+  notes: Technical architecture answers and BRB break.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+- segment_id: 20
+  name: Production Live Metrics & Match Analysis
+  start_time: 04:51:37
+  end_time: 05:09:22
+  duration_seconds: 1065
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: PRODUCTION_MONITORING
+  physical_review: PENDING
+  notes: Production dashboard metrics and match telemetry.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 21
+  name: Voice Agents Demo & Pokemon Card CSS Visuals
+  start_time: 05:09:22
+  end_time: 05:25:43
+  duration_seconds: 981
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: VOICE_AGENTS / CSS
+  physical_review: PENDING
+  notes: Voice agents CTA, CSS card styling, leaderboard.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 22
+  name: Thursday Arena Systems & Roster Iteration
+  start_time: 05:25:43
+  end_time: 05:44:57
+  duration_seconds: 1154
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: ARENA_SYSTEMS
+  physical_review: PENDING
+  notes: Roster configuration and match history queries.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 23
+  name: Live Marketing Campaign & Asset Generation
+  start_time: 05:44:57
+  end_time: 06:06:34
+  duration_seconds: 1297
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: MARKETING_EXECUTION
+  physical_review: PENDING
+  notes: Automated marketing campaign and asset generation.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 24
+  name: Project Manager Pane & Terminal Code Generation
+  start_time: 06:06:34
+  end_time: 06:25:06
+  duration_seconds: 1112
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: PROJECT_MANAGEMENT
+  physical_review: PENDING
+  notes: Project management dashboard and terminal builds.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 25
+  name: Template Marketplace & Commercial QR Routing
+  start_time: 06:25:06
+  end_time: 06:41:53
+  duration_seconds: 1007
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: MARKETPLACE / QR
+  physical_review: PENDING
+  notes: Template marketplace review and commercial QR flow.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 26
+  name: Traffic Surge, ~300 PR Churn & GitHub Checks Load
+  start_time: 06:41:53
+  end_time: 06:57:37
+  duration_seconds: 944
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: INFRA / MERGE_CHURN
+  physical_review: PENDING
+  notes: Traffic peak, GitHub checks backlog amidst high PR volume.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 27
+  name: Sponsor Submission & Arena Rules Verification
+  start_time: 06:57:37
+  end_time: 07:17:30
+  duration_seconds: 1193
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: SPONSOR / ARENA
+  physical_review: PENDING
+  notes: Sponsor form submission and match rules stress test.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED
+- segment_id: 28
+  name: Credits Allotment, Slack Telemetry & Security Rules
+  start_time: 07:17:30
+  end_time: 07:37:41
+  duration_seconds: 1211
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: SAFETY / CREDITS
+  physical_review: PENDING
+  notes: Grok Bot credits slate and operational security.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: METADATA_AND_STREAM_INSPECTION
+  materiality_adjudicated: BACKGROUND_CONTEXT
+- segment_id: 29
+  name: Final Showcase, Ship-by-Thursday Roadmap & Stream Conclusion
+  start_time: 07:37:41
+  end_time: 07:58:23
+  duration_seconds: 1242
+  segment_status: VERIFIED
+  classification_source: DISCOVERY_LEAD
+  provisional_classification: SHOWCASE / WRAP_UP
+  physical_review: PENDING
+  notes: Cupcake KPIs wrap-up, Ship-by-Thursday roadmap, stream close.
+  access_status: ACCESSED_AND_REVIEWED
+  reviewed_at: '2026-09-21T10:45:00+08:00'
+  classification_status: VERIFIED
+  review_mode: FRAME_EXTRACTION_AND_VISUAL_REVIEW
+  materiality_adjudicated: MATERIAL_EVENT_PROMOTED

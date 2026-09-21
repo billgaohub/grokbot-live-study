@@ -1,0 +1,209 @@
+schema_version: "2.0.0"
+stream_id: "1YGNrbXEeazGw"
+broadcast_date: "2026-09-17"
+cardinality_rule: "Candidate count does not imply observation count (0..N emergent mapping)"
+research_lead_authority: "Roenel/Grok-Bot-Galaxy-Notes (commit 218ebb6db09ddd140cabb0f0869428df7a27754f)"
+
+hypotheses_mapping:
+  HYP-D3-001: ["CAND-D3-011", "CAND-D3-012"] # WAF / Edge stall
+  HYP-D3-002: ["CAND-D3-026"] # ~300 PR / merge gate bottleneck
+  HYP-D3-003: ["CAND-D3-010", "CAND-D3-020"] # 41.8% win rate metric
+  HYP-D3-004: ["CAND-D3-015", "CAND-D3-016", "CAND-D3-024"] # Cerebro marketing & code gen
+  HYP-D3-005: ["CAND-D3-006", "CAND-D3-028"] # $200 promo credits & Starbase challenge
+
+candidates:
+  - candidate_id: "CAND-D3-001"
+    segment_ref: 1
+    timestamp_nominal: "00:00:00"
+    topic: "Day 3 title countdown and stream start"
+    candidate_claim: "Stream officially begins with Grok Bot Galaxy title card."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-002"
+    segment_ref: 2
+    timestamp_nominal: "00:10:00"
+    topic: "Day 3 launch day goals and framing"
+    candidate_claim: "Hosts establish Day 3 objectives: public multiplayer game release and PR triage."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-003"
+    segment_ref: 3
+    timestamp_nominal: "00:15:00"
+    topic: "Bake workspace code generation inspection"
+    candidate_claim: "Bake agent inspects workspace diffs and PR readiness."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-004"
+    segment_ref: 4
+    timestamp_nominal: "00:20:00"
+    topic: "Cupcake multiplayer round 1 live test"
+    candidate_claim: "First live match of Cupcake card battle system played on-stream ('They took round 1')."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-005"
+    segment_ref: 5
+    timestamp_nominal: "00:38:47"
+    topic: "RevOps autonomous lead qualification"
+    candidate_claim: "Fisher, OP-1, and Juno agents generate structured Sofia lead deck and qualify accounts."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-006"
+    segment_ref: 6
+    timestamp_nominal: "00:54:10"
+    topic: "Starbase launch trip contest announcement"
+    candidate_claim: "Challenge announced: quote challenge post and submit bot template to win Starbase launch visit."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-007"
+    segment_ref: 7
+    timestamp_nominal: "01:09:59"
+    topic: "Stream intermission and panel transition"
+    candidate_claim: "Intermission buffer card followed by studio panel return."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-008"
+    segment_ref: 8
+    timestamp_nominal: "01:24:59"
+    topic: "Production launch checklist walkthrough"
+    candidate_claim: "Checklist displayed covering DNS, database seeding, rate limits, and Cupcake practice match."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-009"
+    segment_ref: 9
+    timestamp_nominal: "01:42:37"
+    topic: "Public arena matchmaking opening & QR code"
+    candidate_claim: "Global leaderboard goes live with QR code for public matchmaking entrance."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-010"
+    segment_ref: 10
+    timestamp_nominal: "01:58:49"
+    topic: "Cupcake 41.8% win rate metric"
+    candidate_claim: "Dashboard indicates 41.8% win rate across active player battles."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-011"
+    segment_ref: 11
+    timestamp_nominal: "02:14:40"
+    topic: "Mobile feedback and edge/WAF stall warning"
+    candidate_claim: "Player feedback displays rate limit and edge caching errors under public load."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-012"
+    segment_ref: 12
+    timestamp_nominal: "02:30:25"
+    topic: "Slack coordination on edge WAF rules"
+    candidate_claim: "Engineering Slack (Steve) coordinates manual bypass and edge rule modifications."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-013"
+    segment_ref: 13
+    timestamp_nominal: "02:46:45"
+    topic: "Thursday Arena team building and victory screen"
+    candidate_claim: "Players assemble card rosters, execute matches, and view victory screen."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-014"
+    segment_ref: 14
+    timestamp_nominal: "03:02:07"
+    topic: "Visitor conversion funnel analytics sheet"
+    candidate_claim: "Spreadsheet captures visitor drop-offs across waitlist, game start, and match completion."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-015"
+    segment_ref: 15
+    timestamp_nominal: "03:17:32"
+    topic: "Cerebro marketing agent workspace inception"
+    candidate_claim: "Cerebro agent is initialized with marketing operations plugins and data dashboard."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-016"
+    segment_ref: 16
+    timestamp_nominal: "03:36:39"
+    topic: "Clay webhook integration prompt in Cerebro"
+    candidate_claim: "Cerebro generates Clay webhook connector prompts for automated enrichment."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-017"
+    segment_ref: 17
+    timestamp_nominal: "03:55:07"
+    topic: "Enterprise bot value proposition presentation"
+    candidate_claim: "Keynote presentation outlines why autonomous bots reduce SaaS headcount costs."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-018"
+    segment_ref: 18
+    timestamp_nominal: "04:12:15"
+    topic: "Dream Team multi-agent orchestration UI"
+    candidate_claim: "UI displays role hierarchy and delegation among marketing, dev, and PM bots."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-019"
+    segment_ref: 19
+    timestamp_nominal: "04:31:55"
+    topic: "Community architecture Q&A on bot memory and state"
+    candidate_claim: "Panel fields technical questions on cross-bot shared state and persistence."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-020"
+    segment_ref: 20
+    timestamp_nominal: "04:51:37"
+    topic: "Live match analytics and battle telemetry"
+    candidate_claim: "Production dashboard records match duration, win streaks, and leaderboard movements."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-021"
+    segment_ref: 21
+    timestamp_nominal: "05:09:22"
+    topic: "Pokemon card CSS layout and voice agent CTA"
+    candidate_claim: "Card battle layout updated with holographic CSS and voice agent CTA."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-022"
+    segment_ref: 22
+    timestamp_nominal: "05:25:43"
+    topic: "Arena card balance and BaseUI migration"
+    candidate_claim: "Developers discuss BaseUI component migration and card stat rebalancing."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-023"
+    segment_ref: 23
+    timestamp_nominal: "05:44:57"
+    topic: "Automated marketing campaign asset synthesis"
+    candidate_claim: "Market researcher bot generates competitor matrix and GTM positioning brief."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-024"
+    segment_ref: 24
+    timestamp_nominal: "06:06:34"
+    topic: "Project Manager dashboard and Cursor code export"
+    candidate_claim: "Project Manager exports design outlines into Cursor terminal for automated compilation."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-025"
+    segment_ref: 25
+    timestamp_nominal: "06:25:06"
+    topic: "Bot template marketplace & QR routing"
+    candidate_claim: "Template marketplace is demonstrated with scan-to-clone capability."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-026"
+    segment_ref: 26
+    timestamp_nominal: "06:41:53"
+    topic: "High volume PR churn (~300 PRs) and GitHub Checks load"
+    candidate_claim: "Massive influx of community pull requests causes GitHub checks queue congestion."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-027"
+    segment_ref: 27
+    timestamp_nominal: "06:57:37"
+    topic: "Sponsor registration form and match rules"
+    candidate_claim: "Sponsor intake form is submitted and validated on-stream."
+    initial_assessment: "CANDIDATE_DISCOVERY"
+
+  - candidate_id: "CAND-D3-028"
+    segment_ref: 28
+    timestamp_nominal: "07:37:41"
+    topic: "Ship-by-Thursday roadmap & final showcase conclusion"
+    candidate_claim: "Team presents final Ship-by-Thursday roadmap, Cupcake metrics summary, and stream end card."
+    initial_assessment: "CANDIDATE_DISCOVERY"

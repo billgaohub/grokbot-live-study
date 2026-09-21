@@ -47,3 +47,14 @@ failures:
   severity: HIGH_STABILITY_IMPACT (Temporarily broke live showcase demo)
   detection_channel: SCREEN_OBSERVED (Render error modal rendered live on stage)
   resolution_ref: INT-D2-001
+
+- failure_id: FAIL-D3-001
+  epoch: DAY_3_PRODUCTION_RELEASE
+  associated_observation: OBS-D3-009
+  timestamp: T+02:35:00
+  failure_class: NETWORK_EDGE_RATE_LIMIT_STALL
+  root_cause: Public traffic influx from stream QR code overwhelmed default edge caching thresholds, triggering Cloudflare WAF rate limits and dropping player connections.
+  observable_symptom: Crumb chat stalls, mobile matchmaking throws timeout errors, and user feedback chart logs access failures.
+  severity: HIGH_OPERATIONAL_IMPACT
+  detection_channel: SCREEN_OBSERVED_AND_SLACK_TELEMETRY
+  resolution_ref: INT-D3-001

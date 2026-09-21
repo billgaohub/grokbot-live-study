@@ -48,8 +48,8 @@ This study is an **`ACTIVE_FIELD_STUDY`** progressing through phased historical 
 | **Day 1 First 90m** | `VERIFIED` (16 atomic observations) | Initial kickoff & permission failure |
 | **Day 1 Full Coverage** | `DAY1_FULL_STUDIED_VERIFIED` (24 segments, 33 observations, 16 content-reviewed: 11 fully / 5 partially supported) | ~08:45:13 (31,513s) full reconstruction |
 | **Day 2 Coverage** | `DAY2_FULL_STUDIED_VERIFIED` (29 segments, 29 observations, 18 content-reviewed: 17 fully / 1 partially supported, 46 frame artifacts) | ~08:23:19 (30,199s) full reconstruction |
-| **Day 3 Coverage** | `NOT YET STUDIED` | ~07:58:00 launch, 300 PRs & showcase |
-| **3-Day Cross-Day Synthesis** | `NOT STARTED` | Multi-agent coordination patterns |
+| **Day 3 Coverage** | `DAY3_FULL_STUDIED_VERIFIED` (29 segments, 26 observations, 21 content-reviewed: 18 fully / 3 partially supported, 63 bundle artifacts) | ~07:58:23 (28,703s) full reconstruction |
+| **3-Day Cross-Day Synthesis** | `READY_FOR_SYNTHESIS` | Multi-agent coordination patterns across all 3 days |
 | **Operational Decision** | **`PROCEED`** | Phased empirical coverage expansion |
 
 ### Day 1 Physical Review Provenance (`GROKBOT_DAY1_PHYSICAL_REVIEW_REPAIR_002A` / `002B`)
@@ -70,6 +70,16 @@ Following the two-tier gate framework, Day 2 coverage satisfies both physical pr
 - **Multi-Frame Bundles Default**: All 18 content-reviewed observations feature multi-frame evidence bundles (46 total frames) capturing boundary and transitional states.
 - **Epistemic Calibration**: `OBS-D2-003` calibrated as `PARTIALLY_SUPPORTED` (85% test speedup claim calibrated as UI-verified without raw CI telemetry).
 - **Automated Verification**: Verified via executable gate scripts `scripts/audit_day2_physical_provenance.py` and `scripts/audit_day2_evidence_sufficiency.py`.
+
+### Day 3 Physical Review Provenance (`GROKBOT_DAY3_COVERAGE_004`)
+Following the two-tier gate framework, Day 3 coverage satisfies both physical provenance and evidence sufficiency:
+- **Timeline Mathematical Conservation**: 29 segments, exactly 28,703 seconds (07:58:23), 0 unclassified gaps (`timeline/day-3.md`).
+- **Segment Coverage Records**: All 29 segments have explicit physical review records with verified `access_status` and `review_mode` (`verification/day-3-coverage-review.yaml`).
+- **Candidate Pool**: 28 pre-promotion candidates cataloged in `candidates/day-3.yaml` (`CAND-D3-001` through `CAND-D3-028`).
+- **Real Frame Artifacts & Hashes**: 21 content-reviewed observations (`OBS-D3-001` through `OBS-D3-021`) resolve to authentic physical video frames in `evidence/frames/`, verified with byte-level SHA-256 matching.
+- **Multi-Frame Bundles Default**: All 21 content-reviewed observations feature multi-frame evidence bundles (63 total frame instances) capturing sequential workflows, edge incident recovery, and merge gating.
+- **Epistemic Calibration**: `OBS-D3-005` (Starbase challenge), `OBS-D3-019` (~300 PR volume claim), and `OBS-D3-020` (sponsor ad-bids) calibrated as `PARTIALLY_SUPPORTED` (18 fully / 3 partially supported / 0 unsupported).
+- **Automated Verification**: Verified via executable gate scripts `scripts/audit_day3_physical_provenance.py` and `scripts/audit_day3_evidence_sufficiency.py`.
 
 ### Target Repository Architecture
 As full 3-day coverage expands, the repository structure evolves into a day-partitioned hierarchy:
