@@ -1,0 +1,181 @@
+schema_version: "2.0.0"
+matrix_id: "GROKBOT-3DAY-COMPARISON-MATRIX"
+generated_at: "2026-09-21T11:22:00+08:00"
+source_ledgers:
+  observations:
+    day_1: "observations/day-1.yaml"
+    day_2: "observations/day-2.yaml"
+    day_3: "observations/day-3.yaml"
+  failures: "failures/failures.yaml"
+  interventions: "interventions/interventions.yaml"
+  claims:
+    day_1: "claims/claims.yaml"
+    day_2: "claims/claims-day-2.yaml"
+    day_3: "claims/claims-day-3.yaml"
+
+epoch_summary:
+  day_1:
+    theme: "Bootstrap, Single-Agent Pair & Environmental Permissions"
+    nominal_duration_seconds: 31513
+    nominal_duration_formatted: "08:45:13"
+    contiguous_segments: 24
+    unclassified_gaps_seconds: 0
+    total_observations: 33
+    content_reviewed_observations: 16
+    support_distribution:
+      fully_supported: 11
+      partially_supported: 5
+      unsupported: 0
+    collaboration_topology: "Sequential human-agent pair (Human in the loop, single active cursor)"
+    key_agent_roles:
+      - "Slide Sonya (Presentation deck synthesis)"
+      - "Data Dan (Survey forms and data collection)"
+      - "Email Ethan (Outbound communication)"
+      - "Marky McMarkface (Market idea scoring)"
+      - "steve (Full-stack scaffolding and landing page deployment)"
+      - "Craig & Lingxi fleet (Engineering delegation hierarchy)"
+    dominant_failure_domain: "Host environment default permissions & municipal regulatory lead times"
+    identified_failures:
+      - failure_id: "FAIL-001"
+        observation_ref: "OBS-013"
+        type: "ENVIRONMENTAL_DEFAULT_PERMISSION_MISCONFIGURATION"
+      - failure_id: "FAIL-002"
+        observation_ref: "OBS-027"
+        type: "REGULATORY_PERMITTING_LEAD_TIME_INCOMPATIBILITY"
+    human_interventions:
+      - intervention_id: "INT-001"
+        observation_ref: "OBS-008"
+        type: "PROACTIVE_TEACHING"
+      - intervention_id: "INT-002"
+        observation_ref: "OBS-010"
+        type: "GATE_AUTHORIZATION"
+      - intervention_id: "INT-003"
+        observation_ref: "OBS-014"
+        type: "FAILURE_CORRECTION_AND_STEERING"
+      - intervention_id: "INT-004"
+        observation_ref: "OBS-027"
+        type: "STRATEGIC_PIVOT_AND_BOT_REDIRECTION"
+    verification_latency: "Seconds (instant UI visual inspection)"
+    code_integration_policy: "Bypass PR reviews -> direct push to main (OBS-021)"
+    runtime_sandbox_model: "Linux GUI desktop session within per-user Firecracker microVM (OBS-007, OBS-031)"
+
+  day_2:
+    theme: "Multi-Agent Fleet, Shared State Contention & Role Specialization"
+    nominal_duration_seconds: 30199
+    nominal_duration_formatted: "08:23:19"
+    contiguous_segments: 29
+    unclassified_gaps_seconds: 0
+    total_observations: 29
+    content_reviewed_observations: 18
+    support_distribution:
+      fully_supported: 17
+      partially_supported: 1
+      unsupported: 0
+    collaboration_topology: "Hierarchical multi-agent swarm (Chief of Staff orchestrating specialized functional pods)"
+    key_agent_roles:
+      - "Sales Engineering Bot (Starlink deck & intake flows)"
+      - "Echo & Sherlock (Competitive intelligence threads)"
+      - "Chef of Stuff (Phaser game layout and fleet coordination)"
+      - "Bake & Clerk (Engineering fleet and build execution)"
+      - "Army Huddle SDR (Automated lead outreach drafting)"
+      - "Plain Support Bot (Customer support ticket triage)"
+      - "Dr eggbot (Roster and state auditing)"
+    dominant_failure_domain: "Process lifecycle disconnect & concurrent multi-agent git merge thrashing"
+    identified_failures:
+      - failure_id: "FAIL-D2-001"
+        observation_ref: "OBS-D2-015"
+        type: "LOCAL_SERVER_CONNECTION_REFUSED_CRASH"
+      - failure_id: "FAIL-D2-002"
+        observation_ref: "OBS-D2-017"
+        type: "CONCURRENT_MULTI_AGENT_PR_MERGE_CHURN"
+    human_interventions:
+      - intervention_id: "INT-D2-001"
+        observation_ref: "OBS-D2-013"
+        type: "AGENT_CAPTAIN_ISOLATION_OVERRIDE"
+      - intervention_id: "INT-D2-002"
+        observation_ref: "OBS-D2-016"
+        type: "OUTBOUND_SAFETY_DRAFT_ONLY_GATE"
+      - intervention_id: "INT-D2-003"
+        observation_ref: "OBS-D2-018"
+        type: "FINANCIAL_REFUND_HUMAN_APPROVAL_SIGN_OFF"
+    verification_latency: "Minutes (local container builds, video compilation, test loops)"
+    code_integration_policy: "Autonomous multi-bot PRs clobber main -> Forced Single-Captain single-writer constraint (OBS-D2-013, OBS-D2-017)"
+    runtime_sandbox_model: "Containerized application runtime with local port bindings (OBS-D2-015)"
+
+  day_3:
+    theme: "Public Production Launch, Perimeter Scaling & Human Merge Gate"
+    nominal_duration_seconds: 28703
+    nominal_duration_formatted: "07:58:23"
+    contiguous_segments: 29
+    unclassified_gaps_seconds: 0
+    total_observations: 26
+    content_reviewed_observations: 21
+    support_distribution:
+      fully_supported: 18
+      partially_supported: 3
+      unsupported: 0
+    collaboration_topology: "Hybrid multi-agent pipeline + external community contributors + centralized human gatekeeper"
+    key_agent_roles:
+      - "Fisher, OP-1, Juno (Automated RevOps & lead intake)"
+      - "Bake (PR triage and diff inspection bot)"
+      - "Cerebro (Market intelligence & GTM campaign generation)"
+      - "Sofia Lead Bot (Enterprise deck synthesis)"
+    dominant_failure_domain: "Perimeter edge rate-limiting (Cloudflare WAF) & CI queue saturation under public volume"
+    identified_failures:
+      - failure_id: "FAIL-D3-001"
+        observation_ref: "OBS-D3-009"
+        type: "NETWORK_EDGE_RATE_LIMIT_STALL"
+    human_interventions:
+      - intervention_id: "INT-D3-001"
+        observation_ref: "OBS-D3-009"
+        type: "SLACK_COORDINATED_EDGE_WAF_RECONFIGURATION"
+      - intervention_id: "INT-D3-002"
+        observation_ref: "OBS-D3-019"
+        type: "HUMAN_IN_THE_LOOP_MERGE_GATE_AND_PR_TRIAGE"
+    verification_latency: "Hours (GitHub Checks backlog, real-time public telemetry feedback)"
+    code_integration_policy: "Agent pre-triage (Bake) coupled with mandatory human sign-off gate before merging to main (OBS-D3-019)"
+    runtime_sandbox_model: "Edge CDN / WAF infrastructure + public internet traffic routing (OBS-D3-009)"
+
+comparative_axes:
+  - axis_id: "AXIS-01"
+    name: "Collaboration Topology"
+    day_1: "Sequential pair: 1 human with 1 active agent cursor."
+    day_2: "Hierarchical fleet: Chief of Staff orchestrating specialized pods."
+    day_3: "Hybrid ecosystem: Internal agents + external public players + human gateway."
+    significance: "Reflects expansion from localized prompting to distributed agentic operations."
+
+  - axis_id: "AXIS-02"
+    name: "Primary Execution Bottleneck"
+    day_1: "Host permissions & municipal legal regulations (FAIL-001, FAIL-002)."
+    day_2: "Shared git state conflicts & container lifecycles (FAIL-D2-001, FAIL-D2-002)."
+    day_3: "Perimeter edge defenses & CI check queue congestion (FAIL-D3-001, OBS-D3-019)."
+    significance: "Demonstrates physical migration of bottlenecks as system scale increases."
+
+  - axis_id: "AXIS-03"
+    name: "Nature of Human Intervention"
+    day_1: "Operational teaching (INT-001) & permission granting (INT-002, INT-003)."
+    day_2: "Concurrency isolation (INT-D2-001) & safety guardrails (INT-D2-002, INT-D2-003)."
+    day_3: "Infrastructure ops (INT-D3-001) & code integration arbitration (INT-D3-002)."
+    significance: "Proves human role shifts from task executor to system governor and safety anchor."
+
+  - axis_id: "AXIS-04"
+    name: "Verification Latency"
+    day_1: "Sub-minute (slide render, single form submission)."
+    day_2: "Minutes (local container builds, video asset generation)."
+    day_3: "Tens of minutes to hours (CI queue waiting, multiplayer matchmaking stability)."
+    significance: "Verification cost scales exponentially when distributed state and external traffic are involved."
+
+  - axis_id: "AXIS-05"
+    name: "Code Integration Protocol"
+    day_1: "Direct push to main (bypassing reviews for speed, OBS-021)."
+    day_2: "Multi-agent concurrent PR storm causing crash -> Single-Captain lock (INT-D2-001)."
+    day_3: "Two-stage gate: Bake agent automated review -> Human operator manual merge (INT-D3-002)."
+    significance: "Validates the Single-Writer axiom: uncontrolled autonomous writes inevitably destroy shared state."
+
+  - axis_id: "AXIS-06"
+    name: "Epistemic Support Distribution"
+    day_1: "11 Full / 5 Partial / 0 Unsupported (16 content-reviewed)."
+    day_2: "17 Full / 1 Partial / 0 Unsupported (18 content-reviewed)."
+    day_3: "18 Full / 3 Partial / 0 Unsupported (21 content-reviewed)."
+    total: "46 Full / 9 Partial / 0 Unsupported (55 content-reviewed)."
+    significance: "Empirical proof that high verification rigour does not require force-upgrading ambiguous claims."

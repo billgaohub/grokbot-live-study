@@ -1,0 +1,97 @@
+schema_version: "2.0.0"
+model_id: "HYP-SYNTH-001"
+title: "Execution Bottleneck Migration in Autonomous Agent Systems"
+status: "CANDIDATE_EMPIRICAL_HYPOTHESIS"
+epistemic_standing: >
+  This model represents a candidate explanatory framework derived from 88 empirical
+  observations across 25 hours of live agent operations. It is explicitly NOT a universal
+  law of intelligence, but an observed engineering dynamic subject to boundary conditions
+  and falsification criteria.
+
+core_thesis: >
+  As autonomous agents accelerate code and artifact generation velocity, the primary
+  execution bottleneck of the system does not disappear; rather, it migrates systematically
+  outward from (1) Local Host Permissions & Sandboxing, to (2) Multi-Agent Concurrency & Shared State,
+  to (3) Perimeter Network Infrastructure & Real-World External Interfaces.
+
+stages:
+  - stage_index: 1
+    name: "Action Boundary & Local Host Permissions"
+    primary_epoch: "Day 1 (Bootstrap & Pair Operation)"
+    dominant_constraint: "Host OS permissions, account boundaries, and synchronous human approval policies."
+    empirical_evidence:
+      observations: ["OBS-008", "OBS-010", "OBS-013", "OBS-014", "OBS-020", "OBS-021"]
+      failures: ["FAIL-001"]
+      interventions: ["INT-001", "INT-002", "INT-003"]
+    observed_dynamic: >
+      Individual agents generate code and UI components in minutes (OBS-020), but are halted
+      by ambient environmental misconfigurations (FAIL-001 default domain restriction on Google Form)
+      or security interceptors pausing execution for human approval (OBS-010 195s auto-review block).
+      The human acts as kinetic demonstrator (INT-001) and permission grantor (INT-002, INT-003).
+
+  - stage_index: 2
+    name: "Concurrency, Shared State & Single-Writer Contention"
+    primary_epoch: "Day 2 (Swarm Orchestration & Team Specialization)"
+    dominant_constraint: "Git branch synchronization, shared database state, and uncoordinated multi-agent writes."
+    empirical_evidence:
+      observations: ["OBS-D2-007", "OBS-D2-012", "OBS-D2-013", "OBS-D2-015", "OBS-D2-016", "OBS-D2-017", "OBS-D2-018"]
+      failures: ["FAIL-D2-001", "FAIL-D2-002"]
+      interventions: ["INT-D2-001", "INT-D2-002", "INT-D2-003"]
+    observed_dynamic: >
+      Expanding from 1 bot to multi-bot fleets (Chief of Staff, Bake, Clerk, SDR, Support) leads to rapid
+      parallel output, but crashes against shared repository state. Uncoordinated concurrent PRs create
+      merge contention and React render crashes (FAIL-D2-002), necessitating a hard single-writer lock
+      ('Single Captain' rule, INT-D2-001). Concurrently, organizational safety demands mandatory draft-only
+      modes (INT-D2-002) and human refund approval gates (INT-D2-003).
+
+  - stage_index: 3
+    name: "Production Scaling, Perimeter Networks & External Interface"
+    primary_epoch: "Day 3 (Public Production Launch & Ecosystem Integration)"
+    dominant_constraint: "Perimeter DDoS/WAF protection, CI/CD pipeline queue depth, and external off-stream fulfillment."
+    empirical_evidence:
+      observations: ["OBS-D3-007", "OBS-D3-008", "OBS-D3-009", "OBS-D3-011", "OBS-D3-017", "OBS-D3-019", "OBS-D3-020"]
+      failures: ["FAIL-D3-001"]
+      interventions: ["INT-D3-001", "INT-D3-002"]
+    observed_dynamic: >
+      Deploying the system to the public internet exposes vulnerabilities outside agent container boundaries.
+      Traffic spikes trigger Cloudflare WAF rate-limiting (FAIL-D3-001), requiring human DevOps intervention in
+      Slack (INT-D3-001). Massive influx of community/agent PRs saturates GitHub Checks queues, requiring human
+      gatekeepers to filter and manually merge code (INT-D3-002). External commercial fulfillment (Starbase visits,
+      ad sponsorships) remains outside the digital observability horizon.
+
+falsification_and_boundary_conditions:
+  - boundary_id: "BOUND-01"
+    name: "Early Emergence of Physical Reality Constraints (Non-Linearity)"
+    observation_ref: "OBS-027"
+    failure_ref: "FAIL-002"
+    intervention_ref: "INT-004"
+    finding: >
+      A purely linear model would predict physical-world friction only at Stage 3. However, on Day 1 at T+05:28:00,
+      the team was completely blocked by San Francisco health and liquor license lead times (FAIL-002), forcing
+      a strategic pivot from restaurant pop-up to art gallery (INT-004). This proves external physical constraints
+      can preemptively terminate a project in its earliest inception phase, regardless of agent maturity.
+
+  - boundary_id: "BOUND-02"
+    name: "Human Intervention as Proactive Guardrail vs. Execution Friction"
+    observation_refs: ["OBS-D2-016", "OBS-D2-018"]
+    intervention_refs: ["INT-D2-002", "INT-D2-003"]
+    finding: >
+      The anti-intellectualist fallacy assumes every human intervention marks an agent failure. In reality,
+      the SDR draft-only guardrail (INT-D2-002) and customer refund approval button (INT-D2-003) were deliberate,
+      proactive governance controls. Granting agents unilateral authority to disburse funds or email prospects
+      would constitute an enterprise security defect, not optimal autonomy.
+
+  - boundary_id: "BOUND-03"
+    name: "Task Complexity Drift"
+    observation_refs: ["OBS-020", "OBS-D2-008", "OBS-D3-007"]
+    finding: >
+      The three days did not hold task complexity constant: Day 1 built a static landing page and waitlist;
+      Day 2 built a 2D Phaser game framework; Day 3 operated a live multiplayer card battler with public matchmaking.
+      A portion of the bottleneck migration is attributed to escalating domain complexity rather than agent fleet
+      concurrency alone.
+
+governance_axioms_derived:
+  - axiom_1: "Task generation velocity is bounded by verification latency, not token generation speed."
+  - axiom_2: "Multi-agent systems require a Single-Writer authority on shared mutable state to avoid branch thrashing."
+  - axiom_3: "External perimeter security (WAF, DNS, rate limits) operates as a hard boundary outside agent self-healing envelopes."
+  - axiom_4: "Human-in-the-loop authorization gates are permanent structural assets for high-consequence actions (capital, outbound communication, production deploys)."

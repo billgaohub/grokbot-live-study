@@ -49,7 +49,7 @@ This study is an **`ACTIVE_FIELD_STUDY`** progressing through phased historical 
 | **Day 1 Full Coverage** | `DAY1_FULL_STUDIED_VERIFIED` (24 segments, 33 observations, 16 content-reviewed: 11 fully / 5 partially supported) | ~08:45:13 (31,513s) full reconstruction |
 | **Day 2 Coverage** | `DAY2_FULL_STUDIED_VERIFIED` (29 segments, 29 observations, 18 content-reviewed: 17 fully / 1 partially supported, 46 frame artifacts) | ~08:23:19 (30,199s) full reconstruction |
 | **Day 3 Coverage** | `DAY3_FULL_STUDIED_VERIFIED` (29 segments, 26 observations, 21 content-reviewed: 18 fully / 3 partially supported, 63 bundle artifacts) | ~07:58:23 (28,703s) full reconstruction |
-| **3-Day Cross-Day Synthesis** | `READY_FOR_SYNTHESIS` | Multi-agent coordination patterns across all 3 days |
+| **3-Day Cross-Day Synthesis** | `CROSS_DAY_SYNTHESIS_COMPLETE` (5-layer architecture, 88 OBS, 10-axis matrix, HYP-SYNTH-001 candidate model, audit Exit 0) | Multi-agent coordination patterns across all 3 days |
 | **Operational Decision** | **`PROCEED`** | Phased empirical coverage expansion |
 
 ### Day 1 Physical Review Provenance (`GROKBOT_DAY1_PHYSICAL_REVIEW_REPAIR_002A` / `002B`)
@@ -80,6 +80,13 @@ Following the two-tier gate framework, Day 3 coverage satisfies both physical pr
 - **Multi-Frame Bundles Default**: All 21 content-reviewed observations feature multi-frame evidence bundles (63 total frame instances) capturing sequential workflows, edge incident recovery, and merge gating.
 - **Epistemic Calibration**: `OBS-D3-005` (Starbase challenge), `OBS-D3-019` (~300 PR volume claim), and `OBS-D3-020` (sponsor ad-bids) calibrated as `PARTIALLY_SUPPORTED` (18 fully / 3 partially supported / 0 unsupported).
 - **Automated Verification**: Verified via executable gate scripts `scripts/audit_day3_physical_provenance.py` and `scripts/audit_day3_evidence_sufficiency.py`.
+
+### 3-Day Cross-Day Empirical Synthesis (`GROKBOT_CROSS_DAY_SYNTHESIS_005`)
+Following closure of the 3-day raw empirical evidence phase (90,415s, 82 segments, 88 observations, 46 FULL / 9 PARTIAL / 0 UNSUPPORTED), the study establishes a comprehensive cross-day synthesis:
+- **Five-Layer Synthesis Architecture**: Implemented in [`analyses/cross-day-synthesis.md`](analyses/cross-day-synthesis.md), strictly adhering to $\text{Observed Patterns} \to \text{Comparison Matrix} \to \text{Candidate Mechanism} \to \text{Counter-Evidence} \to \text{What Remains Unverified}$.
+- **Structural Comparison Matrix**: Machine-readable 10-axis cross-day comparative analysis in [`analyses/COMPARISON_MATRIX.yaml`](analyses/COMPARISON_MATRIX.yaml) validating mathematical conservation across all 3 days.
+- **Candidate Explanatory Mechanism (`HYP-SYNTH-001`)**: Formalized in [`analyses/BOTTLENECK_MIGRATION_MODEL.yaml`](analyses/BOTTLENECK_MIGRATION_MODEL.yaml), modeling the outward migration of execution bottlenecks (Permissions & Sandboxing $\to$ Concurrency & Shared State $\to$ Perimeter Infrastructure & Real-World Interface), bounded by falsification criteria (SF permitting lead time on Day 1, proactive security guardrails, task complexity drift).
+- **Automated Cross-Reference Auditor**: Verified via [`scripts/audit_cross_day_synthesis.py`](scripts/audit_cross_day_synthesis.py) with 100% ID existence and zero dangling references (Exit Code 0).
 
 ### Target Repository Architecture
 As full 3-day coverage expands, the repository structure evolves into a day-partitioned hierarchy:
