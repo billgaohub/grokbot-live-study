@@ -1,47 +1,77 @@
 interventions_ledger_id: INT-LEDGER-GROKBOT-DAY1-FULL
-evaluated_at: "2026-09-20T21:10:00+08:00"
-
+evaluated_at: '2026-09-20T21:10:00+08:00'
 interventions:
-  - intervention_id: INT-001
-    observation_ref: "OBS-008"
-    timestamp: "T+00:46:00"
-    type: "PROACTIVE_TEACHING"
-    actor: "Amrita (Human)"
-    target_bot: "Slide Sonya"
-    trigger: "Routine human capability transfer"
-    intervention_action: "Human takes control of bot's cursor inside Google Slides to manually demonstrate complex object fly-in animation."
-    outcome: "Bot records trajectory and synthesizes reusable skill."
-
-  - intervention_id: INT-002
-    observation_ref: "OBS-010"
-    timestamp: "T+00:53:15"
-    type: "GATE_AUTHORIZATION"
-    actor: "Amrita (Human)"
-    target_bot: "Email Ethan"
-    trigger: "Auto-review policy block on outbound communication"
-    intervention_action: "Human reviews draft recipient/content modal and clicks 'Allow once' (blocked for 195 seconds)."
-    outcome: "Action permitted to execute."
-
-  - intervention_id: INT-003
-    observation_ref: "OBS-014"
-    timestamp: "T+01:08:00"
-    type: "FAILURE_CORRECTION_AND_STEERING"
-    actor: "Amrita (Human)"
-    target_bot: "Data Dan"
-    trigger: "FAIL-001: Audience reported 'no access' on survey form QR code"
-    intervention_action: "Human intervenes verbally and textually, giving high-level corrective instruction 'make link public'."
-    bot_recovery_action: "Data Dan opens Google Forms share modal, toggles general access to public, and updates link."
-    verification_ref: "VER-001"
-    outcome: "Form permissions successfully resolved, audience able to submit responses."
-
-  - intervention_id: INT-004
-    observation_ref: "OBS-027"
-    timestamp: "T+05:32:00"
-    type: "STRATEGIC_PIVOT_AND_BOT_REDIRECTION"
-    actor: "Lauren Tan, Matt Palmer, Roshan Sadanani (Humans)"
-    target_bot: "Potato Lab Bot Fleet (steve, grokpot, tater)"
-    trigger: "FAIL-002: Real-world SF food and alcohol permitting lead times legally blocked physical restaurant pop-up within 72h"
-    intervention_action: "Humans hold strategic roundtable on stream and verbally deprecate restaurant software tracks; instruct bots to redirect scope to a Grok Bot-themed art exhibition and warehouse event."
-    bot_recovery_action: "Bots decommission restaurant menu generation workflows and re-orient landing page, ticketing, and venue-finder models toward raw warehouse spaces and artist submissions."
-    verification_ref: "VER-002"
-    outcome: "Execution unblocked; team successfully converges on Merch · Venue · Ticketing triad without permitting liability."
+- intervention_id: INT-001
+  observation_ref: OBS-008
+  timestamp: T+00:46:00
+  type: PROACTIVE_TEACHING
+  actor: Amrita (Human)
+  target_bot: Slide Sonya
+  trigger: Routine human capability transfer
+  intervention_action: Human takes control of bot's cursor inside Google Slides to manually demonstrate complex object fly-in
+    animation.
+  outcome: Bot records trajectory and synthesizes reusable skill.
+- intervention_id: INT-002
+  observation_ref: OBS-010
+  timestamp: T+00:53:15
+  type: GATE_AUTHORIZATION
+  actor: Amrita (Human)
+  target_bot: Email Ethan
+  trigger: Auto-review policy block on outbound communication
+  intervention_action: Human reviews draft recipient/content modal and clicks 'Allow once' (blocked for 195 seconds).
+  outcome: Action permitted to execute.
+- intervention_id: INT-003
+  observation_ref: OBS-014
+  timestamp: T+01:08:00
+  type: FAILURE_CORRECTION_AND_STEERING
+  actor: Amrita (Human)
+  target_bot: Data Dan
+  trigger: 'FAIL-001: Audience reported ''no access'' on survey form QR code'
+  intervention_action: Human intervenes verbally and textually, giving high-level corrective instruction 'make link public'.
+  bot_recovery_action: Data Dan opens Google Forms share modal, toggles general access to public, and updates link.
+  verification_ref: VER-001
+  outcome: Form permissions successfully resolved, audience able to submit responses.
+- intervention_id: INT-004
+  observation_ref: OBS-027
+  timestamp: T+05:32:00
+  type: STRATEGIC_PIVOT_AND_BOT_REDIRECTION
+  actor: Lauren Tan, Matt Palmer, Roshan Sadanani (Humans)
+  target_bot: Potato Lab Bot Fleet (steve, grokpot, tater)
+  trigger: 'FAIL-002: Real-world SF food and alcohol permitting lead times legally blocked physical restaurant pop-up within
+    72h'
+  intervention_action: Humans hold strategic roundtable on stream and verbally deprecate restaurant software tracks; instruct
+    bots to redirect scope to a Grok Bot-themed art exhibition and warehouse event.
+  bot_recovery_action: Bots decommission restaurant menu generation workflows and re-orient landing page, ticketing, and venue-finder
+    models toward raw warehouse spaces and artist submissions.
+  verification_ref: VER-002
+  outcome: "Execution unblocked; team successfully converges on Merch \xB7 Venue \xB7 Ticketing triad without permitting liability."
+- intervention_id: INT-D2-001
+  observation_ref: OBS-D2-013
+  timestamp: T+03:44:00
+  type: AGENT_CAPTAIN_ISOLATION_OVERRIDE
+  actor: Lauren Tan & Studio Builders (Humans)
+  target_bot: Cupcake Builder Bot Fleet
+  'trigger:': 'FAIL-D2-002: Concurrent bot PRs causing merge contention and git branch thrashing'
+  intervention_action: 'Humans enforce strict captain isolation: select one active bot captain; declare other candidate bots
+    strictly inactive ("other two are dead to you").'
+  outcome: Eliminated concurrent multi-bot merge conflicts by establishing single-writer branch authority.
+- intervention_id: INT-D2-002
+  observation_ref: OBS-D2-016
+  timestamp: T+06:16:00
+  type: OUTBOUND_SAFETY_DRAFT_ONLY_GATE
+  actor: SDR Technical Lead (Human)
+  target_bot: Army Huddle SDR Bot
+  'trigger:': Risk of unvetted autonomous cold outreach emails hitting external prospects
+  intervention_action: 'Human institutes mandatory draft-only guardrail: bot generates 25 prospect profiles and draft emails,
+    but dispatch requires human authorization.'
+  outcome: Prevented hallucinated or inappropriate external email dispatch; preserved brand integrity.
+- intervention_id: INT-D2-003
+  observation_ref: OBS-D2-018
+  timestamp: T+07:52:00
+  type: FINANCIAL_REFUND_HUMAN_APPROVAL_SIGN_OFF
+  actor: Customer Support Specialist (Human)
+  target_bot: Plain Support Bot
+  'trigger:': Inbound support ticket requesting financial payment refund (Carter / Damon tickets)
+  intervention_action: Bot drafts refund response but system enforces mandatory human sign-off button; human operator reviews
+    and approves payment adjustment.
+  outcome: Autonomous bot prevented from executing unilateral financial disbursements.

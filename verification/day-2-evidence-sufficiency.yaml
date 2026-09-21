@@ -1,0 +1,412 @@
+schema_version: "2.0.0"
+audit_ledger_id: "DAY2-EVIDENCE-SUFFICIENCY-AUDIT-001"
+evaluated_at: "2026-09-21T08:15:00+08:00"
+auditor: "Antigravity & Bill Gate Human Sovereignty"
+task_ref: "GROKBOT_DAY2_COVERAGE_003"
+primary_broadcast_authority: "https://x.com/i/broadcasts/1PKqrNyvmYwGb (30,199s / 08:23:19)"
+overall_sufficiency_status: "PASS_WITH_CALIBRATED_SUPPORT"
+
+summary:
+  total_content_reviewed_observations: 18
+  fully_supported_count: 17
+  partially_supported_count: 1
+  unsupported_count: 0
+  evidence_bundles_configured: 18
+  gate_verdict: "EVIDENCE_SUFFICIENCY_PASS"
+
+adjudications:
+  - observation_id: "OBS-D2-001"
+    title: "Grok Bot RPG Character Sheet Templates & Stats"
+    claim_components:
+      - template_configuration_slide_displayed: true
+      - rpg_character_attributes_shown: true
+      - rarity_tiers_and_scoring_modeled: true
+    evidence_bundle:
+      - stream_offset: "00:15:00"
+        frame_identifier: "frame_obs_d2_001_a_templates_slide.png"
+        sha256: "ded230a5d54acabe8d3b709b43a154a4d5b5228d81dd1c82e1d7c63abf48744c"
+        proves: "Templates catalog with character sheet structure"
+      - stream_offset: "00:20:00"
+        frame_identifier: "frame_obs_d2_001_b_game_scoring.png"
+        sha256: "bf72bcb25b79dac881dec39be21e7b172fe3be6390e3519d8ecea2ee3cba7224"
+        proves: "Game scoring and attribute calculation rules"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames explicitly document character sheet attributes, template UI, and scoring mechanics."
+
+  - observation_id: "OBS-D2-002"
+    title: "Sales Engineering 4 Use-Case Architecture"
+    claim_components:
+      - presenter_amrita_venkatraman_on_screen: true
+      - four_distinct_use_case_cards_visible: true
+      - engineer_customer_expert_echo_competitive_intel_demarcated: true
+    evidence_bundle:
+      - stream_offset: "00:30:36"
+        frame_identifier: "frame_obs_d2_002_a_speaker.png"
+        sha256: "4be8331b265450cf098575171862830ad2149d883d269ee1cebcef6a4fa76220"
+        proves: "Presenter kickoff and topic introduction"
+      - stream_offset: "00:38:22"
+        frame_identifier: "frame_obs_d2_002_b_se_use_cases.png"
+        sha256: "ed42c788979a6bd7deb8ce1af172452a09caeb13f6b452a950a26652116a246b"
+        proves: "Four orange-outlined SE use-case cards visible on screen"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "On-screen slide physically displays all four named use case cards beside speaker inset."
+
+  - observation_id: "OBS-D2-003"
+    title: "SE Demos: Starlink Deck, FlyLo Booking & 85% Speedup Claim"
+    claim_components:
+      - starlink_spacex_deck_generation_shown: true
+      - flylo_intake_ui_and_booking_workflow_shown: true
+      - eighty_five_percent_test_speedup_assertion: true
+      - benchmark_ci_execution_logs_verified: false
+    evidence_bundle:
+      - stream_offset: "00:42:19"
+        frame_identifier: "frame_obs_d2_003_a_starlink_deck.png"
+        sha256: "eb80683298a17f6fd98fb45ce9fd79bc41e0c3ddd88acdaccdd62ef0adee3313"
+        proves: "Starlink SpaceX presentation deck on screen"
+      - stream_offset: "00:49:13"
+        frame_identifier: "frame_obs_d2_003_b_bot_intake_ui.png"
+        sha256: "057f47ee5821cef4c89ee03fde3657a6e5b6a1c5927cc9641b20f6c2d8c13d58"
+        proves: "Sales Engineer bot intake form and workflow"
+      - stream_offset: "00:54:07"
+        frame_identifier: "frame_obs_d2_003_c_final_workflow.png"
+        sha256: "31762220e266e5cbd28286bb121327b7d5e35dea67ba80f356e8784c08f53360"
+        proves: "Final sales engineer workflow documentation slide"
+    semantic_adjudication:
+      verdict: "PARTIALLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+      reviewer_basis: "Deck synthesis and intake UI are visually verified; the 85% test speedup claim is a spoken/slide statement without underlying runtime CI telemetry."
+
+  - observation_id: "OBS-D2-004"
+    title: "Competitive Intel Sherlock Threads & Booking Baseline"
+    claim_components:
+      - sherlock_competitor_question_monitoring_shown: true
+      - booking_flow_baseline_measurement_displayed: true
+      - coverage_mandate_guidelines_rendered: true
+    evidence_bundle:
+      - stream_offset: "00:57:17"
+        frame_identifier: "frame_obs_d2_004_a_competitor_thread.png"
+        sha256: "630f9142a2e4864c8d245d5f80d290865bc0faf7f2b9ea99fc591c2555c64842"
+        proves: "Sherlock competitive intelligence monitoring thread"
+      - stream_offset: "01:00:29"
+        frame_identifier: "frame_obs_d2_004_b_competitor_q.png"
+        sha256: "907ecb56eb45f7f757410f22576c2ca45291343a318d90bf86a686efea01994d"
+        proves: "Competitor inquiry classification UI"
+      - stream_offset: "01:06:54"
+        frame_identifier: "frame_obs_d2_004_c_booking_baseline.png"
+        sha256: "4fcb724beb5a62fd8ccf672c340a6dfc6a0221a0395dbf321dc8613bb4534e22"
+        proves: "Booking flow baseline telemetry display"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "All three UI components physically verified across distinct video frames."
+
+  - observation_id: "OBS-D2-005"
+    title: "Battle Card Blair & AI Radar Monitoring Settings"
+    claim_components:
+      - battle_card_blair_agent_settings_displayed: true
+      - ai_radar_configuration_panel_visible: true
+    evidence_bundle:
+      - stream_offset: "01:13:00"
+        frame_identifier: "frame_obs_d2_005_a_blair_settings.png"
+        sha256: "3dd41ceeca1d40917300ff5cf79e28b82db231cf6dbf91fa35dfa0f54b20fac8"
+        proves: "Battle Card Blair configuration interface"
+      - stream_offset: "01:15:16"
+        frame_identifier: "frame_obs_d2_005_b_ai_radar.png"
+        sha256: "b0c3ed226448504f30c9b83cc41869dea96bbcd2da580559a37d6eaabe0257b2"
+        proves: "AI Radar monitoring settings screen"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames capture Blair and Radar settings forms, toggles, and metadata."
+
+  - observation_id: "OBS-D2-006"
+    title: "Strategic Pivot to Autonomous Cupcake Game Studio"
+    claim_components:
+      - strategic_pivot_to_game_studio_initiated: true
+      - cupcake_asset_playground_explored: true
+      - creative_director_game_design_active: true
+    evidence_bundle:
+      - stream_offset: "01:29:00"
+        frame_identifier: "frame_obs_d2_006_a_cupcake_assets.png"
+        sha256: "acfcf1f242dc94a8e3fa6caeb1024d36fddfe64739941df649e9ac7975cdeea7"
+        proves: "Cupcake asset playground screen"
+      - stream_offset: "01:30:34"
+        frame_identifier: "frame_obs_d2_006_b_creative_director.png"
+        sha256: "976adfc9af0325f6007295105d0632febdbee58af3c5960c764f9c6c67f95993"
+        proves: "Creative Director game design documentation"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames clearly show the new GitHub Cupcake repository context and Creative Director game assets."
+
+  - observation_id: "OBS-D2-007"
+    title: "Chef of Stuff Orchestration & Phaser Grid Layout"
+    claim_components:
+      - chef_of_stuff_coordinator_active: true
+      - phaser_2d_atom_grid_component_laid_out: true
+    evidence_bundle:
+      - stream_offset: "01:32:00"
+        frame_identifier: "frame_obs_d2_007_a_chef_of_stuff.png"
+        sha256: "434a77215837b848ef7b80c2ea32617f4f73c5d584fcd38f01933f949bdc3701"
+        proves: "Chef of Stuff bot coordination screen"
+      - stream_offset: "01:36:00"
+        frame_identifier: "frame_obs_d2_007_b_phaser_grid.png"
+        sha256: "239fe1fa456a572d9144792b551bf100f79e640f3ce61ad272eb650e2ead79bc"
+        proves: "Phaser 2D atom grid layout on stream"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames document Chef of Stuff in action and the resulting Phaser 2D component grid."
+
+  - observation_id: "OBS-D2-008"
+    title: "Cupcake Loop Board & Scoreboard Prototype"
+    claim_components:
+      - cupcake_loop_board_rendered: true
+      - scoreboard_component_integrated: true
+    evidence_bundle:
+      - stream_offset: "02:02:57"
+        frame_identifier: "frame_obs_d2_008_a_loop_board.png"
+        sha256: "502a97267e22986bf9ba65d336645995bb4052d400b2f5ba5b22ca485a7eac68"
+        proves: "Playable loop board layout"
+      - stream_offset: "02:07:26"
+        frame_identifier: "frame_obs_d2_008_b_scoreboard.png"
+        sha256: "229c0b3df7fa15c119c1104dc02eb711592307508fad7795f0d1a5673f974825"
+        proves: "Real-time scoreboard UI component"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames confirm interactive loop board prototype and functioning scoreboard UI."
+
+  - observation_id: "OBS-D2-009"
+    title: "Cupcake Card Pool, FIGHT Screen UI & Lane Binding"
+    claim_components:
+      - card_pool_rendered_in_browser: true
+      - fight_ui_action_screen_styled: true
+      - fighting_lanes_bound_to_player: true
+    evidence_bundle:
+      - stream_offset: "02:09:38"
+        frame_identifier: "frame_obs_d2_009_a_card_pool.png"
+        sha256: "b5f1ace9bb32eb7816a802715f6a25ce08f058a11f8b7a105778567473fe678a"
+        proves: "Card pool component layout"
+      - stream_offset: "02:16:23"
+        frame_identifier: "frame_obs_d2_009_b_fight_ui.png"
+        sha256: "5a3712dcbdac46e1d8f1d12cbadf3426becdb4c08748ee83fc80732d4ffbf6bc"
+        proves: "FIGHT action screen restyling"
+      - stream_offset: "02:25:31"
+        frame_identifier: "frame_obs_d2_009_c_final_lanes.png"
+        sha256: "dac7d91c8223b5737f78fc0b03697325bbcde4c96f81126d7014b53007d96498"
+        proves: "Final 3-lane battle layout"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Three-frame progression validates the full UI iteration from pool selection to fighting lanes."
+
+  - observation_id: "OBS-D2-010"
+    title: "Grok Bot + Cursor Multimodal Visual Pipeline"
+    claim_components:
+      - guest_karen_x_cheng_presented: true
+      - multimodal_workflow_slide_walkthrough: true
+    evidence_bundle:
+      - stream_offset: "02:35:00"
+        frame_identifier: "frame_obs_d2_010_a_guest_intro.png"
+        sha256: "b1ca72541ce17bbd6b932b861e6e32b3173561b7e02385e062e625a13061d4ad"
+        proves: "Karen X. Cheng speaker frame on stream"
+      - stream_offset: "02:50:00"
+        frame_identifier: "frame_obs_d2_010_b_workflow_slide.png"
+        sha256: "2be564f2ada80bd85edf42cd8eeb718808d7c818a4b8d3d02d2393210fd6eac8"
+        proves: "Grok Bot + Cursor workflow architecture slide"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames capture guest presentation, topic slides, and IDE pairing methodology."
+
+  - observation_id: "OBS-D2-011"
+    title: "Cupcake Browser Flow Prototype (No Backend)"
+    claim_components:
+      - browser_prototype_flow_diagrammed: true
+      - wireframes_display_client_side_only_loop: true
+    evidence_bundle:
+      - stream_offset: "03:13:24"
+        frame_identifier: "frame_obs_d2_011_a_browser_flow.png"
+        sha256: "d556347fb4f785994c8f83a52164bad0e2ff268a28b23a628f0c5667b0568614"
+        proves: "Browser prototype flow wireframe"
+      - stream_offset: "03:17:15"
+        frame_identifier: "frame_obs_d2_011_b_wireframes.png"
+        sha256: "7392cbe8dc4661fbf934c738d589ec46b995e78b5ec63d96e3ce4d07082da122"
+        proves: "Round 1 battle wireframe UI"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames physically demonstrate the standalone browser prototype flow (Login -> Import -> Fight)."
+
+  - observation_id: "OBS-D2-012"
+    title: "Chief of Staff Multi-Agent Org Roster"
+    claim_components:
+      - chief_of_staff_roster_displayed: true
+      - multi_role_separation_visible_in_rail: true
+    evidence_bundle:
+      - stream_offset: "03:17:15"
+        frame_identifier: "frame_obs_d2_012_a_chief_roster.png"
+        sha256: "0e146d090eb7a0d743c6c0362c59f3b602986af8925c0f488aadd8eca9a8bdf0"
+        proves: "Chief of Staff multi-agent roster screen"
+      - stream_offset: "03:35:17"
+        frame_identifier: "frame_obs_d2_012_b_cupcake_eng.png"
+        sha256: "b96e2b1c03f949e168475f042ea855f6c411686cce3678b948906cc072f7142d"
+        proves: "Cupcake Eng role configuration and settings panel"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames capture the left rail listing Chief of Staff, Ops, dr eggbot, Creative Director, Image Gen, Cupcake Eng, and Founding Eng."
+
+  - observation_id: "OBS-D2-013"
+    title: "Captain Isolation Constraint ('Other Two Are Dead To You')"
+    claim_components:
+      - team_captain_selection_interface_active: true
+      - isolation_rule_verbalized_and_enforced: true
+    evidence_bundle:
+      - stream_offset: "03:44:00"
+        frame_identifier: "frame_obs_d2_013_a_debug_captain.png"
+        sha256: "310cfc92d8b6448c49c36e896631a58df5f7021ce5a9f959a851e49ee641b515"
+        proves: "Your Team captain picker interface"
+      - stream_offset: "03:55:00"
+        frame_identifier: "frame_obs_d2_013_b_maturity_curve.png"
+        sha256: "baa790dfe44f9a54953dae3c30a4d98d298ff708d1c470cb508f5901e3535f1d"
+        proves: "AI maturity curve team governance slide"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames prove the interactive captain selection mechanism and governance framework instituted to prevent multi-bot merge conflicts."
+
+  - observation_id: "OBS-D2-014"
+    title: "Enterprise Agent Architecture & Tool Calling Limits (Berman)"
+    claim_components:
+      - guest_matthew_berman_interview_conducted: true
+      - enterprise_agent_tooling_discussion_held: true
+    evidence_bundle:
+      - stream_offset: "04:44:27"
+        frame_identifier: "frame_obs_d2_014_a_interview.png"
+        sha256: "a9ed11f37f0ed8c9f13176ce0f7d7b7bbc91af8cd739f9a25eb9cb86f7fd2875"
+        proves: "Matthew Berman on-screen video stream"
+      - stream_offset: "04:55:07"
+        frame_identifier: "frame_obs_d2_014_b_lowerthird.png"
+        sha256: "5101f5cb7f54aae5d3974c53ddcf41ff145f42b749dc5dc8ec39b2e57bbd6373"
+        proves: "Berman lower-third identification"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames verify Matthew Berman's identity, guest interview session, and architectural analysis of agent tool use."
+
+  - observation_id: "OBS-D2-015"
+    title: "Remotion Video Ads Execution Crash (Localhost Refused)"
+    claim_components:
+      - remotion_video_ad_agent_running: true
+      - execution_failure_encountered: true
+      - localhost_connection_refused_error_displayed: true
+    evidence_bundle:
+      - stream_offset: "05:36:00"
+        frame_identifier: "frame_obs_d2_015_a_agent_desk.png"
+        sha256: "6ac9cf317e4c85d79b07885d4b1b4f165142bab38aafa63ffbaf5d05ab0c2f69"
+        proves: "Agent workspace UI launching Remotion"
+      - stream_offset: "05:42:00"
+        frame_identifier: "frame_obs_d2_015_b_remotion_run.png"
+        sha256: "846b3d62a64967a518e1c7a4e0af5a516fc4fae964b501c3c88f92c798cc06fb"
+        proves: "Remotion video build running"
+      - stream_offset: "05:51:00"
+        frame_identifier: "frame_obs_d2_015_c_localhost_fail.png"
+        sha256: "f6482fc24120fd14ac7217a45ca09575b767ab1bacc5e59f2ab69399ec19432a"
+        proves: "Localhost refused connection crash screen"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Three-frame sequence proves the failure chain: bot initiated execution, runtime stalled, and browser displayed connection refused."
+
+  - observation_id: "OBS-D2-016"
+    title: "Army Huddle 25-Lead Outbound Workflow & Draft-Only Gate"
+    claim_components:
+      - sdr_prospecting_use_cases_shown: true
+      - army_huddle_flylo_prospecting_active: true
+      - draft_only_restriction_physically_observed: true
+    evidence_bundle:
+      - stream_offset: "06:06:00"
+        frame_identifier: "frame_obs_d2_016_a_sdr_cases.png"
+        sha256: "985ca1df6bf9609e8bedf6b97a10a376cdfef6d99188a3d4fcec08b158d5f5a6"
+        proves: "SDR use cases slide"
+      - stream_offset: "06:16:00"
+        frame_identifier: "frame_obs_d2_016_b_army_huddle.png"
+        sha256: "b581646e3069b9765fbb3df6ede185cb5b332d33665060617bf7c8a610d633b9"
+        proves: "Army Huddle 25-lead table on screen"
+      - stream_offset: "06:31:00"
+        frame_identifier: "frame_obs_d2_016_c_learned_review.png"
+        sha256: "2a04ae8036ca9a617508a121b38c52c7a3207543b6096e9b9c90d7ceecf41108"
+        proves: "What We Learned review confirming draft-only safety constraint"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Frames capture both the 25-lead prospect generation table and the explicit review confirming bot could not send emails autonomously."
+
+  - observation_id: "OBS-D2-017"
+    title: "Cupcake Global Leaderboard & Multi-Bot PR Triage"
+    claim_components:
+      - cupcake_global_leaderboard_live_on_stream: true
+      - bake_founding_engineer_pr_triaged: true
+      - clerk_ci_updates_rendered: true
+      - concurrent_render_error_captured: true
+    evidence_bundle:
+      - stream_offset: "06:43:12"
+        frame_identifier: "frame_obs_d2_017_a_leaderboard.png"
+        sha256: "161cd14589963b9a72582331d41989db506cc2af3e87ad08a1ff25b2e8600034"
+        proves: "Global leaderboard live screen"
+      - stream_offset: "06:48:21"
+        frame_identifier: "frame_obs_d2_017_b_bake_founding.png"
+        sha256: "c22181e2121168e73a25e87282eaa179ff37667723018a5e2b80f80a1d96690d"
+        proves: "Bake bot founding engineer PR screen"
+      - stream_offset: "06:59:06"
+        frame_identifier: "frame_obs_d2_017_c_clerk_ci.png"
+        sha256: "00a2b806984ec138ec647a1baa4983ffa64c1b8d302eea8c65c4c000d0d5144c"
+        proves: "Clerk bot CI status checks"
+      - stream_offset: "06:53:33"
+        frame_identifier: "frame_obs_d2_017_d_render_error.png"
+        sha256: "8d6c873fa7a2c982578d3eb93097d73fa19a3996647fdabd50fd224c19cce5d4"
+        proves: "Render error caused by conflicting concurrent PRs"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Four-frame sequence captures the live leaderboard and the exact render failure resulting from conflicting bot PRs."
+
+  - observation_id: "OBS-D2-018"
+    title: "Customer Support Plain Integration, Human Refund Gate & Day 2 Closeout"
+    claim_components:
+      - customer_support_use_cases_shown: true
+      - plain_marketplace_integration_demonstrated: true
+      - refund_approval_gate_strictly_enforces_human_click: true
+      - create_bot_modal_walkthrough: true
+      - stream_end_card_at_082319: true
+    evidence_bundle:
+      - stream_offset: "07:30:00"
+        frame_identifier: "frame_obs_d2_018_a_support_cases.png"
+        sha256: "579d85cc35f1ebebdeab9a4ce332eca3fd1b398dbca31f77c1a2d34eca44146c"
+        proves: "Support use cases slide and promo announcement"
+      - stream_offset: "07:43:43"
+        frame_identifier: "frame_obs_d2_018_b_marketplace.png"
+        sha256: "b95ce6fa82a41accff71108335548ae036112dbd9d0839d655935002104439fd"
+        proves: "Plain marketplace plugin modal"
+      - stream_offset: "07:52:00"
+        frame_identifier: "frame_obs_d2_018_c_reply_approval.png"
+        sha256: "493db8140769ffda7023e0d40f7509529d507eb5a8bf398ff1d01fb37973f80b"
+        proves: "Human approval button for refund ticket response"
+      - stream_offset: "08:18:00"
+        frame_identifier: "frame_obs_d2_018_d_create_bot.png"
+        sha256: "43d922eb6099358217fc65fbaa87bff44734ffa4904597aa1fd6537ac7309390"
+        proves: "Create-a-Bot configuration modal"
+      - stream_offset: "08:23:19"
+        frame_identifier: "frame_obs_d2_018_e_end_card.png"
+        sha256: "ab33fd4bf6d54426526266d2ae78534fb5ec5976082fb6182d10b484660c61b3"
+        proves: "Day 2 official broadcast end card at 08:23:19"
+    semantic_adjudication:
+      verdict: "FULLY_SUPPORTED"
+      support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+      reviewer_basis: "Five-frame sequence verifies full support workflow, human-in-the-loop refund gate, and official stream end card."

@@ -1,0 +1,46 @@
+schema_version: "2.0.0"
+claims_ledger_id: "CLM-LEDGER-GROKBOT-DAY2-FULL"
+evaluated_at: "2026-09-21T08:15:00+08:00"
+source_ref: "OBS-COLL-GROKBOT-DAY2-FULL"
+total_claims: 5
+
+claims:
+  - claim_id: "CLM-D2-001"
+    observation_refs: ["OBS-D2-001"]
+    statement: "Grok Bot templates support modular character sheet attributes (CHA/DEX/INT) and rarity tiers."
+    claim_type: "SYSTEM_CAPABILITY"
+    claim_status: "SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Directly verified on screen via template configuration UI and game scoring slides (frame_obs_d2_001_a_templates_slide.png, frame_obs_d2_001_b_game_scoring.png)."
+
+  - claim_id: "CLM-D2-002"
+    observation_refs: ["OBS-D2-003"]
+    statement: "Sales Engineering bot workflow achieves an 85% automated test speedup in enterprise integration."
+    claim_type: "PERFORMANCE_CLAIM"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED_UI_ONLY"
+    verification_rationale: "UI generation of Starlink deck and FlyLo booking flows physically demonstrated; however, the numeric 85% speedup is an uncorroborated spoken/slide assertion without underlying CI test execution metrics."
+
+  - claim_id: "CLM-D2-003"
+    observation_refs: ["OBS-D2-013", "OBS-D2-017"]
+    statement: "Multi-agent fleets can operate fully autonomously across shared codebases without human coordination."
+    claim_type: "ORGANIZATIONAL_AUTONOMY"
+    claim_status: "CONTRADICTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Directly contradicted by stream reality: concurrent autonomous PRs from Bake and Clerk bots caused git tree merge contention and render crashes (OBS-D2-017), forcing human builders to institute a strict single-captain constraint ('other two are dead to you', OBS-D2-013)."
+
+  - claim_id: "CLM-D2-004"
+    observation_refs: ["OBS-D2-016"]
+    statement: "Grok Bot SDRs can autonomously execute end-to-end outbound email prospecting."
+    claim_type: "EXECUTION_AUTONOMY"
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Lead qualification and 25 email drafts were generated; however, live outbound dispatch was strictly disabled by an enforced draft-only safety constraint requiring human review before sending."
+
+  - claim_id: "CLM-D2-005"
+    observation_refs: ["OBS-D2-018"]
+    statement: "Grok Bot customer support agents can autonomously issue financial refund disbursements."
+    claim_type: "SECURITY_AND_FINANCIAL_GOVERNANCE"
+    claim_status: "CONTRADICTED"
+    support_level: "PHYSICAL_EVIDENCE_VERIFIED"
+    verification_rationale: "Ticketing integration with Plain physically demonstrated that refund actions strictly trigger a mandatory human approval modal; the agent cannot unilaterally process financial refunds."

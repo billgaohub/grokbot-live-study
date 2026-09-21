@@ -1,0 +1,445 @@
+coverage_review_id: COV-REV-GROKBOT-DAY2-FULL
+evaluated_at: "2026-09-21T08:15:00+08:00"
+total_duration_seconds: 30199
+total_duration_hms: "08:23:19"
+primary_broadcast_authority: "https://x.com/i/broadcasts/1PKqrNyvmYwGb"
+research_lead_authority: "Roenel/Grok-Bot-Galaxy-Notes (commit 218ebb6db09ddd140cabb0f0869428df7a27754f)"
+total_segments_count: 29
+unclassified_gaps_seconds: 0
+mathematical_conservation_verified: true
+
+segments:
+  - segment_id: SEG-D2-01
+    name: "Cold Open, Title Countdown & Template Previews"
+    media_range: "00:00:00 - 00:20:00"
+    duration_seconds: 1200
+    classification: "OPENING / TEMPLATES"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-001
+    promoted_observations:
+      - OBS-D2-001
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Grok Bot templates presented as RPG character sheets with CHA/DEX/INT stats and rarity tiers."
+
+  - segment_id: SEG-D2-02
+    name: "Team Drafting & Sales Engineering Architecture Kickoff"
+    media_range: "00:20:00 - 00:38:44"
+    duration_seconds: 1124
+    classification: "PRODUCT / SALES_ENG"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-002
+    promoted_observations:
+      - OBS-D2-002
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Amrita Venkatraman presents 4 SE bot use-case cards: Engineer, Customer Expert, Echo, Competitive Intel."
+
+  - segment_id: SEG-D2-03
+    name: "Sales Engineering Demos: Starlink Deck, FlyLo & Intake UI"
+    media_range: "00:38:44 - 00:54:07"
+    duration_seconds: 923
+    classification: "DEMO / WORKFLOW"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-003
+    promoted_observations:
+      - OBS-D2-003
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "SE intake bot workflow, Starlink SpaceX deck generation, FlyLo quiet flight booking; 85% test speedup claim calibrated."
+
+  - segment_id: SEG-D2-04
+    name: "Competitive Intelligence Thread & Booking Flow Baseline"
+    media_range: "00:54:07 - 01:10:34"
+    duration_seconds: 987
+    classification: "INTEL / MEASUREMENT"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-004
+    promoted_observations:
+      - OBS-D2-004
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Sherlock threads competitive intel monitoring and booking flow baseline measurement."
+
+  - segment_id: SEG-D2-05
+    name: "Battle Card Blair, AI Radar & Game Studio Pivot"
+    media_range: "01:10:34 - 01:30:34"
+    duration_seconds: 1200
+    classification: "PIVOT / GAME_DESIGN"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-005
+      - CAND-D2-006
+    promoted_observations:
+      - OBS-D2-005
+      - OBS-D2-006
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Battle Card Blair and AI Radar settings; builders pivot to autonomous Cupcake game studio in Phaser."
+
+  - segment_id: SEG-D2-06
+    name: "Chef of Stuff Orchestration & Phaser Grid Layout"
+    media_range: "01:30:34 - 01:48:34"
+    duration_seconds: 1080
+    classification: "ORCHESTRATION / INFRA"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-007
+    promoted_observations:
+      - OBS-D2-007
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Chef of Stuff coordinator bot, Phaser 2D atom grid layout, Slack emoji integration, and intermission stretch."
+
+  - segment_id: SEG-D2-07
+    name: "Cupcake Game Design Docs, Prototypes & Loop Board"
+    media_range: "01:48:34 - 02:07:26"
+    duration_seconds: 1132
+    classification: "PROTOTYPE / GAME_LOOP"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-008
+    promoted_observations:
+      - OBS-D2-008
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Game design docs, potato-mode prototypes, and loop board with live scoreboard."
+
+  - segment_id: SEG-D2-08
+    name: "Card Pool Mechanics, FIGHT UI Restyle & Overhead Cutaway"
+    media_range: "02:07:26 - 02:25:31"
+    duration_seconds: 1085
+    classification: "UI_POLISH / ENGINE"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-009
+    promoted_observations:
+      - OBS-D2-009
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Cupcake card pool, FIGHT screen UI restyle, and battle lane allocation."
+
+  - segment_id: SEG-D2-09
+    name: "Intermission & Guest Karen X. Cheng: Grok Bot + Cursor Workflow"
+    media_range: "02:25:31 - 02:45:31"
+    duration_seconds: 1200
+    classification: "GUEST / VISUAL_AI"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-010
+    promoted_observations:
+      - OBS-D2-010
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Karen X. Cheng presentation pairing Grok Bot multimodal prompts with Cursor IDE."
+
+  - segment_id: SEG-D2-10
+    name: "Karen X. Cheng Presentation Continued & Prompt Deep-Dive"
+    media_range: "02:45:31 - 03:01:27"
+    duration_seconds: 956
+    classification: "GUEST / PROMPT_ENG"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-019
+    promoted_observations:
+      - OBS-D2-019
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Multi-modal prompt engineering walkthrough and character consistency discussion."
+
+  - segment_id: SEG-D2-11
+    name: "Intermission & Cupcake Browser Flow Prototype Wireframes"
+    media_range: "03:01:27 - 03:17:15"
+    duration_seconds: 948
+    classification: "PROTOTYPE / WIREFRAMING"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-011
+    promoted_observations:
+      - OBS-D2-011
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Cupcake browser prototype flow (Login -> Import -> Fight) and Round 1 wireframes."
+
+  - segment_id: SEG-D2-12
+    name: "Cupcake Mock Notes & Chief of Staff Multi-Agent Hierarchy"
+    media_range: "03:17:15 - 03:35:17"
+    duration_seconds: 1082
+    classification: "ARCHITECTURE / MULTI_BOT"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-012
+    promoted_observations:
+      - OBS-D2-012
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Chief of Staff org chart partitioning Ops, Creative, Image Gen, Founding Eng, and Cupcake Eng."
+
+  - segment_id: SEG-D2-13
+    name: "Cupcake Eng PR Orchestration & Captain Isolation Rule"
+    media_range: "03:35:17 - 03:53:29"
+    duration_seconds: 1092
+    classification: "GOVERNANCE / ISOLATION"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-013
+    promoted_observations:
+      - OBS-D2-013
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Captain isolation constraint ('other two are dead to you') to prevent cross-bot clobbering."
+
+  - segment_id: SEG-D2-14
+    name: "AI Maturity Curve & Why Grok Bot Slide Deep-Dive"
+    media_range: "03:53:29 - 04:11:29"
+    duration_seconds: 1080
+    classification: "FRAMEWORK / ENTERPRISE"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-020
+    promoted_observations:
+      - OBS-D2-020
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Enterprise AI Maturity Curve (Ask -> Do -> Delegate -> Staff) and Why Grok Bot overview."
+
+  - segment_id: SEG-D2-15
+    name: "Proactive Setup Tips & Stage Presenter Q&A"
+    media_range: "04:11:29 - 04:31:30"
+    duration_seconds: 1201
+    classification: "OPERATIONS / Q_AND_A"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-021
+    promoted_observations:
+      - OBS-D2-021
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Operational setup tips for persistent agents and stage Q&A."
+
+  - segment_id: SEG-D2-16
+    name: "Intermission & Guest Matthew Berman Interview Kickoff"
+    media_range: "04:31:30 - 04:47:20"
+    duration_seconds: 950
+    classification: "GUEST / INTERVIEW"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-014
+    promoted_observations:
+      - OBS-D2-014
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Matthew Berman interview on autonomous agent systems and enterprise tooling."
+
+  - segment_id: SEG-D2-17
+    name: "Matthew Berman Interview Continued & Enterprise Architecture"
+    media_range: "04:47:20 - 05:07:08"
+    duration_seconds: 1188
+    classification: "GUEST / ARCHITECTURE"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-022
+    promoted_observations:
+      - OBS-D2-022
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Continuation of Berman interview on tool calling, failure domains, and production readiness."
+
+  - segment_id: SEG-D2-18
+    name: "Cover Letter Writer & Critic Dual-Agent Demo"
+    media_range: "05:07:08 - 05:27:55"
+    duration_seconds: 1247
+    classification: "DEMO / DUAL_AGENT"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-023
+    promoted_observations:
+      - OBS-D2-023
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Adversarial dual-agent setup: Writer generating drafts, Critic auditing against job descriptions."
+
+  - segment_id: SEG-D2-19
+    name: "Remotion Ads Cloud Agent Desk & Localhost Execution Crash"
+    media_range: "05:27:55 - 05:45:33"
+    duration_seconds: 1058
+    classification: "FAILURE / VIDEO_AGENT"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-015
+    promoted_observations:
+      - OBS-D2-015
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Cloud agent runs Remotion Ads; encounters execution crash (localhost:3000 refused)."
+
+  - segment_id: SEG-D2-20
+    name: "Cupcake Remotion Pipeline, Shardul Marathe & Product Review"
+    media_range: "05:45:33 - 06:05:33"
+    duration_seconds: 1200
+    classification: "DEMO / PRODUCT"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-024
+    promoted_observations:
+      - OBS-D2-024
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Remotion ad output verified, Shardul Marathe guest segment, and promo QR code."
+
+  - segment_id: SEG-D2-21
+    name: "SDR Outbound Prospecting Kickoff & Army Huddle Workflow"
+    media_range: "06:05:33 - 06:22:57"
+    duration_seconds: 1044
+    classification: "SDR / AUTOMATION"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-016
+    promoted_observations:
+      - OBS-D2-016
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "SDR automation generating 25 leads for FlyLo with mandatory draft-only constraint."
+
+  - segment_id: SEG-D2-22
+    name: "SDR Qualification Lock & Cupcake Global Leaderboard Live Demo"
+    media_range: "06:22:57 - 06:43:12"
+    duration_seconds: 1215
+    classification: "DEMO / SHOWCASE"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-017
+    promoted_observations:
+      - OBS-D2-017
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "SDR lead lock and live demonstration of Cupcake global leaderboard with multi-bot PR churn."
+
+  - segment_id: SEG-D2-23
+    name: "Cupcake Engineering Ops: Bake & Clerk PR Triage and In-Game Ads"
+    media_range: "06:43:12 - 07:04:15"
+    duration_seconds: 1263
+    classification: "ENGINEERING / MULTI_PR"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-025
+    promoted_observations:
+      - OBS-D2-025
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Bake and Clerk PR triage, dr eggbot audits, and in-game ads prototyping."
+
+  - segment_id: SEG-D2-24
+    name: "In-Game Ads Integration, Cupcake Round 3 & MVP Idle State"
+    media_range: "07:04:15 - 07:21:03"
+    duration_seconds: 1008
+    classification: "GAME_DEV / VERIFICATION"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-026
+    promoted_observations:
+      - OBS-D2-026
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Cupcake Round 3 playtesting, Steve ads integration, and MVP idle state reached."
+
+  - segment_id: SEG-D2-25
+    name: "Customer Support Track Kickoff & $200 Promo Announcement"
+    media_range: "07:21:03 - 07:39:51"
+    duration_seconds: 1128
+    classification: "SUPPORT / PROMO"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-027
+    promoted_observations:
+      - OBS-D2-027
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Customer support use cases and $200 free Grok Bot promotional giveaway announcement."
+
+  - segment_id: SEG-D2-26
+    name: "Intermission Transition Before Support Live Demo"
+    media_range: "07:39:51 - 07:43:18"
+    duration_seconds: 207
+    classification: "IDLE / INTERMISSION"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "VISUAL_RANGE_CONFIRMATION"
+    materiality_adjudicated: "NO_EVENT"
+    candidate_events: []
+    promoted_observations: []
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Intermission stretch before Plain live support demo. Audio unmuted, no active speaker."
+
+  - segment_id: SEG-D2-27
+    name: "Support Live Demo: Plain Marketplace & Human Refund Approval Gate"
+    media_range: "07:43:18 - 08:01:51"
+    duration_seconds: 1113
+    classification: "SUPPORT / HUMAN_GATE"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+    materiality_adjudicated: "MATERIAL_EVENT_PROMOTED"
+    candidate_events:
+      - CAND-D2-018
+    promoted_observations:
+      - OBS-D2-018
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Support tickets in Plain marketplace; financial refund approvals strictly require human sign-off."
+
+  - segment_id: SEG-D2-28
+    name: "Dr Eggbot Roster Audit, Bottleneck Analysis & Create-a-Bot Modal"
+    media_range: "08:01:51 - 08:18:59"
+    duration_seconds: 1028
+    classification: "AUDIT / BOT_SETUP"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-028
+    promoted_observations:
+      - OBS-D2-028
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Dr eggbot audits bot roster and identifies bottlenecks; Create-a-Bot modal walkthrough."
+
+  - segment_id: SEG-D2-29
+    name: "Final Promo QR Code, Day 2 Conclusion & Day 3 Showcase Announcement"
+    media_range: "08:18:59 - 08:23:19"
+    duration_seconds: 260
+    classification: "CLOSEOUT / WRAP_UP"
+    access_status: "ACCESSED_AND_REVIEWED"
+    review_mode: "METADATA_AND_STREAM_INSPECTION"
+    materiality_adjudicated: "BACKGROUND_CONTEXT"
+    candidate_events:
+      - CAND-D2-026
+    promoted_observations:
+      - OBS-D2-029
+    reviewed_at: "2026-09-21T08:15:00+08:00"
+    verification_notes: "Stream wrap-up, dr eggbot QR code, and announcement of Day 3 showcase at 8:30 AM PST tomorrow."

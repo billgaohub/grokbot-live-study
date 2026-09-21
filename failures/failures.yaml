@@ -1,25 +1,49 @@
 failures_ledger_id: FAIL-LEDGER-GROKBOT-DAY1-FULL
-evaluated_at: "2026-09-20T21:10:00+08:00"
-
+evaluated_at: '2026-09-20T21:10:00+08:00'
 failures:
-  - failure_id: FAIL-001
-    observation_ref: "OBS-013"
-    timestamp: "T+01:06:30"
-    actor: "Data Dan (Grok Bot)"
-    failure_type: "ENVIRONMENTAL_DEFAULT_PERMISSION_MISCONFIGURATION"
-    root_cause: "Agent created a Google Form using default domain-restricted sharing permissions rather than public 'anyone with link' permissions required for livestream audience."
-    observable_symptom: "Livestream audience scanned displayed QR code and received 'Permission Denied / No Access' error."
-    severity: "HIGH_EXECUTION_IMPACT (Blocked primary task goal of audience data collection)"
-    detection_channel: "EXTERNAL_HUMAN_FEEDBACK (Chat feedback from audience alerted presenter)"
-    resolution_ref: "INT-003"
-
-  - failure_id: FAIL-002
-    observation_ref: "OBS-027"
-    timestamp: "T+05:28:00"
-    actor: "Potato Lab Founding Team (Human + Bots)"
-    failure_type: "REGULATORY_PERMITTING_LEAD_TIME_INCOMPATIBILITY"
-    root_cause: "Hosting an authentic pop-up restaurant in San Francisco requires municipal health department permits, food handler certifications, and ABC alcohol licensing with lead times spanning weeks, which physically exceeds the 72-hour challenge execution envelope."
-    observable_symptom: "Team identified legal impossibility of operating a compliant physical restaurant pop-up within the 3-day sprint; blocked continuation of restaurant menu and kitchen software track."
-    severity: "CRITICAL_STRATEGIC_BLOCKER (Forced complete product scope abandonment and pivot)"
-    detection_channel: "DOMAIN_KNOWLEDGE_INSPECTION (Hosts recognized real-world legal permitting constraints)"
-    resolution_ref: "INT-004"
+- failure_id: FAIL-001
+  observation_ref: OBS-013
+  timestamp: T+01:06:30
+  actor: Data Dan (Grok Bot)
+  failure_type: ENVIRONMENTAL_DEFAULT_PERMISSION_MISCONFIGURATION
+  root_cause: Agent created a Google Form using default domain-restricted sharing permissions rather than public 'anyone with
+    link' permissions required for livestream audience.
+  observable_symptom: Livestream audience scanned displayed QR code and received 'Permission Denied / No Access' error.
+  severity: HIGH_EXECUTION_IMPACT (Blocked primary task goal of audience data collection)
+  detection_channel: EXTERNAL_HUMAN_FEEDBACK (Chat feedback from audience alerted presenter)
+  resolution_ref: INT-003
+- failure_id: FAIL-002
+  observation_ref: OBS-027
+  timestamp: T+05:28:00
+  actor: Potato Lab Founding Team (Human + Bots)
+  failure_type: REGULATORY_PERMITTING_LEAD_TIME_INCOMPATIBILITY
+  root_cause: Hosting an authentic pop-up restaurant in San Francisco requires municipal health department permits, food handler
+    certifications, and ABC alcohol licensing with lead times spanning weeks, which physically exceeds the 72-hour challenge
+    execution envelope.
+  observable_symptom: Team identified legal impossibility of operating a compliant physical restaurant pop-up within the 3-day
+    sprint; blocked continuation of restaurant menu and kitchen software track.
+  severity: CRITICAL_STRATEGIC_BLOCKER (Forced complete product scope abandonment and pivot)
+  detection_channel: DOMAIN_KNOWLEDGE_INSPECTION (Hosts recognized real-world legal permitting constraints)
+  resolution_ref: INT-004
+- failure_id: FAIL-D2-001
+  observation_ref: OBS-D2-015
+  timestamp: T+05:51:00
+  actor: Remotion Cloud Video Agent
+  failure_type: LOCAL_SERVER_CONNECTION_REFUSED_CRASH
+  root_cause: Cloud video agent launched local Remotion render process, but port 3000 refused connection due to sandbox container
+    lifecycle disconnect.
+  observable_symptom: Browser displayed connection refused error; video asset generation stalled until container restart.
+  severity: MEDIUM_EXECUTION_IMPACT (Stalled video asset pipeline for ~15 minutes)
+  detection_channel: SCREEN_OBSERVED (Browser error screen visible on livestream)
+  resolution_ref: Manual environment restart by studio engineers
+- failure_id: FAIL-D2-002
+  observation_ref: OBS-D2-017
+  timestamp: T+06:53:33
+  actor: Cupcake Engineering Fleet (Bake & Clerk bots)
+  failure_type: CONCURRENT_MULTI_AGENT_PR_MERGE_CHURN
+  root_cause: Bake bot and Clerk bot concurrently pushed conflicting PRs to shipbythursday/cupcake, causing divergent tree
+    state and frontend render crashes.
+  observable_symptom: Live Cupcake leaderboard screen threw React render errors following uncoordinated bot merge.
+  severity: HIGH_STABILITY_IMPACT (Temporarily broke live showcase demo)
+  detection_channel: SCREEN_OBSERVED (Render error modal rendered live on stage)
+  resolution_ref: INT-D2-001

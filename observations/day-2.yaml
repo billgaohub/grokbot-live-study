@@ -1,0 +1,588 @@
+observations_collection_id: OBS-COLL-GROKBOT-DAY2-FULL
+evaluated_at: "2026-09-21T08:15:00+08:00"
+source_factual_authority: "https://x.com/i/broadcasts/1PKqrNyvmYwGb (Broadcast 1PKqrNyvmYwGb)"
+research_lead_authority: "Roenel/Grok-Bot-Galaxy-Notes (commit 218ebb6db09ddd140cabb0f0869428df7a27754f)"
+study_window: "T+00:00:00 to T+08:23:19 (Galaxy Day 2 Full Stream - 30,199s)"
+total_observations: 29
+
+observations:
+  - observation_id: OBS-D2-001
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+00:15:00"
+    timestamp_end: "T+00:20:00"
+    actor: "Studio Panel (Matt Palmer, Lauren Tan, Roshan Sadanani)"
+    target: "Grok Bot RPG Character Sheet Templates"
+    observation_kind: "DEMO"
+    observed_content: "Hosts introduce Grok Bot templates structured as RPG character sheets with CHA/DEX/INT attributes and rarity tiers for automated agent roles."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:15:00 (bundle: frame_obs_d2_001_a_templates_slide.png [sha256: ded230a5d54acabe8d3b709b43a154a4d5b5228d81dd1c82e1d7c63abf48744c], frame_obs_d2_001_b_game_scoring.png [sha256: bf72bcb25b79dac881dec39be21e7b172fe3be6390e3519d8ecea2ee3cba7224])"
+
+  - observation_id: OBS-D2-002
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+00:30:28"
+    timestamp_end: "T+00:38:44"
+    actor: "Amrita Venkatraman (Sales Engineering Lead)"
+    target: "Sales Engineering 4 Use-Case Architecture"
+    observation_kind: "PRESENTATION"
+    observed_content: "Amrita presents the Sales Engineering bot maturity curve and 4 orange-outlined role cards: Engineer (technical resource), Customer Expert, Echo, and Competitive Intel."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:38:17 (bundle: frame_obs_d2_002_a_speaker.png [sha256: 4be8331b265450cf098575171862830ad2149d883d269ee1cebcef6a4fa76220], frame_obs_d2_002_b_se_use_cases.png [sha256: ed42c788979a6bd7deb8ce1af172452a09caeb13f6b452a950a26652116a246b])"
+
+  - observation_id: OBS-D2-003
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+00:42:19"
+    timestamp_end: "T+00:54:07"
+    actor: "Amrita Venkatraman"
+    target: "SE Demos: Starlink Deck, FlyLo Booking & 85% Speedup Claim"
+    observation_kind: "DEMO_AND_CLAIM"
+    observed_content: "Live walkthrough of Starlink SpaceX deck generation, FlyLo quiet flight booking flow, bot intake UI, and enterprise workflow documentation; presenter states 85% automated test speedup."
+    claim_status: "PARTIALLY_SUPPORTED"
+    support_level: "PARTIALLY_SUPPORTED"
+    epistemic_note: "UI workflow and pitch deck generation visually verified; 85% test speedup is a spoken/slide claim without raw CI execution metrics."
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:49:13 (bundle: frame_obs_d2_003_a_starlink_deck.png [sha256: eb80683298a17f6fd98fb45ce9fd79bc41e0c3ddd88acdaccdd62ef0adee3313], frame_obs_d2_003_b_bot_intake_ui.png [sha256: 057f47ee5821cef4c89ee03fde3657a6e5b6a1c5927cc9641b20f6c2d8c13d58], frame_obs_d2_003_c_final_workflow.png [sha256: 31762220e266e5cbd28286bb121327b7d5e35dea67ba80f356e8784c08f53360])"
+
+  - observation_id: OBS-D2-004
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+00:57:17"
+    timestamp_end: "T+01:10:34"
+    actor: "Sales Engineering Team"
+    target: "Competitive Intel Sherlock Threads & Booking Baseline"
+    observation_kind: "ACTION"
+    observed_content: "Demonstration of competitive intel thread ('Sherlock' monitoring competitor questions) and booking flow baseline measurement with coverage mandate."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:57:17 (bundle: frame_obs_d2_004_a_competitor_thread.png [sha256: 630f9142a2e4864c8d245d5f80d290865bc0faf7f2b9ea99fc591c2555c64842], frame_obs_d2_004_b_competitor_q.png [sha256: 907ecb56eb45f7f757410f22576c2ca45291343a318d90bf86a686efea01994d], frame_obs_d2_004_c_booking_baseline.png [sha256: 4fcb724beb5a62fd8ccf672c340a6dfc6a0221a0395dbf321dc8613bb4534e22])"
+
+  - observation_id: OBS-D2-005
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+01:10:34"
+    timestamp_end: "T+01:20:00"
+    actor: "Studio Panel"
+    target: "Battle Card Blair & AI Radar Monitoring Settings"
+    observation_kind: "CONFIGURATION"
+    observed_content: "Hosts configure Battle Card Blair and AI Radar settings for autonomous market scanning and competitive alert aggregation."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:13:00 (bundle: frame_obs_d2_005_a_blair_settings.png [sha256: 3dd41ceeca1d40917300ff5cf79e28b82db231cf6dbf91fa35dfa0f54b20fac8], frame_obs_d2_005_b_ai_radar.png [sha256: b0c3ed226448504f30c9b83cc41869dea96bbcd2da580559a37d6eaabe0257b2])"
+
+  - observation_id: OBS-D2-006
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+01:25:00"
+    timestamp_end: "T+01:30:34"
+    actor: "Matt Palmer, Lauren Tan, Roshan Sadanani"
+    target: "Strategic Pivot to Autonomous Cupcake Game Studio"
+    observation_kind: "PIVOT"
+    observed_content: "Builders execute a strategic pivot: instead of generic SaaS tools, the bots are tasked with building 'Cupcake', a card-battler game in Phaser 2D; Creative Director explores asset playground."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:29:00 (bundle: frame_obs_d2_006_a_cupcake_assets.png [sha256: acfcf1f242dc94a8e3fa6caeb1024d36fddfe64739941df649e9ac7975cdeea7], frame_obs_d2_006_b_creative_director.png [sha256: 976adfc9af0325f6007295105d0632febdbee58af3c5960c764f9c6c67f95993])"
+
+  - observation_id: OBS-D2-007
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+01:32:00"
+    timestamp_end: "T+01:40:00"
+    actor: "Chef of Stuff (Bot) & Lauren Tan"
+    target: "Chef of Stuff Orchestration & Phaser Grid Layout"
+    observation_kind: "ACTION"
+    observed_content: "Introduction of 'Chef of Stuff' bot as central development coordinator; bot generates Phaser 2D atom grid layout for game board visualization."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:32:00 (bundle: frame_obs_d2_007_a_chef_of_stuff.png [sha256: 434a77215837b848ef7b80c2ea32617f4f73c5d584fcd38f01933f949bdc3701], frame_obs_d2_007_b_phaser_grid.png [sha256: 239fe1fa456a572d9144792b551bf100f79e640f3ce61ad272eb650e2ead79bc])"
+
+  - observation_id: OBS-D2-008
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+01:55:00"
+    timestamp_end: "T+02:07:26"
+    actor: "Lauren Tan & Roshan Sadanani"
+    target: "Cupcake Loop Board & Scoreboard Prototype"
+    observation_kind: "PROTOTYPE"
+    observed_content: "Implementation and visual validation of Cupcake game loop board, potato-mode design candidates, and live scoreboard UI component."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:02:57 (bundle: frame_obs_d2_008_a_loop_board.png [sha256: 502a97267e22986bf9ba65d336645995bb4052d400b2f5ba5b22ca485a7eac68], frame_obs_d2_008_b_scoreboard.png [sha256: 229c0b3df7fa15c119c1104dc02eb711592307508fad7795f0d1a5673f974825])"
+
+  - observation_id: OBS-D2-009
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+02:09:38"
+    timestamp_end: "T+02:25:31"
+    actor: "Game Studio Builders"
+    target: "Cupcake Card Pool, FIGHT Screen UI & Lane Binding"
+    observation_kind: "UI_POLISH"
+    observed_content: "Dynamic restyling of Cupcake card pool, FIGHT UI action screen, and player input battle lanes rendered directly in browser."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:20:46 (bundle: frame_obs_d2_009_a_card_pool.png [sha256: b5f1ace9bb32eb7816a802715f6a25ce08f058a11f8b7a105778567473fe678a], frame_obs_d2_009_b_fight_ui.png [sha256: 5a3712dcbdac46e1d8f1d12cbadf3426becdb4c08748ee83fc80732d4ffbf6bc], frame_obs_d2_009_c_final_lanes.png [sha256: dac7d91c8223b5737f78fc0b03697325bbcde4c96f81126d7014b53007d96498])"
+
+  - observation_id: OBS-D2-010
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+02:35:00"
+    timestamp_end: "T+02:45:31"
+    actor: "Karen X. Cheng (Guest Creator)"
+    target: "Grok Bot + Cursor Multimodal Visual Pipeline"
+    observation_kind: "PRESENTATION"
+    observed_content: "Guest presentation by Karen X. Cheng demonstrating pairing Grok Bot multimodal prompts with Cursor IDE for rapid visual asset iteration and video staging."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:40:00 (bundle: frame_obs_d2_010_a_guest_intro.png [sha256: b1ca72541ce17bbd6b932b861e6e32b3173561b7e02385e062e625a13061d4ad], frame_obs_d2_010_b_workflow_slide.png [sha256: 2be564f2ada80bd85edf42cd8eeb718808d7c818a4b8d3d02d2393210fd6eac8])"
+
+  - observation_id: OBS-D2-011
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+03:10:59"
+    timestamp_end: "T+03:17:15"
+    actor: "Studio Builders"
+    target: "Cupcake Browser Flow Prototype (No Backend)"
+    observation_kind: "PROTOTYPE"
+    observed_content: "Walkthrough of Cupcake browser flow prototype (Login -> Import -> Wireframes); architecture operates as standalone frontend state without backend database."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:13:24 (bundle: frame_obs_d2_011_a_browser_flow.png [sha256: d556347fb4f785994c8f83a52164bad0e2ff268a28b23a628f0c5667b0568614], frame_obs_d2_011_b_wireframes.png [sha256: 7392cbe8dc4661fbf934c738d589ec46b995e78b5ec63d96e3ce4d07082da122])"
+
+  - observation_id: OBS-D2-012
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+03:17:15"
+    timestamp_end: "T+03:35:17"
+    actor: "Studio Builders"
+    target: "Chief of Staff Multi-Agent Org Roster"
+    observation_kind: "ARCHITECTURE"
+    observed_content: "Display and configuration of Chief of Staff multi-agent hierarchy partitioning roles across Chief of Staff, Ops, Creative Director, Image Gen, Founding Eng, and Cupcake Eng."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:35:17 (bundle: frame_obs_d2_012_a_chief_roster.png [sha256: 0e146d090eb7a0d743c6c0362c59f3b602986af8925c0f488aadd8eca9a8bdf0], frame_obs_d2_012_b_cupcake_eng.png [sha256: b96e2b1c03f949e168475f042ea855f6c411686cce3678b948906cc072f7142d])"
+
+  - observation_id: OBS-D2-013
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+03:35:17"
+    timestamp_end: "T+03:53:29"
+    actor: "Studio Builders"
+    target: "Captain Isolation Constraint ('Other Two Are Dead To You')"
+    observation_kind: "POLICY_ENFORCEMENT"
+    observed_content: "Builders institute an operational isolation rule: pick one team captain bot to drive changes; the other candidate bots are strictly deactivated ('other two are dead to you') to prevent cross-agent clobbering."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:44:00 (bundle: frame_obs_d2_013_a_debug_captain.png [sha256: 310cfc92d8b6448c49c36e896631a58df5f7021ce5a9f959a851e49ee641b515], frame_obs_d2_013_b_maturity_curve.png [sha256: baa790dfe44f9a54953dae3c30a4d98d298ff708d1c470cb508f5901e3535f1d])"
+
+  - observation_id: OBS-D2-014
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+04:44:27"
+    timestamp_end: "T+05:07:08"
+    actor: "Matthew Berman (Future Forward Host) & Studio Panel"
+    target: "Enterprise Agent Architecture & Tool Calling Limits"
+    observation_kind: "INTERVIEW"
+    observed_content: "Matthew Berman discusses the enterprise reality of autonomous agents, analyzing tool-calling bottlenecks, error recovery fragility, and production deployment guardrails."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=04:44:27 (bundle: frame_obs_d2_014_a_interview.png [sha256: a9ed11f37f0ed8c9f13176ce0f7d7b7bbc91af8cd739f9a25eb9cb86f7fd2875], frame_obs_d2_014_b_lowerthird.png [sha256: 5101f5cb7f54aae5d3974c53ddcf41ff145f42b749dc5dc8ec39b2e57bbd6373])"
+
+  - observation_id: OBS-D2-015
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+05:27:55"
+    timestamp_end: "T+05:51:00"
+    actor: "Remotion Cloud Video Agent"
+    target: "Remotion Video Ads Execution Crash (Localhost Refused)"
+    observation_kind: "FAILURE"
+    observed_content: "Cloud agent attempting to compile Remotion video ads for Cupcake suffers a runtime connection crash (localhost:3000 refused), requiring manual environment restart."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=05:51:00 (bundle: frame_obs_d2_015_a_agent_desk.png [sha256: 6ac9cf317e4c85d79b07885d4b1b4f165142bab38aafa63ffbaf5d05ab0c2f69], frame_obs_d2_015_b_remotion_run.png [sha256: 846b3d62a64967a518e1c7a4e0af5a516fc4fae964b501c3c88f92c798cc06fb], frame_obs_d2_015_c_localhost_fail.png [sha256: f6482fc24120fd14ac7217a45ca09575b767ab1bacc5e59f2ab69399ec19432a])"
+
+  - observation_id: OBS-D2-016
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+06:05:33"
+    timestamp_end: "T+06:22:57"
+    actor: "SDR Outbound Bot Team"
+    target: "Army Huddle 25-Lead Outbound Workflow & Draft-Only Gate"
+    observation_kind: "ACTION_AND_GATE"
+    observed_content: "SDR bot executes Army Huddle outbound campaign for FlyLo, generating 25 prospect drafts; bot is hard-constrained to draft-only mode without permission to send directly."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=06:16:00 (bundle: frame_obs_d2_016_a_sdr_cases.png [sha256: 985ca1df6bf9609e8bedf6b97a10a376cdfef6d99188a3d4fcec08b158d5f5a6], frame_obs_d2_016_b_army_huddle.png [sha256: b581646e3069b9765fbb3df6ede185cb5b332d33665060617bf7c8a610d633b9], frame_obs_d2_016_c_learned_review.png [sha256: 2a04ae8036ca9a617508a121b38c52c7a3207543b6096e9b9c90d7ceecf41108])"
+
+  - observation_id: OBS-D2-017
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+06:43:12"
+    timestamp_end: "T+07:04:15"
+    actor: "Cupcake Engineering Bots (Bake, Clerk, dr eggbot)"
+    target: "Cupcake Global Leaderboard & Multi-Bot PR Triage"
+    observation_kind: "SHOWCASE_AND_FAILURE"
+    observed_content: "Cupcake launches live global leaderboard; concurrent automated PRs from Bake and Clerk bots cause merge contention, resulting in transient render errors."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=06:43:12 (bundle: frame_obs_d2_017_a_leaderboard.png [sha256: 161cd14589963b9a72582331d41989db506cc2af3e87ad08a1ff25b2e8600034], frame_obs_d2_017_b_bake_founding.png [sha256: c22181e2121168e73a25e87282eaa179ff37667723018a5e2b80f80a1d96690d], frame_obs_d2_017_c_clerk_ci.png [sha256: 00a2b806984ec138ec647a1baa4983ffa64c1b8d302eea8c65c4c000d0d5144c], frame_obs_d2_017_d_render_error.png [sha256: 8d6c873fa7a2c982578d3eb93097d73fa19a3996647fdabd50fd224c19cce5d4])"
+
+  - observation_id: OBS-D2-018
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+07:43:18"
+    timestamp_end: "T+08:23:19"
+    actor: "Support Automation Bot & Human Agent"
+    target: "Plain Marketplace Integration, Human Refund Gate & Day 2 Closeout"
+    observation_kind: "ACTION_AND_CLOSEOUT"
+    observed_content: "Support bot triages Plain tickets; refund requests (Carter/Damon/Elena) physically enforce a human sign-off gate before dispatch; dr eggbot promo QR shown and stream ends at 08:23:19."
+    claim_status: "SUPPORTED"
+    support_level: "FULLY_SUPPORTED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: true
+      media_access: "AUTHENTIC_BROADCAST_CAPTURE"
+      video_review: "FRAME_EXTRACTION_AND_VISUAL_REVIEW"
+      subtitle_review: "VISUAL_SLIDE_OCR_VERIFICATION"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=07:52:00 (bundle: frame_obs_d2_018_a_support_cases.png [sha256: 579d85cc35f1ebebdeab9a4ce332eca3fd1b398dbca31f77c1a2d34eca44146c], frame_obs_d2_018_b_marketplace.png [sha256: b95ce6fa82a41accff71108335548ae036112dbd9d0839d655935002104439fd], frame_obs_d2_018_c_reply_approval.png [sha256: 493db8140769ffda7023e0d40f7509529d507eb5a8bf398ff1d01fb37973f80b], frame_obs_d2_018_d_create_bot.png [sha256: 43d922eb6099358217fc65fbaa87bff44734ffa4904597aa1fd6537ac7309390], frame_obs_d2_018_e_end_card.png [sha256: ab33fd4bf6d54426526266d2ae78534fb5ec5976082fb6182d10b484660c61b3])"
+
+  - observation_id: OBS-D2-019
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+02:45:31"
+    timestamp_end: "T+03:01:27"
+    actor: "Karen X. Cheng"
+    target: "Character Consistency Prompt Walkthrough"
+    observation_kind: "PRESENTATION"
+    observed_content: "Karen X. Cheng details techniques for maintaining facial and stylistic consistency across multi-modal diffusion runs."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:50:00"
+
+  - observation_id: OBS-D2-020
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+03:53:29"
+    timestamp_end: "T+04:11:29"
+    actor: "Enterprise Strategy Presenter"
+    target: "Enterprise AI Maturity Curve & Email Thread Demo"
+    observation_kind: "FRAMEWORK"
+    observed_content: "Presenter breaks down enterprise migration from assistive chatbots to autonomous agent teams."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=04:00:00"
+
+  - observation_id: OBS-D2-021
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+04:11:29"
+    timestamp_end: "T+04:31:30"
+    actor: "Stage Presenters"
+    target: "Proactive Loop Operational Best Practices"
+    observation_kind: "Q_AND_A"
+    observed_content: "Panel explains patterns for mitigating rate limit throttling and managing long-running agent threads."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=04:20:00"
+
+  - observation_id: OBS-D2-022
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+04:47:20"
+    timestamp_end: "T+05:07:08"
+    actor: "Matthew Berman"
+    target: "Agent Coordination Protocols"
+    observation_kind: "INTERVIEW"
+    observed_content: "Berman elaborates on multi-agent communication overhead and why single-coordinator patterns dominate."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=04:55:00"
+
+  - observation_id: OBS-D2-023
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+05:07:08"
+    timestamp_end: "T+05:27:55"
+    actor: "Studio Panel"
+    target: "Cover Letter Writer & Critic Pipeline"
+    observation_kind: "DEMO"
+    observed_content: "Demonstration of dual-agent adversarial drafting for enterprise job applications."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=05:15:00"
+
+  - observation_id: OBS-D2-024
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+05:45:33"
+    timestamp_end: "T+06:05:33"
+    actor: "Shardul Marathe & Studio Hosts"
+    target: "Enterprise Commercial Adoption Strategy"
+    observation_kind: "PANEL"
+    observed_content: "Analysis of enterprise sales cycles for autonomous agent platforms."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=05:57:00"
+
+  - observation_id: OBS-D2-025
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+06:43:12"
+    timestamp_end: "T+07:04:15"
+    actor: "Studio Builders"
+    target: "Automated PR Triage and Merge Queue"
+    observation_kind: "ACTION"
+    observed_content: "Continuous automated merge and CI test cycles driven by Bake and Clerk bots."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=06:50:00"
+
+  - observation_id: OBS-D2-026
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+07:04:15"
+    timestamp_end: "T+07:21:03"
+    actor: "Studio Builders"
+    target: "Cupcake Playtesting & Stable MVP Milestone"
+    observation_kind: "MILESTONE"
+    observed_content: "Cupcake game achieves fully playable Round 3 milestone with in-game ads integration."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=07:15:00"
+
+  - observation_id: OBS-D2-027
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+07:21:03"
+    timestamp_end: "T+07:39:51"
+    actor: "Support Team Lead"
+    target: "Customer Support Track Kickoff"
+    observation_kind: "ANNOUNCEMENT"
+    observed_content: "Announcement of customer support bot templates and $200 free Grok Bot promo."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=07:30:00"
+
+  - observation_id: OBS-D2-028
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+08:01:51"
+    timestamp_end: "T+08:18:59"
+    actor: "Studio Hosts"
+    target: "Dr Eggbot Bot Roster Audit"
+    observation_kind: "AUDIT"
+    observed_content: "Dr eggbot performs automated health check on all deployed bots, reporting task bottlenecks."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=08:10:00"
+
+  - observation_id: OBS-D2-029
+    source_ref: "SRC-PRI-002"
+    timestamp_start: "T+08:18:59"
+    timestamp_end: "T+08:23:19"
+    actor: "Studio Panel"
+    target: "Day 2 Wrap-Up & Day 3 Showcase Announcement"
+    observation_kind: "CLOSEOUT"
+    observed_content: "Hosts wrap up Day 2, displaying QR code for $200 promo credits and announcing Day 3 final showcase starting at 8:30 AM PST tomorrow."
+    claim_status: "SUPPORTED"
+    support_level: "SECONDARY_CORROBORATED"
+    review_depth:
+      identity_pinned: true
+      metadata_verified: true
+      content_reviewed: false
+      media_access: "BROADCAST_METADATA_ALIGNMENT"
+      video_review: "CHAPTER_METADATA_ALIGNMENT"
+      subtitle_review: "NOT_INDEPENDENTLY_REVIEWED"
+      audio_review: "NOT_INDEPENDENTLY_REVIEWED"
+    evidence_locator: "uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=08:23:19"

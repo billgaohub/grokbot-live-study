@@ -1,225 +1,483 @@
 evidence_index_id: EV-INDEX-GROKBOT-DAY1-FULL
-evaluated_at: "2026-09-20T21:10:00+08:00"
-source_factual_authority: "https://x.com/i/broadcasts/1YGNrbXEeazGw"
-media_mirror_stream: "https://www.bilibili.com/video/BV19fYf6kELz/"
-
+evaluated_at: '2026-09-20T21:10:00+08:00'
+source_factual_authority: https://x.com/i/broadcasts/1YGNrbXEeazGw
+media_mirror_stream: https://www.bilibili.com/video/BV19fYf6kELz/
 evidence_records:
-  - record_id: EV-001
-    observation_ref: "OBS-008"
-    stream_offset: "00:48:30"
-    description: "Google Slides Teach-a-Task demonstration"
-    frame_identifier: "frame_obs008_teach_task.jpg"
-    content_sha256: "b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30"
-
-  - record_id: EV-002
-    observation_ref: "OBS-010"
-    stream_offset: "00:54:30"
-    description: "Email Ethan Auto-review approval gate modal"
-    frame_identifier: "frame_obs010_approval_gate.jpg"
-    content_sha256: "ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30"
-
-  - record_id: EV-003
-    observation_ref: "OBS-011"
-    stream_offset: "00:58:15"
-    description: "Spoken architecture assertion on VM isolation"
-    frame_identifier: "frame_obs011_isolation_claim.jpg"
-    content_sha256: "e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15"
-
-  - record_id: EV-004
-    observation_ref: "OBS-013"
-    stream_offset: "01:07:30"
-    description: "Google Forms permission denied chat reports"
-    frame_identifier: "frame_obs013_permission_denied.jpg"
-    content_sha256: "3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
-
-  - record_id: EV-005
-    observation_ref: "OBS-014"
-    stream_offset: "01:07:30"
-    description: "Amrita chat steering command to make link public"
-    frame_identifier: "frame_obs014_human_steering.jpg"
-    content_sha256: "7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30"
-
-  - record_id: EV-006
-    observation_ref: "OBS-015"
-    stream_offset: "01:11:15"
-    description: "Google Forms live counter incrementing response throughput"
-    frame_identifier: "frame_obs015_external_verification.jpg"
-    content_sha256: "24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15"
-
-  - record_id: EV-007
-    observation_ref: "OBS-016"
-    stream_offset: "01:24:30"
-    description: "1Password in-app modal credential card"
-    frame_identifier: "frame_obs016_1password_security.jpg"
-    content_sha256: "16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30"
-
-  - record_id: EV-008
-    observation_ref: "OBS-017"
-    stream_offset: "01:40:00"
-    description: "Marky McMarkface X audience suggestion clustering"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:40:00"
-
-  - record_id: EV-009
-    observation_ref: "OBS-018"
-    stream_offset: "01:58:00"
-    description: "Potato Lab convergence and bot instantiation"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:58:00"
-
-  - record_id: EV-010
-    observation_ref: "OBS-019"
-    stream_offset: "02:18:00"
-    description: "grokpot low-fi waitlist themes in browser"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:18:00"
-
-  - record_id: EV-011
-    observation_ref: "OBS-020"
-    stream_offset: "02:35:00 - 02:39:30"
-    description: "Slack-to-GitHub-to-Vercel preview deployment sequence (~4.5m)"
-    frame_identifier: "frame_obs020_vercel_deploy.jpg"
-    content_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00"
-    bundle_frames:
-      - frame_identifier: "frame_obs020_a_slack_prompt.jpg"
-        stream_offset: "02:35:00"
-        content_sha256: "0fbd0260bca42b958c1c723a2cfabb30cee6491c4108cd37ac8d205906477340"
-      - frame_identifier: "frame_obs020_vercel_deploy.jpg"
-        stream_offset: "02:38:00"
-        content_sha256: "93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7"
-      - frame_identifier: "frame_obs020_b_live_confirm.jpg"
-        stream_offset: "02:39:30"
-        content_sha256: "762164941090d4921983e82d95904f97e8ec790e9484860554149cb2fae23393"
-
-  - record_id: EV-012
-    observation_ref: "OBS-021"
-    stream_offset: "02:47:00"
-    description: "Direct main branch commit policy adoption"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:47:00"
-
-  - record_id: EV-013
-    observation_ref: "OBS-022"
-    stream_offset: "03:10:00"
-    description: "Operator Research bot restaurant lead scraping"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=03:10:00"
-
-  - record_id: EV-014
-    observation_ref: "OBS-023"
-    stream_offset: "04:02:00 - 04:08:00"
-    description: "Lingxi Li multi-agent engineering fleet hierarchy and Cursor Cloud Agent integration"
-    frame_identifier: "frame_obs023_fleet_model.jpg"
-    content_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00"
-    bundle_frames:
-      - frame_identifier: "frame_obs023_a_grok_overview.jpg"
-        stream_offset: "04:02:00"
-        content_sha256: "8c2a2f6965bf97f214f8f75325f4f8bcdefafd64ba1c4facf820a967159eb3c6"
-      - frame_identifier: "frame_obs023_fleet_model.jpg"
-        stream_offset: "04:05:00"
-        content_sha256: "99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3"
-      - frame_identifier: "frame_obs023_b_away_routine.jpg"
-        stream_offset: "04:08:00"
-        content_sha256: "c35d942d34dd7dc8ab3ec0fd482a4718d784a931b6418484a4634a9b4621fa9e"
-
-  - record_id: EV-015
-    observation_ref: "OBS-024"
-    stream_offset: "04:26:00 - 04:30:00"
-    description: "FlyLo P0 trip lookup bug remediation and 5-minute supervisory routine setup"
-    frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
-    content_sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:30:00"
-    bundle_frames:
-      - frame_identifier: "frame_obs024_a_multi_repo_audit.jpg"
-        stream_offset: "04:26:00"
-        content_sha256: "963c7e1b1b8c2a5607f2d5f4f8bf60ec0e526e0ca6a6bbef83899d014b3f17ad"
-      - frame_identifier: "frame_obs024_b_p0_bug_routine.jpg"
-        stream_offset: "04:30:00"
-        content_sha256: "16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026"
-
-  - record_id: EV-016
-    observation_ref: "OBS-025"
-    stream_offset: "04:48:00 - 05:38:00"
-    description: "PR mandatory video/screenshot visual proof policy and verification rule in Steve chat"
-    frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
-    content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00"
-    bundle_frames:
-      - frame_identifier: "frame_obs025_pr_visual_proof.jpg"
-        stream_offset: "04:48:00"
-        content_sha256: "dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92"
-      - frame_identifier: "frame_obs025_b_visual_proof_rule.jpg"
-        stream_offset: "05:32:00"
-        content_sha256: "d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c"
-      - frame_identifier: "frame_obs025_c_pr_media_tab.jpg"
-        stream_offset: "05:38:00"
-        content_sha256: "1fd231bfa7fa9d04a92b2b6c6d645af29529968aee353db69fcc23ee3b88c3e2"
-
-  - record_id: EV-017
-    observation_ref: "OBS-026"
-    stream_offset: "05:10:00"
-    description: "Deterministic verification skill and Oct 15 date lock"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:10:00"
-
-  - record_id: EV-018
-    observation_ref: "OBS-027"
-    stream_offset: "05:44:00 - 05:45:00"
-    description: "Strategic pivot prompt and lock from restaurant to Grok Bot art exhibition"
-    frame_identifier: "frame_obs027_b_pivot_locked.jpg"
-    content_sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:45:00"
-    bundle_frames:
-      - frame_identifier: "frame_obs027_a_pivot_prompt.jpg"
-        stream_offset: "05:44:00"
-        content_sha256: "153ac625a3cf8d0178308ae751507b3d7a2ef990ef670e5b342c7fcf520f975f"
-      - frame_identifier: "frame_obs027_b_pivot_locked.jpg"
-        stream_offset: "05:45:00"
-        content_sha256: "73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b"
-
-  - record_id: EV-019
-    observation_ref: "OBS-028"
-    stream_offset: "06:16:00"
-    description: "FlyLo booking funnel dropoff analysis and PRD in Notion"
-    frame_identifier: "frame_obs028_pm_funnel.jpg"
-    content_sha256: "c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00"
-
-  - record_id: EV-020
-    observation_ref: "OBS-029"
-    stream_offset: "07:05:00"
-    description: "In-browser tldraw Diffraction Night collectible ticket wireframe"
-    frame_identifier: "frame_obs029_tldraw_wireframe.jpg"
-    content_sha256: "30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00"
-
-  - record_id: EV-021
-    observation_ref: "OBS-030"
-    stream_offset: "07:42:00"
-    description: "Founder bot workflow automation and browser vs API cost slide"
-    frame_identifier: "frame_obs030_founder_bots.jpg"
-    content_sha256: "e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00"
-
-  - record_id: EV-022
-    observation_ref: "OBS-031"
-    stream_offset: "08:02:00"
-    description: "Shub verbal shared VM filesystem architecture statement"
-    frame_identifier: "frame_obs031_shared_vm_statement.jpg"
-    content_sha256: "416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00"
-
-  - record_id: EV-023
-    observation_ref: "OBS-032"
-    stream_offset: "08:32:00"
-    description: "Scout venue bot parameterization for SF catering rules"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:32:00"
-
-  - record_id: EV-024
-    observation_ref: "OBS-033"
-    stream_offset: "08:44:30"
-    description: "Day 1 closing infrastructure verification review"
-    locator: "uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:44:30"
+- record_id: EV-001
+  observation_ref: OBS-008
+  stream_offset: 00:48:30
+  description: Google Slides Teach-a-Task demonstration
+  frame_identifier: frame_obs008_teach_task.jpg
+  content_sha256: b1023194993f4415da62c041bd0e1f575397cd027a2c537fe197d85652ee0714
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:48:30
+- record_id: EV-002
+  observation_ref: OBS-010
+  stream_offset: 00:54:30
+  description: Email Ethan Auto-review approval gate modal
+  frame_identifier: frame_obs010_approval_gate.jpg
+  content_sha256: ade33359410d9fd0c713bd1cc848975fb0e0a96006dfdb79c6650775e5b98b61
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:54:30
+- record_id: EV-003
+  observation_ref: OBS-011
+  stream_offset: 00:58:15
+  description: Spoken architecture assertion on VM isolation
+  frame_identifier: frame_obs011_isolation_claim.jpg
+  content_sha256: e15378f3ae648e4eb0a222710a547bbd7b80352dd936a1baea85afdcd333fbfd
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=00:58:15
+- record_id: EV-004
+  observation_ref: OBS-013
+  stream_offset: 01:07:30
+  description: Google Forms permission denied chat reports
+  frame_identifier: frame_obs013_permission_denied.jpg
+  content_sha256: 3b181c336dfb7962ad8346f39649eb178034a3ad31288388289a4a4b9280d5d8
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30
+- record_id: EV-005
+  observation_ref: OBS-014
+  stream_offset: 01:07:30
+  description: Amrita chat steering command to make link public
+  frame_identifier: frame_obs014_human_steering.jpg
+  content_sha256: 7b99bf3555f0e35157b4990370907a367c388274cf633317a60f732fd96e5e0f
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:07:30
+- record_id: EV-006
+  observation_ref: OBS-015
+  stream_offset: 01:11:15
+  description: Google Forms live counter incrementing response throughput
+  frame_identifier: frame_obs015_external_verification.jpg
+  content_sha256: 24f782852ed806c871faf7ac125b7834e962157a0bd98c94d587bc766b459f7e
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:11:15
+- record_id: EV-007
+  observation_ref: OBS-016
+  stream_offset: 01:24:30
+  description: 1Password in-app modal credential card
+  frame_identifier: frame_obs016_1password_security.jpg
+  content_sha256: 16925510650328015b4fee671a67130b4f826f3706e8b3e4ccf4dd3a2624b996
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:24:30
+- record_id: EV-008
+  observation_ref: OBS-017
+  stream_offset: 01:40:00
+  description: Marky McMarkface X audience suggestion clustering
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:40:00
+- record_id: EV-009
+  observation_ref: OBS-018
+  stream_offset: 01:58:00
+  description: Potato Lab convergence and bot instantiation
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=01:58:00
+- record_id: EV-010
+  observation_ref: OBS-019
+  stream_offset: 02:18:00
+  description: grokpot low-fi waitlist themes in browser
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:18:00
+- record_id: EV-011
+  observation_ref: OBS-020
+  stream_offset: 02:35:00 - 02:39:30
+  description: Slack-to-GitHub-to-Vercel preview deployment sequence (~4.5m)
+  frame_identifier: frame_obs020_vercel_deploy.jpg
+  content_sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:38:00
+  bundle_frames:
+  - frame_identifier: frame_obs020_a_slack_prompt.jpg
+    stream_offset: 02:35:00
+    content_sha256: 0fbd0260bca42b958c1c723a2cfabb30cee6491c4108cd37ac8d205906477340
+  - frame_identifier: frame_obs020_vercel_deploy.jpg
+    stream_offset: 02:38:00
+    content_sha256: 93c394e28cbf52f25e68d220d4a1a94aeb1920ee0aa1ae6b1fdeaa5421abf0c7
+  - frame_identifier: frame_obs020_b_live_confirm.jpg
+    stream_offset: 02:39:30
+    content_sha256: 762164941090d4921983e82d95904f97e8ec790e9484860554149cb2fae23393
+- record_id: EV-012
+  observation_ref: OBS-021
+  stream_offset: 02:47:00
+  description: Direct main branch commit policy adoption
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=02:47:00
+- record_id: EV-013
+  observation_ref: OBS-022
+  stream_offset: 03:10:00
+  description: Operator Research bot restaurant lead scraping
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=03:10:00
+- record_id: EV-014
+  observation_ref: OBS-023
+  stream_offset: 04:02:00 - 04:08:00
+  description: Lingxi Li multi-agent engineering fleet hierarchy and Cursor Cloud Agent integration
+  frame_identifier: frame_obs023_fleet_model.jpg
+  content_sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:05:00
+  bundle_frames:
+  - frame_identifier: frame_obs023_a_grok_overview.jpg
+    stream_offset: 04:02:00
+    content_sha256: 8c2a2f6965bf97f214f8f75325f4f8bcdefafd64ba1c4facf820a967159eb3c6
+  - frame_identifier: frame_obs023_fleet_model.jpg
+    stream_offset: 04:05:00
+    content_sha256: 99b138b47c7100fe8332577cf0c59a27eecd4a80a0899fff3ed2a6abc0f3afb3
+  - frame_identifier: frame_obs023_b_away_routine.jpg
+    stream_offset: 04:08:00
+    content_sha256: c35d942d34dd7dc8ab3ec0fd482a4718d784a931b6418484a4634a9b4621fa9e
+- record_id: EV-015
+  observation_ref: OBS-024
+  stream_offset: 04:26:00 - 04:30:00
+  description: FlyLo P0 trip lookup bug remediation and 5-minute supervisory routine setup
+  frame_identifier: frame_obs024_b_p0_bug_routine.jpg
+  content_sha256: 16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=04:30:00
+  bundle_frames:
+  - frame_identifier: frame_obs024_a_multi_repo_audit.jpg
+    stream_offset: 04:26:00
+    content_sha256: 963c7e1b1b8c2a5607f2d5f4f8bf60ec0e526e0ca6a6bbef83899d014b3f17ad
+  - frame_identifier: frame_obs024_b_p0_bug_routine.jpg
+    stream_offset: 04:30:00
+    content_sha256: 16b7ab4f259cfd26be0cc96925c643a8255f42cd7fa3854ebe44f8a95883f026
+- record_id: EV-016
+  observation_ref: OBS-025
+  stream_offset: 04:48:00 - 05:38:00
+  description: PR mandatory video/screenshot visual proof policy and verification rule in Steve chat
+  frame_identifier: frame_obs025_b_visual_proof_rule.jpg
+  content_sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:32:00
+  bundle_frames:
+  - frame_identifier: frame_obs025_pr_visual_proof.jpg
+    stream_offset: 04:48:00
+    content_sha256: dc68efc390f3ee7954602f17a1a72996098a2e14930ee0909a333cd8cc433c92
+  - frame_identifier: frame_obs025_b_visual_proof_rule.jpg
+    stream_offset: 05:32:00
+    content_sha256: d0c46b2a29dea441120b5f899b88ce6318c128950a6add3b5ee9427a8e71fe9c
+  - frame_identifier: frame_obs025_c_pr_media_tab.jpg
+    stream_offset: 05:38:00
+    content_sha256: 1fd231bfa7fa9d04a92b2b6c6d645af29529968aee353db69fcc23ee3b88c3e2
+- record_id: EV-017
+  observation_ref: OBS-026
+  stream_offset: 05:10:00
+  description: Deterministic verification skill and Oct 15 date lock
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:10:00
+- record_id: EV-018
+  observation_ref: OBS-027
+  stream_offset: 05:44:00 - 05:45:00
+  description: Strategic pivot prompt and lock from restaurant to Grok Bot art exhibition
+  frame_identifier: frame_obs027_b_pivot_locked.jpg
+  content_sha256: 73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=05:45:00
+  bundle_frames:
+  - frame_identifier: frame_obs027_a_pivot_prompt.jpg
+    stream_offset: 05:44:00
+    content_sha256: 153ac625a3cf8d0178308ae751507b3d7a2ef990ef670e5b342c7fcf520f975f
+  - frame_identifier: frame_obs027_b_pivot_locked.jpg
+    stream_offset: 05:45:00
+    content_sha256: 73beb6ddcb2beebb2ae3ecca590bb1d825472769b7a7bdea1d80b9023395194b
+- record_id: EV-019
+  observation_ref: OBS-028
+  stream_offset: 06:16:00
+  description: FlyLo booking funnel dropoff analysis and PRD in Notion
+  frame_identifier: frame_obs028_pm_funnel.jpg
+  content_sha256: c43c7134d3ca2ea139fba7ea92e61d455a73c505b15e06eb1bd9f69171d585bd
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=06:16:00
+- record_id: EV-020
+  observation_ref: OBS-029
+  stream_offset: 07:05:00
+  description: In-browser tldraw Diffraction Night collectible ticket wireframe
+  frame_identifier: frame_obs029_tldraw_wireframe.jpg
+  content_sha256: 30bffc7bf454b722aaa5cf5917a80e22ac594424a67aa6dd4f886e3436474bf7
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:05:00
+- record_id: EV-021
+  observation_ref: OBS-030
+  stream_offset: 07:42:00
+  description: Founder bot workflow automation and browser vs API cost slide
+  frame_identifier: frame_obs030_founder_bots.jpg
+  content_sha256: e606a5d7e9f14d9ff22bc9c9ecc975785f5fffa88188c507c4f451eede041889
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=07:42:00
+- record_id: EV-022
+  observation_ref: OBS-031
+  stream_offset: 08:02:00
+  description: Shub verbal shared VM filesystem architecture statement
+  frame_identifier: frame_obs031_shared_vm_statement.jpg
+  content_sha256: 416f02b5c47267589b69c88a1ce93a2adeea510cd917948046d7994878518a2c
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:02:00
+- record_id: EV-023
+  observation_ref: OBS-032
+  stream_offset: 08:32:00
+  description: Scout venue bot parameterization for SF catering rules
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:32:00
+- record_id: EV-024
+  observation_ref: OBS-033
+  stream_offset: 08:44:30
+  description: Day 1 closing infrastructure verification review
+  locator: uri:https://www.bilibili.com/video/BV19fYf6kELz#t=08:44:30
+- record_id: EV-D2-001
+  observation_ref: OBS-D2-001
+  stream_offset: 00:15:00 - 00:20:00
+  description: Grok Bot RPG character sheet templates with CHA/DEX/INT stats and rarity tiers
+  frame_identifier: frame_obs_d2_001_a_templates_slide.png
+  content_sha256: ded230a5d54acabe8d3b709b43a154a4d5b5228d81dd1c82e1d7c63abf48744c
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:15:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_001_a_templates_slide.png
+    stream_offset: 00:15:00
+    content_sha256: ded230a5d54acabe8d3b709b43a154a4d5b5228d81dd1c82e1d7c63abf48744c
+  - frame_identifier: frame_obs_d2_001_b_game_scoring.png
+    stream_offset: 00:20:00
+    content_sha256: bf72bcb25b79dac881dec39be21e7b172fe3be6390e3519d8ecea2ee3cba7224
+- record_id: EV-D2-002
+  observation_ref: OBS-D2-002
+  stream_offset: 00:30:36 - 00:38:22
+  description: Amrita Venkatraman Sales Engineering 4 use-case cards presentation
+  frame_identifier: frame_obs_d2_002_b_se_use_cases.png
+  content_sha256: ed42c788979a6bd7deb8ce1af172452a09caeb13f6b452a950a26652116a246b
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:38:17
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_002_a_speaker.png
+    stream_offset: 00:30:36
+    content_sha256: 4be8331b265450cf098575171862830ad2149d883d269ee1cebcef6a4fa76220
+  - frame_identifier: frame_obs_d2_002_b_se_use_cases.png
+    stream_offset: 00:38:22
+    content_sha256: ed42c788979a6bd7deb8ce1af172452a09caeb13f6b452a950a26652116a246b
+- record_id: EV-D2-003
+  observation_ref: OBS-D2-003
+  stream_offset: 00:42:19 - 00:54:07
+  description: SE intake bot workflow, Starlink SpaceX deck generation, FlyLo quiet flight booking; 85% speedup claim
+  frame_identifier: frame_obs_d2_003_b_bot_intake_ui.png
+  content_sha256: 057f47ee5821cef4c89ee03fde3657a6e5b6a1c5927cc9641b20f6c2d8c13d58
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:49:13
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_003_a_starlink_deck.png
+    stream_offset: 00:42:19
+    content_sha256: eb80683298a17f6fd98fb45ce9fd79bc41e0c3ddd88acdaccdd62ef0adee3313
+  - frame_identifier: frame_obs_d2_003_b_bot_intake_ui.png
+    stream_offset: 00:49:13
+    content_sha256: 057f47ee5821cef4c89ee03fde3657a6e5b6a1c5927cc9641b20f6c2d8c13d58
+  - frame_identifier: frame_obs_d2_003_c_final_workflow.png
+    stream_offset: 00:54:07
+    content_sha256: 31762220e266e5cbd28286bb121327b7d5e35dea67ba80f356e8784c08f53360
+- record_id: EV-D2-004
+  observation_ref: OBS-D2-004
+  stream_offset: 00:57:17 - 01:10:34
+  description: Sherlock threads competitive intel monitoring and booking flow baseline measurement
+  frame_identifier: frame_obs_d2_004_a_competitor_thread.png
+  content_sha256: 630f9142a2e4864c8d245d5f80d290865bc0faf7f2b9ea99fc591c2555c64842
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=00:57:17
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_004_a_competitor_thread.png
+    stream_offset: 00:57:17
+    content_sha256: 630f9142a2e4864c8d245d5f80d290865bc0faf7f2b9ea99fc591c2555c64842
+  - frame_identifier: frame_obs_d2_004_b_competitor_q.png
+    stream_offset: 01:00:29
+    content_sha256: 907ecb56eb45f7f757410f22576c2ca45291343a318d90bf86a686efea01994d
+  - frame_identifier: frame_obs_d2_004_c_booking_baseline.png
+    stream_offset: 01:06:54
+    content_sha256: 4fcb724beb5a62fd8ccf672c340a6dfc6a0221a0395dbf321dc8613bb4534e22
+- record_id: EV-D2-005
+  observation_ref: OBS-D2-005
+  stream_offset: 01:13:00 - 01:15:16
+  description: Battle Card Blair & AI Radar autonomous competitive monitoring configuration
+  frame_identifier: frame_obs_d2_005_a_blair_settings.png
+  content_sha256: 3dd41ceeca1d40917300ff5cf79e28b82db231cf6dbf91fa35dfa0f54b20fac8
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:13:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_005_a_blair_settings.png
+    stream_offset: 01:13:00
+    content_sha256: 3dd41ceeca1d40917300ff5cf79e28b82db231cf6dbf91fa35dfa0f54b20fac8
+  - frame_identifier: frame_obs_d2_005_b_ai_radar.png
+    stream_offset: 01:15:16
+    content_sha256: b0c3ed226448504f30c9b83cc41869dea96bbcd2da580559a37d6eaabe0257b2
+- record_id: EV-D2-006
+  observation_ref: OBS-D2-006
+  stream_offset: 01:29:00 - 01:30:34
+  description: Creative Director & Phaser game design pivot to Cupcake card battler studio
+  frame_identifier: frame_obs_d2_006_a_cupcake_assets.png
+  content_sha256: acfcf1f242dc94a8e3fa6caeb1024d36fddfe64739941df649e9ac7975cdeea7
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:29:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_006_a_cupcake_assets.png
+    stream_offset: 01:29:00
+    content_sha256: acfcf1f242dc94a8e3fa6caeb1024d36fddfe64739941df649e9ac7975cdeea7
+  - frame_identifier: frame_obs_d2_006_b_creative_director.png
+    stream_offset: 01:30:34
+    content_sha256: 976adfc9af0325f6007295105d0632febdbee58af3c5960c764f9c6c67f95993
+- record_id: EV-D2-007
+  observation_ref: OBS-D2-007
+  stream_offset: 01:32:00 - 01:36:00
+  description: Chef of Stuff coordinator bot and Phaser 2D atom grid layout
+  frame_identifier: frame_obs_d2_007_a_chef_of_stuff.png
+  content_sha256: 434a77215837b848ef7b80c2ea32617f4f73c5d584fcd38f01933f949bdc3701
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=01:32:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_007_a_chef_of_stuff.png
+    stream_offset: 01:32:00
+    content_sha256: 434a77215837b848ef7b80c2ea32617f4f73c5d584fcd38f01933f949bdc3701
+  - frame_identifier: frame_obs_d2_007_b_phaser_grid.png
+    stream_offset: 01:36:00
+    content_sha256: 239fe1fa456a572d9144792b551bf100f79e640f3ce61ad272eb650e2ead79bc
+- record_id: EV-D2-008
+  observation_ref: OBS-D2-008
+  stream_offset: 02:02:57 - 02:07:26
+  description: Cupcake loop board and scoreboard prototype initialization
+  frame_identifier: frame_obs_d2_008_a_loop_board.png
+  content_sha256: 502a97267e22986bf9ba65d336645995bb4052d400b2f5ba5b22ca485a7eac68
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:02:57
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_008_a_loop_board.png
+    stream_offset: 02:02:57
+    content_sha256: 502a97267e22986bf9ba65d336645995bb4052d400b2f5ba5b22ca485a7eac68
+  - frame_identifier: frame_obs_d2_008_b_scoreboard.png
+    stream_offset: 02:07:26
+    content_sha256: 229c0b3df7fa15c119c1104dc02eb711592307508fad7795f0d1a5673f974825
+- record_id: EV-D2-009
+  observation_ref: OBS-D2-009
+  stream_offset: 02:09:38 - 02:25:31
+  description: Cupcake loop card pool, FIGHT UI restyle, and player input lane binding
+  frame_identifier: frame_obs_d2_009_b_fight_ui.png
+  content_sha256: 5a3712dcbdac46e1d8f1d12cbadf3426becdb4c08748ee83fc80732d4ffbf6bc
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:20:46
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_009_a_card_pool.png
+    stream_offset: 02:09:38
+    content_sha256: b5f1ace9bb32eb7816a802715f6a25ce08f058a11f8b7a105778567473fe678a
+  - frame_identifier: frame_obs_d2_009_b_fight_ui.png
+    stream_offset: 02:16:23
+    content_sha256: 5a3712dcbdac46e1d8f1d12cbadf3426becdb4c08748ee83fc80732d4ffbf6bc
+  - frame_identifier: frame_obs_d2_009_c_final_lanes.png
+    stream_offset: 02:25:31
+    content_sha256: dac7d91c8223b5737f78fc0b03697325bbcde4c96f81126d7014b53007d96498
+- record_id: EV-D2-010
+  observation_ref: OBS-D2-010
+  stream_offset: 02:35:00 - 02:50:00
+  description: Karen X. Cheng guest presentation on Grok Bot + Cursor visual AI workflow
+  frame_identifier: frame_obs_d2_010_a_guest_intro.png
+  content_sha256: b1ca72541ce17bbd6b932b861e6e32b3173561b7e02385e062e625a13061d4ad
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=02:40:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_010_a_guest_intro.png
+    stream_offset: 02:35:00
+    content_sha256: b1ca72541ce17bbd6b932b861e6e32b3173561b7e02385e062e625a13061d4ad
+  - frame_identifier: frame_obs_d2_010_b_workflow_slide.png
+    stream_offset: 02:50:00
+    content_sha256: 2be564f2ada80bd85edf42cd8eeb718808d7c818a4b8d3d02d2393210fd6eac8
+- record_id: EV-D2-011
+  observation_ref: OBS-D2-011
+  stream_offset: 03:13:24 - 03:17:15
+  description: Cupcake no-backend browser prototype flow (login -> import -> fight wireframe)
+  frame_identifier: frame_obs_d2_011_a_browser_flow.png
+  content_sha256: d556347fb4f785994c8f83a52164bad0e2ff268a28b23a628f0c5667b0568614
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:13:24
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_011_a_browser_flow.png
+    stream_offset: 03:13:24
+    content_sha256: d556347fb4f785994c8f83a52164bad0e2ff268a28b23a628f0c5667b0568614
+  - frame_identifier: frame_obs_d2_011_b_wireframes.png
+    stream_offset: 03:17:15
+    content_sha256: 7392cbe8dc4661fbf934c738d589ec46b995e78b5ec63d96e3ce4d07082da122
+- record_id: EV-D2-012
+  observation_ref: OBS-D2-012
+  stream_offset: 03:17:15 - 03:35:17
+  description: Chief of Staff multi-bot organizational hierarchy (Ops, Creative, Image Gen, Founding Eng, Cupcake Eng)
+  frame_identifier: frame_obs_d2_012_a_chief_roster.png
+  content_sha256: 0e146d090eb7a0d743c6c0362c59f3b602986af8925c0f488aadd8eca9a8bdf0
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:35:17
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_012_a_chief_roster.png
+    stream_offset: 03:17:15
+    content_sha256: 0e146d090eb7a0d743c6c0362c59f3b602986af8925c0f488aadd8eca9a8bdf0
+  - frame_identifier: frame_obs_d2_012_b_cupcake_eng.png
+    stream_offset: 03:35:17
+    content_sha256: b96e2b1c03f949e168475f042ea855f6c411686cce3678b948906cc072f7142d
+- record_id: EV-D2-013
+  observation_ref: OBS-D2-013
+  stream_offset: 03:44:00 - 04:00:00
+  description: Your Team Captain isolation constraint (dead-to-you rule to prevent cross-bot clobbering)
+  frame_identifier: frame_obs_d2_013_a_debug_captain.png
+  content_sha256: 310cfc92d8b6448c49c36e896631a58df5f7021ce5a9f959a851e49ee641b515
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=03:44:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_013_a_debug_captain.png
+    stream_offset: 03:44:00
+    content_sha256: 310cfc92d8b6448c49c36e896631a58df5f7021ce5a9f959a851e49ee641b515
+  - frame_identifier: frame_obs_d2_013_b_maturity_curve.png
+    stream_offset: 03:55:00
+    content_sha256: baa790dfe44f9a54953dae3c30a4d98d298ff708d1c470cb508f5901e3535f1d
+- record_id: EV-D2-014
+  observation_ref: OBS-D2-014
+  stream_offset: 04:44:27 - 04:55:07
+  description: Matthew Berman guest interview on enterprise autonomous agent architectures and production readiness
+  frame_identifier: frame_obs_d2_014_a_interview.png
+  content_sha256: a9ed11f37f0ed8c9f13176ce0f7d7b7bbc91af8cd739f9a25eb9cb86f7fd2875
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=04:44:27
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_014_a_interview.png
+    stream_offset: 04:44:27
+    content_sha256: a9ed11f37f0ed8c9f13176ce0f7d7b7bbc91af8cd739f9a25eb9cb86f7fd2875
+  - frame_identifier: frame_obs_d2_014_b_lowerthird.png
+    stream_offset: 04:55:07
+    content_sha256: 5101f5cb7f54aae5d3974c53ddcf41ff145f42b749dc5dc8ec39b2e57bbd6373
+- record_id: EV-D2-015
+  observation_ref: OBS-D2-015
+  stream_offset: 05:36:00 - 05:51:00
+  description: Cupcake Remotion Ads cloud agent desk rendering animated video hero assets; localhost crash
+  frame_identifier: frame_obs_d2_015_c_localhost_fail.png
+  content_sha256: f6482fc24120fd14ac7217a45ca09575b767ab1bacc5e59f2ab69399ec19432a
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=05:51:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_015_a_agent_desk.png
+    stream_offset: 05:36:00
+    content_sha256: 6ac9cf317e4c85d79b07885d4b1b4f165142bab38aafa63ffbaf5d05ab0c2f69
+  - frame_identifier: frame_obs_d2_015_b_remotion_run.png
+    stream_offset: 05:42:00
+    content_sha256: 846b3d62a64967a518e1c7a4e0af5a516fc4fae964b501c3c88f92c798cc06fb
+  - frame_identifier: frame_obs_d2_015_c_localhost_fail.png
+    stream_offset: 05:51:00
+    content_sha256: f6482fc24120fd14ac7217a45ca09575b767ab1bacc5e59f2ab69399ec19432a
+- record_id: EV-D2-016
+  observation_ref: OBS-D2-016
+  stream_offset: 06:06:00 - 06:31:00
+  description: 'SDR outbound prospecting pipeline: Army Huddle 25 leads draft generation with draft-only safety constraint'
+  frame_identifier: frame_obs_d2_016_b_army_huddle.png
+  content_sha256: b581646e3069b9765fbb3df6ede185cb5b332d33665060617bf7c8a610d633b9
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=06:16:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_016_a_sdr_cases.png
+    stream_offset: 06:06:00
+    content_sha256: 985ca1df6bf9609e8bedf6b97a10a376cdfef6d99188a3d4fcec08b158d5f5a6
+  - frame_identifier: frame_obs_d2_016_b_army_huddle.png
+    stream_offset: 06:16:00
+    content_sha256: b581646e3069b9765fbb3df6ede185cb5b332d33665060617bf7c8a610d633b9
+  - frame_identifier: frame_obs_d2_016_c_learned_review.png
+    stream_offset: 06:31:00
+    content_sha256: 2a04ae8036ca9a617508a121b38c52c7a3207543b6096e9b9c90d7ceecf41108
+- record_id: EV-D2-017
+  observation_ref: OBS-D2-017
+  stream_offset: 06:43:12 - 07:00:00
+  description: Cupcake global leaderboard live demonstration with interactive state sync; Bake and Clerk PR merge churn
+  frame_identifier: frame_obs_d2_017_a_leaderboard.png
+  content_sha256: 161cd14589963b9a72582331d41989db506cc2af3e87ad08a1ff25b2e8600034
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=06:43:12
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_017_a_leaderboard.png
+    stream_offset: 06:43:12
+    content_sha256: 161cd14589963b9a72582331d41989db506cc2af3e87ad08a1ff25b2e8600034
+  - frame_identifier: frame_obs_d2_017_b_bake_founding.png
+    stream_offset: 06:48:21
+    content_sha256: c22181e2121168e73a25e87282eaa179ff37667723018a5e2b80f80a1d96690d
+  - frame_identifier: frame_obs_d2_017_c_clerk_ci.png
+    stream_offset: 06:59:06
+    content_sha256: 00a2b806984ec138ec647a1baa4983ffa64c1b8d302eea8c65c4c000d0d5144c
+  - frame_identifier: frame_obs_d2_017_d_render_error.png
+    stream_offset: 06:53:33
+    content_sha256: 8d6c873fa7a2c982578d3eb93097d73fa19a3996647fdabd50fd224c19cce5d4
+- record_id: EV-D2-018
+  observation_ref: OBS-D2-018
+  stream_offset: 07:43:18 - 08:23:19
+  description: Customer support Plain integration, refund approval gate, Create-a-Bot modal, and Day 2 closeout
+  frame_identifier: frame_obs_d2_018_c_reply_approval.png
+  content_sha256: 493db8140769ffda7023e0d40f7509529d507eb5a8bf398ff1d01fb37973f80b
+  locator: uri:https://x.com/i/broadcasts/1PKqrNyvmYwGb#t=07:52:00
+  bundle_frames:
+  - frame_identifier: frame_obs_d2_018_a_support_cases.png
+    stream_offset: 07:30:00
+    content_sha256: 579d85cc35f1ebebdeab9a4ce332eca3fd1b398dbca31f77c1a2d34eca44146c
+  - frame_identifier: frame_obs_d2_018_b_marketplace.png
+    stream_offset: 07:43:43
+    content_sha256: b95ce6fa82a41accff71108335548ae036112dbd9d0839d655935002104439fd
+  - frame_identifier: frame_obs_d2_018_c_reply_approval.png
+    stream_offset: 07:52:00
+    content_sha256: 493db8140769ffda7023e0d40f7509529d507eb5a8bf398ff1d01fb37973f80b
+  - frame_identifier: frame_obs_d2_018_d_create_bot.png
+    stream_offset: 08:18:00
+    content_sha256: 43d922eb6099358217fc65fbaa87bff44734ffa4904597aa1fd6537ac7309390
+  - frame_identifier: frame_obs_d2_018_e_end_card.png
+    stream_offset: 08:23:19
+    content_sha256: ab33fd4bf6d54426526266d2ae78534fb5ec5976082fb6182d10b484660c61b3
