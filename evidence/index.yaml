@@ -501,362 +501,362 @@ evidence_records:
   stream_offset: 00:00:00 - 00:10:00
   description: Grok Bot Galaxy Day 3 title countdown slate and stream initialization
   frame_identifier: d3_0000_galaxy-title.png
-  content_sha256: 2925c4be5882735af5775458f4db3d6d554e1c1398d906302da0f40ede7b9373
+  content_sha256: d68459e78f5ccafa7a69ec279a95cee80eb52495f2adfbd1933f0d73ce92b61f
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:00:00
   bundle_frames:
   - frame_identifier: d3_0000_galaxy-title.png
     stream_offset: 00:00:00
-    content_sha256: 2925c4be5882735af5775458f4db3d6d554e1c1398d906302da0f40ede7b9373
+    content_sha256: d68459e78f5ccafa7a69ec279a95cee80eb52495f2adfbd1933f0d73ce92b61f
   - frame_identifier: d3_1000_panel.png
     stream_offset: 00:10:00
-    content_sha256: 1c22ad22bd90e798b9b3ab4fae230c104dcb5420e982e3d3d2560544ee8b5efd
+    content_sha256: 5f6b711ca342d01a18de8e283699ddcd23e9579d7d3204d447da29cd9e2bf3c7
 - record_id: EV-D3-002
   observation_ref: OBS-D3-002
   stream_offset: 00:10:00 - 00:20:00
   description: Studio panel framing launch day objectives and Bake workspace review
   frame_identifier: d3_1500_bake-chat-demo.png
-  content_sha256: 40d824b58f46330f52db5827790a9be8647754e24051dfcf85d22828e7a2c300
+  content_sha256: a164006b31e8a13dfacc72eeec87517e596fbdbe4960b494f72d76e34d52d2e6
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:15:00
   bundle_frames:
   - frame_identifier: d3_1500_bake-chat-demo.png
     stream_offset: 00:15:00
-    content_sha256: 40d824b58f46330f52db5827790a9be8647754e24051dfcf85d22828e7a2c300
+    content_sha256: a164006b31e8a13dfacc72eeec87517e596fbdbe4960b494f72d76e34d52d2e6
   - frame_identifier: d3_1629_bake_workspace.png
     stream_offset: 00:16:29
-    content_sha256: 82a4beb7c40e01a971d9ed35be3ecc29a99a309b36851da47bddbc53fc315e2e
+    content_sha256: edbad92a2fe6032502842f65a5265f6776415ee22d9e2c702fc48b20647195bb
 - record_id: EV-D3-003
   observation_ref: OBS-D3-003
   stream_offset: 00:20:00 - 00:38:47
   description: Cupcake multiplayer round 1 live battle and RevOps use case transition
   frame_identifier: d3_2000_round1-cupcake.png
-  content_sha256: 2e0cf1ef8b1fb8dc44a8817a41bc8e16a93689f43d7f8bffe2de3d828e6b60f9
+  content_sha256: 8bf1ed574c8bf587d0b8e980e3a6bf1f4f43305fb09ddb38045ae2fdba964b1c
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:20:00
   bundle_frames:
   - frame_identifier: d3_2000_round1-cupcake.png
     stream_offset: 00:20:00
-    content_sha256: 2e0cf1ef8b1fb8dc44a8817a41bc8e16a93689f43d7f8bffe2de3d828e6b60f9
+    content_sha256: 8bf1ed574c8bf587d0b8e980e3a6bf1f4f43305fb09ddb38045ae2fdba964b1c
   - frame_identifier: d3_3543_revops-marops-use-cases.png
     stream_offset: 00:35:43
-    content_sha256: 15b4f294bb10d2e73897af3fe946f7350514348a1e95a141afc2cbdba03bbb67
+    content_sha256: b5d2a5608ee8e88402589e9fd424e2013593218cc4a803c111834fc32e1ae9b1
 - record_id: EV-D3-004
   observation_ref: OBS-D3-004
   stream_offset: 00:38:47 - 00:54:10
   description: RevOps lead qualification, Sofia lead deck generation and agent pipeline
   frame_identifier: d3_1517_lead-card-sofia.png
-  content_sha256: 11a118b9f5be4e06957032069ae66d76f120f9c24fe07580fa0cd3bdf7f9ec43
+  content_sha256: c17e304aac82a47e29aab04be1ff88db7f681029203ee2897f0070f951a9e052
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=00:45:00
   bundle_frames:
   - frame_identifier: d3_1508_op1-notes.png
     stream_offset: 00:42:00
-    content_sha256: 3048749e338f72fb4e4268b2ca4350ab8dab4782d113ecc3eee8538647e2542d
+    content_sha256: 7df4b13d9d9f46bf08a32bb8016bda0a53070f54f197d563077ee3e6b01e20f7
   - frame_identifier: d3_1510_juno-workflow.png
     stream_offset: 00:43:30
-    content_sha256: 0b8f29a662174e7e4abfb6c257f8f7a6d91a67341222daf4f49805669d06e9ef
+    content_sha256: 8466ef73ca86d119e38b93c77e899486bc39d56667fb8d097957d489c22e515b
   - frame_identifier: d3_1517_lead-card-sofia.png
     stream_offset: 00:45:00
-    content_sha256: 11a118b9f5be4e06957032069ae66d76f120f9c24fe07580fa0cd3bdf7f9ec43
+    content_sha256: c17e304aac82a47e29aab04be1ff88db7f681029203ee2897f0070f951a9e052
 - record_id: EV-D3-005
   observation_ref: OBS-D3-005
   stream_offset: 00:54:10 - 01:24:59
   description: Starbase launch trip competition QR code and stage Q&A
   frame_identifier: d3_10959_starbase-promo-qr.png
-  content_sha256: b2b415cee09ec7ee3a42f5e67658900920bcabf68506be460cbacefa7f3ef67f
+  content_sha256: 85966127dc73611938e86def91899a14bde864089d2738584f95176ff2c5e9b3
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:05:00
   bundle_frames:
   - frame_identifier: d3_10050_questions.png
     stream_offset: 01:00:50
-    content_sha256: a031e77e0973f787e18fc1152cb329f39b8930a57e1609d7f07f5a5ea2e4f1e1
+    content_sha256: 346711c58190d22d9cf79ad4f740cbefd371797ce8ac1c61f8d49e697743945d
   - frame_identifier: d3_10959_starbase-promo-qr.png
     stream_offset: 01:09:59
-    content_sha256: b2b415cee09ec7ee3a42f5e67658900920bcabf68506be460cbacefa7f3ef67f
+    content_sha256: 85966127dc73611938e86def91899a14bde864089d2738584f95176ff2c5e9b3
   - frame_identifier: d3_12158_grok-bot-galaxy-panel.png
     stream_offset: 01:21:58
-    content_sha256: f68f5408a7526dfd46e2907a344199b02a763e4b5763f84baaf18b08e6c22f54
+    content_sha256: 53b4b3cbbb70f4b9f9477148f8f63334ed110622233aaf27531aa9428164f742
 - record_id: EV-D3-006
   observation_ref: OBS-D3-006
   stream_offset: 01:24:59 - 01:42:37
   description: Production launch checklist walkthrough and Card draft mechanics verification
   frame_identifier: d3_1555_launch-checklist.png
-  content_sha256: ba8d156d50c2881a8b561b91327559b3627896ae70a48f7b2aca5a8281cd74e4
+  content_sha256: 9a703235a844e34aa1778293944299959738e321e259149ddf6cef80b8d2e8af
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:30:00
   bundle_frames:
   - frame_identifier: d3_1555_launch-checklist.png
     stream_offset: 01:25:55
-    content_sha256: ba8d156d50c2881a8b561b91327559b3627896ae70a48f7b2aca5a8281cd74e4
+    content_sha256: 9a703235a844e34aa1778293944299959738e321e259149ddf6cef80b8d2e8af
   - frame_identifier: d3_1602_card-draft.png
     stream_offset: 01:36:02
-    content_sha256: 12a9ad97b753039c50574877b402213ff7a8947d814b9d7141aacd70a8933fb4
+    content_sha256: 39c5dbece24f737d81310a631cd9958c1ef8e9491868a4bf6cf831efc60c5fa2
   - frame_identifier: d3_1602_end-you-took-round1.png
     stream_offset: 01:40:00
-    content_sha256: 3bd4f486ec6584d1bb3cdcb0bec20e2167e4bcd5c6ab80af87a7a657bb3e0185
+    content_sha256: 1353a6166f5e1c32b48d69fa9a21b094712af6d0f1799b9229f6659399ab0110
 - record_id: EV-D3-007
   observation_ref: OBS-D3-007
   stream_offset: 01:42:37 - 01:58:49
   description: Public matchmaking QR distribution and global leaderboard activation
   frame_identifier: d3_1620_sap_matches_qr.png
-  content_sha256: b2a9ba33830040211825e54872b89780ce522f35b7eb710e0824638a054777d3
+  content_sha256: a1b46f060483bce30080edc4f5003f54756d3fd621226783a8830df4d1d75b94
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=01:50:00
   bundle_frames:
   - frame_identifier: d3_1620_sap_matches_qr.png
     stream_offset: 01:45:00
-    content_sha256: b2a9ba33830040211825e54872b89780ce522f35b7eb710e0824638a054777d3
+    content_sha256: a1b46f060483bce30080edc4f5003f54756d3fd621226783a8830df4d1d75b94
   - frame_identifier: d3_1652_global-leaderboard.png
     stream_offset: 01:52:00
-    content_sha256: c2d419da9089ba88a28d722797ec7446003a862798717f55619a9c15fbc7e405
+    content_sha256: 0f0c6a6af2d4476b4de0f6f697371eb2930b98277dce1681e23f7b3b6057dc31
 - record_id: EV-D3-008
   observation_ref: OBS-D3-008
   stream_offset: 01:58:49 - 02:14:40
   description: Cupcake operational performance metrics and 41.8% win rate presentation
   frame_identifier: d3_1622_cupcake_kpis.png
-  content_sha256: d9bcd826acd9a889ef59d7075edd27bdea789ff824306b9dc3516e6e0a10acd2
+  content_sha256: 6958147548a44fa600fe52d8ffa243bdd03d79ee8ba83021b10e1c2a6da0ea34
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:05:00
   bundle_frames:
   - frame_identifier: d3_1622_cupcake_kpis.png
     stream_offset: 02:02:00
-    content_sha256: d9bcd826acd9a889ef59d7075edd27bdea789ff824306b9dc3516e6e0a10acd2
+    content_sha256: 6958147548a44fa600fe52d8ffa243bdd03d79ee8ba83021b10e1c2a6da0ea34
   - frame_identifier: d3_1625_public_match_result.png
     stream_offset: 02:05:00
-    content_sha256: 5764a8f98f0c03f2ce93a293aa60c2782485f40a72599abd1b91cb3b2fd86ea1
+    content_sha256: 0f4be66030d140d4568775cc5f1b2f9370770a0ef7db5b890fdf77486f5e1165
 - record_id: EV-D3-009
   observation_ref: OBS-D3-009
   stream_offset: 02:14:40 - 02:46:45
   description: Traffic spike causes WAF edge rate-limiting stall; engineering Slack
     coordination mitigates rules
   frame_identifier: d3_1655_steve-slack-waf-edge.png
-  content_sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792
+  content_sha256: 0718e0f1124b6fe381631161febb159293a42d52887848ae74c58d455c47cb2e
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:35:00
   bundle_frames:
   - frame_identifier: d3_1643_feedback-chart.png
     stream_offset: 02:18:00
-    content_sha256: 1db264c3842dee8cd1edf0adca1bca5a8cae2e2a3cde8d3d47ed3aada8ee8904
+    content_sha256: af010a5d6025103c2e7fe2a48223840e3281f1304678eeaa2eb2a241e1489a34
   - frame_identifier: d3_1647_cupcake-phone.png
     stream_offset: 02:22:00
-    content_sha256: 91d298435d5ff0d8aad98040e071eaf2faac07e65575d4e5474740035f0d8884
+    content_sha256: 4d81290ea26fd70c99b8c78d47bfc136ed003ae0fad0a40ad28a362aa41fd6b7
   - frame_identifier: d3_1654_crumb-chat.png
     stream_offset: 02:28:00
-    content_sha256: c032418748e95b60d9d8652dcd86104d5f3d53376edba8aa6a288cde769fe648
+    content_sha256: 4e6d58605b4aaca2a4edc9a717f4b31bf37b18222d556752dfa8adc7e46dd210
   - frame_identifier: d3_1138_steve-slack-waf-edge.png
     stream_offset: 02:35:00
-    content_sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792
+    content_sha256: 0718e0f1124b6fe381631161febb159293a42d52887848ae74c58d455c47cb2e
   - frame_identifier: d3_1655_steve-slack-waf-edge.png
     stream_offset: 02:40:00
-    content_sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792
+    content_sha256: 0718e0f1124b6fe381631161febb159293a42d52887848ae74c58d455c47cb2e
 - record_id: EV-D3-010
   observation_ref: OBS-D3-010
   stream_offset: 02:46:45 - 03:17:32
   description: Thursday Arena team setup, victory screen and visitor conversion funnel
     snapshot
   frame_identifier: d3_1430_win.png
-  content_sha256: 51a6da911328a3807bd75a28dad093483dfd272bf225ee3c74e7cade549c4e01
+  content_sha256: 84369903a6a35efc0714a4a753908cbb482f067cff6caed9d5d99df44577ad33
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=02:55:00
   bundle_frames:
   - frame_identifier: d3_1424_thursday-arena-start.png
     stream_offset: 02:48:00
-    content_sha256: 9739f39d4e2ae4c02c1c195b91542813fd93721a0c0a1c00982d8ae704b64729
+    content_sha256: 86fc2bb21beb9d6c30c7f506de778caa431eedbf950d34289525720bd898c06c
   - frame_identifier: d3_1429_build-your-team.png
     stream_offset: 02:50:00
-    content_sha256: 0999bf2f14060f326509f1422224176de902119d9a6129babff994e162cd7ebc
+    content_sha256: 598dc48bfdfe15e2eb72b629e34247fedaffab3bb588e946f73d972c61302e20
   - frame_identifier: d3_1430_win.png
     stream_offset: 02:55:00
-    content_sha256: 51a6da911328a3807bd75a28dad093483dfd272bf225ee3c74e7cade549c4e01
+    content_sha256: 84369903a6a35efc0714a4a753908cbb482f067cff6caed9d5d99df44577ad33
   - frame_identifier: d3_1440_funnel-snapshot.png
     stream_offset: 03:00:00
-    content_sha256: 3a8f39f8dde903c5a5eec87cee9f82bea68e611c1bece6b730bdcc6a2833cee4
+    content_sha256: 305d5fa29503acdb975c7a56f45a0c67b2318a37128334311a6613b6e4996b22
 - record_id: EV-D3-011
   observation_ref: OBS-D3-011
   stream_offset: 03:17:32 - 03:55:07
   description: Cerebro marketing agent dashboard launch and Clay webhook integration
     prompt
   frame_identifier: d3_0336_cerebro_chat_final.png
-  content_sha256: addb6c81cb576469b00d301950cf61f08b67992dd97a7a528e58e26534b4d429
+  content_sha256: 2d34947ec694378b8de44a3fa9186f59c43e9319441e8d0b54bc27d50be553bf
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=03:40:00
   bundle_frames:
   - frame_identifier: d3_0322_thursday_arena_resume.png
     stream_offset: 03:22:00
-    content_sha256: 8b38d231326054e010737a52d0318d838ccd999cb79786db542b508175103789
+    content_sha256: b43764461b16730160cf4cd7a84b13cbfabf7453132aaa065b326633960053a9
   - frame_identifier: d3_0331_marketing_operations_demo.png
     stream_offset: 03:31:00
-    content_sha256: 41fb175a74a88603ec5c2ae7e059e39250f94e96ba0e3fd5406f2659fcf72016
+    content_sha256: cd93f5c80625516f2c851e52c968e8f2e8b5ef8e5bb778a9db71cf18050d68c8
   - frame_identifier: d3_0336_cerebro_chat_final.png
     stream_offset: 03:36:00
-    content_sha256: addb6c81cb576469b00d301950cf61f08b67992dd97a7a528e58e26534b4d429
+    content_sha256: 2d34947ec694378b8de44a3fa9186f59c43e9319441e8d0b54bc27d50be553bf
   - frame_identifier: d3_0339_cerebro_marketing-operations.png
     stream_offset: 03:39:00
-    content_sha256: 990877bea62e511213395cd41a4e71d4963bedc1516d9a7a01673fc39bb075cb
+    content_sha256: eb338452575e8cc92c6a88124f9058c760da969096f0da4f147b7b2555d6e3ef
   - frame_identifier: d3_0355_cerebro_clay_prompt.png
     stream_offset: 03:54:00
-    content_sha256: ff369e053f6a4a8365f0e5ec37e5cfb284a34b8539552ae1bbfb4e12741978ef
+    content_sha256: c50fc26c36beb5b15f73c5b850e9bbbd1d5bb94fd765a9f04203bc0984c5cbd1
 - record_id: EV-D3-012
   observation_ref: OBS-D3-012
   stream_offset: 03:55:07 - 04:12:15
   description: Why Grok Bot enterprise value proposition slide presentation
   frame_identifier: d3_0359_why_grok_bot_tiles.png
-  content_sha256: ec06c30cc5974fa0f7345880f70e777cd4c2234d8c968533a340ca267a24d75e
+  content_sha256: b712b23babfdd35a26616daf6322a56a91958abcae9f45a1762cf5e30a2b6645
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=04:05:00
   bundle_frames:
   - frame_identifier: d3_0359_why_grok_bot_tiles.png
     stream_offset: 03:59:00
-    content_sha256: ec06c30cc5974fa0f7345880f70e777cd4c2234d8c968533a340ca267a24d75e
+    content_sha256: b712b23babfdd35a26616daf6322a56a91958abcae9f45a1762cf5e30a2b6645
   - frame_identifier: d3_0426_what-we-learned.png
     stream_offset: 04:10:00
-    content_sha256: da8cc9cbd9cce7ec7691670ac8ed4c4361a73c707ad554885732cf75018d9013
+    content_sha256: c9882b2d6584e39c3cc7cc12aa6e80fb64351a75726955a49dc40cacf28bf1f5
 - record_id: EV-D3-013
   observation_ref: OBS-D3-013
   stream_offset: 04:12:15 - 04:51:37
   description: Technical audience architecture Q&A on bot state and memory
   frame_identifier: d3_0429_questions-stage.png
-  content_sha256: 123780795705133b346562026194162c342239a1bf55f06aeb63fc88dee29fdd
+  content_sha256: dd20895cd63c51cc3dfcaf050380f30b32e1ddf275a813828f6f76f4d2f70e11
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=04:30:00
   bundle_frames:
   - frame_identifier: d3_0429_questions-stage.png
     stream_offset: 04:29:00
-    content_sha256: 123780795705133b346562026194162c342239a1bf55f06aeb63fc88dee29fdd
+    content_sha256: dd20895cd63c51cc3dfcaf050380f30b32e1ddf275a813828f6f76f4d2f70e11
   - frame_identifier: d3_12459_panel-end.png
     stream_offset: 04:45:00
-    content_sha256: b14d4958f2cb5c434889ba55745d9449b311a26a4996f979cf2f649bb8c4fc73
+    content_sha256: 0a66ef8c67d28d8b6228f895a7d3b3e8d6877e8203d6568aa3df72977ffe1d6b
 - record_id: EV-D3-014
   observation_ref: OBS-D3-014
   stream_offset: 04:51:37 - 05:09:22
   description: Production launch monitoring charts and live battle outcome resolution
   frame_identifier: d3_0454_cupcake-launch-chart.png
-  content_sha256: db2cf4dca2f0eabad90dd00fb05440584c975ab71b59a63d10218d5b2aa1120b
+  content_sha256: 77856ad4da1d1c39a3535a98e1f896f09b6e8ed14eda669c45b5f31f7eca2b0a
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:00:00
   bundle_frames:
   - frame_identifier: d3_0454_cupcake-launch-chart.png
     stream_offset: 04:54:00
-    content_sha256: db2cf4dca2f0eabad90dd00fb05440584c975ab71b59a63d10218d5b2aa1120b
+    content_sha256: 77856ad4da1d1c39a3535a98e1f896f09b6e8ed14eda669c45b5f31f7eca2b0a
   - frame_identifier: d3_0505_win-screen.png
     stream_offset: 05:05:00
-    content_sha256: 6d1c734d1a06d7395666424b7978c836285c4b2fede31cb9fd42ee321593e7f0
+    content_sha256: a49b802e1924e62c4ca090576d04e16bdcbc7a696545905563332cca439e0c6e
 - record_id: EV-D3-015
   observation_ref: OBS-D3-015
   stream_offset: 05:09:22 - 05:44:57
   description: Pokemon card CSS styling updates, voice agent CTA and BaseUI migration
     progress
   frame_identifier: d3_0522_pokemon-cards.png
-  content_sha256: 51cde2d117e88aaef8ba76930d0d3a50885e24bba13a364544aeaf1794b3261b
+  content_sha256: 7b9598d0bd762dcdee7ecce49733f4a7b78bd0b2adef4e537ef4caccead42905
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:25:00
   bundle_frames:
   - frame_identifier: d3_0512_voice-agents.png
     stream_offset: 05:12:00
-    content_sha256: 2816363657c087eca0119f9b0fc08ca2eef2db3d23c32cfc40aceecfb6e4be4f
+    content_sha256: 1fdb87f4ee0e49eadd53672a82396c79cce5d0e44c9dfde98d18fdf2902302da
   - frame_identifier: d3_0522_pokemon-cards.png
     stream_offset: 05:22:00
-    content_sha256: 51cde2d117e88aaef8ba76930d0d3a50885e24bba13a364544aeaf1794b3261b
+    content_sha256: 7b9598d0bd762dcdee7ecce49733f4a7b78bd0b2adef4e537ef4caccead42905
   - frame_identifier: d3_052850_baseui-migration.png
     stream_offset: 05:28:50
-    content_sha256: d3f1de3cc412f8bc11d702cf88502130a831a4800bb375cd72a618850d729b41
+    content_sha256: e20287f7a4a2f531b6d4f0f99389c0442848b936ce03ade0cfe017fbdd2bfe80
 - record_id: EV-D3-016
   observation_ref: OBS-D3-016
   stream_offset: 05:44:57 - 06:06:34
   description: Automated marketing campaign generation, competitor matrix and positioning
     brief
   frame_identifier: d3_0610_competitor-table.png
-  content_sha256: 21690adf46bd3f0a5bb9b6971a2f17e3031c332aa389204aa5f63bda87628b4e
+  content_sha256: a3fecb5dea70649e20d5c664e47df615cf5fd7df4447c0766f7b76c12da9dc31
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=05:55:00
   bundle_frames:
   - frame_identifier: d3_0606_launching-marketing-campaign.png
     stream_offset: 05:48:00
-    content_sha256: 28e9c3369497c6e279424c7526d63c9b3405a36598d0c5ca776bdaa0b8bffaf2
+    content_sha256: e0bbdf8af44b1981a5ff222ddc61b21cbecfb6a78c20784566e33730da4e21e6
   - frame_identifier: d3_0610_competitor-table.png
     stream_offset: 05:55:00
-    content_sha256: 21690adf46bd3f0a5bb9b6971a2f17e3031c332aa389204aa5f63bda87628b4e
+    content_sha256: a3fecb5dea70649e20d5c664e47df615cf5fd7df4447c0766f7b76c12da9dc31
   - frame_identifier: d3_0613_positioning-brief.png
     stream_offset: 06:00:00
-    content_sha256: 01e6b562ce588f4924c7a8cb312545250710cec32ba828c7046f9751c54c9cd6
+    content_sha256: 4a8eba17062c4738ecd4e359e8bf31e1de6fef8cdb8d72da691b5ef54a58107b
 - record_id: EV-D3-017
   observation_ref: OBS-D3-017
   stream_offset: 06:06:34 - 06:25:06
   description: Project Manager outline exported to Cursor terminal compilation
   frame_identifier: d3_0620_building-from-outline-terminal.png
-  content_sha256: f322611ffc3f52a3f499e657e75afc758913e77986471c99ec5679c03ce38516
+  content_sha256: aae595eda1f61474844bbbff50f235c04bc8a4ced514e651b8140872fd0193ea
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:15:00
   bundle_frames:
   - frame_identifier: d3_0619_ui-outline-open-in-cursor.png
     stream_offset: 06:12:00
-    content_sha256: f12c710c9a9b929d3e8ea0c3a41930b7cbcfb5d8a27d5f62b27581210d09ccac
+    content_sha256: a8cc919848311982694ab68dfd4978af53ea5c45794ee40472edab909324a6e7
   - frame_identifier: d3_0620_building-from-outline-terminal.png
     stream_offset: 06:16:00
-    content_sha256: f322611ffc3f52a3f499e657e75afc758913e77986471c99ec5679c03ce38516
+    content_sha256: aae595eda1f61474844bbbff50f235c04bc8a4ced514e651b8140872fd0193ea
   - frame_identifier: d3_0625_project-manager_playing.png
     stream_offset: 06:22:00
-    content_sha256: 0c53bc4ff68fb9c34cd991dd9571f7d02804b5780de90c0f31fe35138e395191
+    content_sha256: f16f8f2ab84601b47f5cb421fcc8288ec76fd173845d4b3afc84f79ba20861dd
 - record_id: EV-D3-018
   observation_ref: OBS-D3-018
   stream_offset: 06:25:06 - 06:41:53
   description: Bot template marketplace and commercial QR routing
   frame_identifier: d3_0629_what-we-learned-qr.png
-  content_sha256: ddd4fab8e2df6ba41d083779fcc21a018f7372489d8c4b43d9875872b939318d
+  content_sha256: dac5b2d9df896c09dd04c81069f1590a5b323cdaeba8cba4a482bfd104e96e20
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:30:00
   bundle_frames:
   - frame_identifier: d3_0629_what-we-learned-qr.png
     stream_offset: 06:29:00
-    content_sha256: ddd4fab8e2df6ba41d083779fcc21a018f7372489d8c4b43d9875872b939318d
+    content_sha256: dac5b2d9df896c09dd04c81069f1590a5b323cdaeba8cba4a482bfd104e96e20
   - frame_identifier: d3_054457_thursday-arena-menu.png
     stream_offset: 06:35:00
-    content_sha256: 01ec95ff5d269286785efd35fe347f6a16a420e2174fa8c87d51807c6ac0091a
+    content_sha256: b3bc615643b0b43e6a9bd8945cdffb25f13ab6911d151737d959530c55d6ca87
 - record_id: EV-D3-019
   observation_ref: OBS-D3-019
   stream_offset: 06:41:53 - 06:57:37
   description: Traffic graph peak, GitHub checks queue congestion across community
     PRs and Bake review
   frame_identifier: d3_0657_github-checks.png
-  content_sha256: 6fc8fe7362b229b7af4eaf8712ef6bf38b6e8fc68d05fa2e1330aa43b424010e
+  content_sha256: 39a05b1ed512a7fafd51656a536cea9e1c20ecc83bda451fd3435b0a59089d4d
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=06:50:00
   bundle_frames:
   - frame_identifier: d3_0646_traffic-graph.png
     stream_offset: 06:46:00
-    content_sha256: 1f32266774041a936b89642fd6257d9fcd1fa8e1f0c33a557a5f4e1546df11c2
+    content_sha256: 3f24bd2b03c82c0d62884b631b18045f7ab5af0f94424eb5fe4592413fa7abca
   - frame_identifier: d3_0652_leaderboard.png
     stream_offset: 06:52:00
-    content_sha256: 20af88c3ed94a498ba0a38d21af0c3f13fc698688380fb7a74ce60918636ad9f
+    content_sha256: 2b60eea4448a62f7ccfac394a61e38995b9328b7b9530eab29c75022470a53c7
   - frame_identifier: d3_0657_bake-chat.png
     stream_offset: 06:56:00
-    content_sha256: 932279ed3ab1e305bee8c5c3108efdd6df9e484c77a97bc67c50bc6a2470c66f
+    content_sha256: 7a31babac022d49d1fe23a69c437ff3741bc85750e5a81070489cf44ccfaca3e
   - frame_identifier: d3_0657_github-checks.png
     stream_offset: 06:57:00
-    content_sha256: 6fc8fe7362b229b7af4eaf8712ef6bf38b6e8fc68d05fa2e1330aa43b424010e
+    content_sha256: 39a05b1ed512a7fafd51656a536cea9e1c20ecc83bda451fd3435b0a59089d4d
 - record_id: EV-D3-020
   observation_ref: OBS-D3-020
   stream_offset: 06:57:37 - 07:37:41
   description: Sponsor form submission and Thursday Arena rules adjudication
   frame_identifier: d3_0737_rules-thursday-arena.png
-  content_sha256: 67a60e20f6ca094f3ed3de1f01d80cd4e6787ffd96e5132b59647a852ca69748
+  content_sha256: 9dd4dfe9f4be5ab0960ec0bde51c95b62a5143f87e65d196abc025717593da4f
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:15:00
   bundle_frames:
   - frame_identifier: d3_0700_projects-manager.png
     stream_offset: 07:00:00
-    content_sha256: a4a548d0e269def0c8072ccb2515f22210513bfabf8ec5435422273d9f38366d
+    content_sha256: 66951cb1afbbf8fe14c6d9bac81400bb2917350836e80c69f25ff954d44458a7
   - frame_identifier: d3_0710_thursday-arena.png
     stream_offset: 07:10:00
-    content_sha256: 0c7d281c52be99e8de8a9cc4b23b2a41410520df3799f33f275d6934e74acaf9
+    content_sha256: b753452539407f864b3aae5ea1eab2ee441b3bd7297a1807ea5dbc9bd4c43b68
   - frame_identifier: d3_0737_rules-thursday-arena.png
     stream_offset: 07:37:00
-    content_sha256: 67a60e20f6ca094f3ed3de1f01d80cd4e6787ffd96e5132b59647a852ca69748
+    content_sha256: 9dd4dfe9f4be5ab0960ec0bde51c95b62a5143f87e65d196abc025717593da4f
 - record_id: EV-D3-021
   observation_ref: OBS-D3-021
   stream_offset: 07:37:41 - 07:58:23
   description: Ship-by-Thursday roadmap, final Cupcake KPIs and Day 3 stream closeout
     end card
   frame_identifier: d3_1958_end-card-grok-bot-galaxy.png
-  content_sha256: 7a2249457190543197ee973eaf1f49683075666d9a87031f9fce6751a65cf1f5
+  content_sha256: 07b487aa193c4a3ab8deb490ba695bb2c62bef8fd61e4ddbead980af5022594e
   locator: uri:https://x.com/i/broadcasts/1YGNrbXEeazGw#t=07:55:00
   bundle_frames:
   - frame_identifier: d3_1950_cupcake-kpi-chart.png
     stream_offset: 07:45:00
-    content_sha256: 7c0e780f73fe97bc7ac379156ec4e0c0060008220e9715d1ab306a3e6308f675
+    content_sha256: a722f6befe049ec0b5b2320f75ac03fb1b023ce8f5130c35bef6b452da74fa47
   - frame_identifier: d3_1951_total-users-chart.png
     stream_offset: 07:48:00
-    content_sha256: 068c079e5f3d5e099ae68a17accbcbdbc79894263f984a681d6b4edc9443a861
+    content_sha256: dded5129043f6b517df98a75f15e41e013657f1abb052b4d8136e8582647ac76
   - frame_identifier: d3_1952_ship-by-thursday-roadmap.png
     stream_offset: 07:50:00
-    content_sha256: 4304cf93937536a94329cb49d0e639bd7a35b564b66a61822187df827b0a8445
+    content_sha256: 0fd6d4efe248aee009b0c24f7c7ecc12226c051a079b45f63df1d30187a79145
   - frame_identifier: d3_1953_mvp-factory-livestream-timeline.png
     stream_offset: 07:52:00
-    content_sha256: 5c83a4ca86a00e7a3cc95074b6db3c8af1778e990037b20b77a30950dc557c7f
+    content_sha256: 4f661ce5018e559d0720a2eea7d0acb84ce810278d82c2e8dcd6bf52d27f91aa
   - frame_identifier: d3_1956_ad-bid-form.png
     stream_offset: 07:54:00
-    content_sha256: c3a60a316284108e97ba2c5b51ebde852efe9e46a179fac6067fa773c50641ef
+    content_sha256: 26cfe7e208940e74bec6cfe8face0cd1dae5fac0213f5df6ad104795c1c2d6e3
   - frame_identifier: d3_1958_end-card-grok-bot-galaxy.png
     stream_offset: 07:58:23
-    content_sha256: 7a2249457190543197ee973eaf1f49683075666d9a87031f9fce6751a65cf1f5
+    content_sha256: 07b487aa193c4a3ab8deb490ba695bb2c62bef8fd61e4ddbead980af5022594e

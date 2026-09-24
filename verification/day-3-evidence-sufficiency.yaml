@@ -21,12 +21,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 00:00:00
     frame_identifier: d3_0000_galaxy-title.png
-    sha256: 2925c4be5882735af5775458f4db3d6d554e1c1398d906302da0f40ede7b9373
+    sha256: d68459e78f5ccafa7a69ec279a95cee80eb52495f2adfbd1933f0d73ce92b61f
     proves: Visual verification of Grok Bot Galaxy Day 3 Title Card & Countdown state
       at 00:00:00
   - stream_offset: 00:10:00
     frame_identifier: d3_1000_panel.png
-    sha256: 1c22ad22bd90e798b9b3ab4fae230c104dcb5420e982e3d3d2560544ee8b5efd
+    sha256: 5f6b711ca342d01a18de8e283699ddcd23e9579d7d3204d447da29cd9e2bf3c7
     proves: Visual verification of Grok Bot Galaxy Day 3 Title Card & Countdown state
       at 00:10:00
   semantic_adjudication:
@@ -42,12 +42,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 00:15:00
     frame_identifier: d3_1500_bake-chat-demo.png
-    sha256: 40d824b58f46330f52db5827790a9be8647754e24051dfcf85d22828e7a2c300
+    sha256: a164006b31e8a13dfacc72eeec87517e596fbdbe4960b494f72d76e34d52d2e6
     proves: Visual verification of Launch Day Objectives & Bake Workspace Review state
       at 00:15:00
   - stream_offset: 00:16:29
     frame_identifier: d3_1629_bake_workspace.png
-    sha256: 82a4beb7c40e01a971d9ed35be3ecc29a99a309b36851da47bddbc53fc315e2e
+    sha256: edbad92a2fe6032502842f65a5265f6776415ee22d9e2c702fc48b20647195bb
     proves: Visual verification of Launch Day Objectives & Bake Workspace Review state
       at 00:16:29
   semantic_adjudication:
@@ -63,12 +63,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 00:20:00
     frame_identifier: d3_2000_round1-cupcake.png
-    sha256: 2e0cf1ef8b1fb8dc44a8817a41bc8e16a93689f43d7f8bffe2de3d828e6b60f9
+    sha256: 8bf1ed574c8bf587d0b8e980e3a6bf1f4f43305fb09ddb38045ae2fdba964b1c
     proves: Visual verification of Cupcake Multiplayer Live Battle Round 1 state at
       00:20:00
   - stream_offset: 00:35:43
     frame_identifier: d3_3543_revops-marops-use-cases.png
-    sha256: 15b4f294bb10d2e73897af3fe946f7350514348a1e95a141afc2cbdba03bbb67
+    sha256: b5d2a5608ee8e88402589e9fd424e2013593218cc4a803c111834fc32e1ae9b1
     proves: Visual verification of Cupcake Multiplayer Live Battle Round 1 state at
       00:35:43
   semantic_adjudication:
@@ -84,17 +84,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 00:42:00
     frame_identifier: d3_1508_op1-notes.png
-    sha256: 3048749e338f72fb4e4268b2ca4350ab8dab4782d113ecc3eee8538647e2542d
+    sha256: 7df4b13d9d9f46bf08a32bb8016bda0a53070f54f197d563077ee3e6b01e20f7
     proves: Visual verification of Sofia Lead Deck Generation & Lead Qualification
       state at 00:42:00
   - stream_offset: 00:43:30
     frame_identifier: d3_1510_juno-workflow.png
-    sha256: 0b8f29a662174e7e4abfb6c257f8f7a6d91a67341222daf4f49805669d06e9ef
+    sha256: 8466ef73ca86d119e38b93c77e899486bc39d56667fb8d097957d489c22e515b
     proves: Visual verification of Sofia Lead Deck Generation & Lead Qualification
       state at 00:43:30
   - stream_offset: 00:45:00
     frame_identifier: d3_1517_lead-card-sofia.png
-    sha256: 11a118b9f5be4e06957032069ae66d76f120f9c24fe07580fa0cd3bdf7f9ec43
+    sha256: c17e304aac82a47e29aab04be1ff88db7f681029203ee2897f0070f951a9e052
     proves: Visual verification of Sofia Lead Deck Generation & Lead Qualification
       state at 00:45:00
   semantic_adjudication:
@@ -110,17 +110,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 01:00:50
     frame_identifier: d3_10050_questions.png
-    sha256: a031e77e0973f787e18fc1152cb329f39b8930a57e1609d7f07f5a5ea2e4f1e1
+    sha256: 346711c58190d22d9cf79ad4f740cbefd371797ce8ac1c61f8d49e697743945d
     proves: Visual verification of Starbase Trip Challenge QR Code & Community Intake
       state at 01:00:50
   - stream_offset: 01:09:59
     frame_identifier: d3_10959_starbase-promo-qr.png
-    sha256: b2b415cee09ec7ee3a42f5e67658900920bcabf68506be460cbacefa7f3ef67f
+    sha256: 85966127dc73611938e86def91899a14bde864089d2738584f95176ff2c5e9b3
     proves: Visual verification of Starbase Trip Challenge QR Code & Community Intake
       state at 01:09:59
   - stream_offset: 01:21:58
     frame_identifier: d3_12158_grok-bot-galaxy-panel.png
-    sha256: f68f5408a7526dfd46e2907a344199b02a763e4b5763f84baaf18b08e6c22f54
+    sha256: 53b4b3cbbb70f4b9f9477148f8f63334ed110622233aaf27531aa9428164f742
     proves: Visual verification of Starbase Trip Challenge QR Code & Community Intake
       state at 01:21:58
   semantic_adjudication:
@@ -136,17 +136,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 01:25:55
     frame_identifier: d3_1555_launch-checklist.png
-    sha256: ba8d156d50c2881a8b561b91327559b3627896ae70a48f7b2aca5a8281cd74e4
+    sha256: 9a703235a844e34aa1778293944299959738e321e259149ddf6cef80b8d2e8af
     proves: Visual verification of Launch Checklist Walkthrough & Card Draft Testing
       state at 01:25:55
   - stream_offset: 01:36:02
     frame_identifier: d3_1602_card-draft.png
-    sha256: 12a9ad97b753039c50574877b402213ff7a8947d814b9d7141aacd70a8933fb4
+    sha256: 39c5dbece24f737d81310a631cd9958c1ef8e9491868a4bf6cf831efc60c5fa2
     proves: Visual verification of Launch Checklist Walkthrough & Card Draft Testing
       state at 01:36:02
   - stream_offset: 01:40:00
     frame_identifier: d3_1602_end-you-took-round1.png
-    sha256: 3bd4f486ec6584d1bb3cdcb0bec20e2167e4bcd5c6ab80af87a7a657bb3e0185
+    sha256: 1353a6166f5e1c32b48d69fa9a21b094712af6d0f1799b9229f6659399ab0110
     proves: Visual verification of Launch Checklist Walkthrough & Card Draft Testing
       state at 01:40:00
   semantic_adjudication:
@@ -162,12 +162,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 01:45:00
     frame_identifier: d3_1620_sap_matches_qr.png
-    sha256: b2a9ba33830040211825e54872b89780ce522f35b7eb710e0824638a054777d3
+    sha256: a1b46f060483bce30080edc4f5003f54756d3fd621226783a8830df4d1d75b94
     proves: Visual verification of Public Matchmaking QR Routing & Global Leaderboard
       Open state at 01:45:00
   - stream_offset: 01:52:00
     frame_identifier: d3_1652_global-leaderboard.png
-    sha256: c2d419da9089ba88a28d722797ec7446003a862798717f55619a9c15fbc7e405
+    sha256: 0f0c6a6af2d4476b4de0f6f697371eb2930b98277dce1681e23f7b3b6057dc31
     proves: Visual verification of Public Matchmaking QR Routing & Global Leaderboard
       Open state at 01:52:00
   semantic_adjudication:
@@ -183,12 +183,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 02:02:00
     frame_identifier: d3_1622_cupcake_kpis.png
-    sha256: d9bcd826acd9a889ef59d7075edd27bdea789ff824306b9dc3516e6e0a10acd2
+    sha256: 6958147548a44fa600fe52d8ffa243bdd03d79ee8ba83021b10e1c2a6da0ea34
     proves: Visual verification of Cupcake 41.8% Win Rate Telemetry Slide state at
       02:02:00
   - stream_offset: 02:05:00
     frame_identifier: d3_1625_public_match_result.png
-    sha256: 5764a8f98f0c03f2ce93a293aa60c2782485f40a72599abd1b91cb3b2fd86ea1
+    sha256: 0f4be66030d140d4568775cc5f1b2f9370770a0ef7db5b890fdf77486f5e1165
     proves: Visual verification of Cupcake 41.8% Win Rate Telemetry Slide state at
       02:05:00
   semantic_adjudication:
@@ -204,27 +204,27 @@ adjudications:
   evidence_bundle:
   - stream_offset: 02:18:00
     frame_identifier: d3_1643_feedback-chart.png
-    sha256: 1db264c3842dee8cd1edf0adca1bca5a8cae2e2a3cde8d3d47ed3aada8ee8904
+    sha256: af010a5d6025103c2e7fe2a48223840e3281f1304678eeaa2eb2a241e1489a34
     proves: Visual verification of WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration
       state at 02:18:00
   - stream_offset: 02:22:00
     frame_identifier: d3_1647_cupcake-phone.png
-    sha256: 91d298435d5ff0d8aad98040e071eaf2faac07e65575d4e5474740035f0d8884
+    sha256: 4d81290ea26fd70c99b8c78d47bfc136ed003ae0fad0a40ad28a362aa41fd6b7
     proves: Visual verification of WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration
       state at 02:22:00
   - stream_offset: 02:28:00
     frame_identifier: d3_1654_crumb-chat.png
-    sha256: c032418748e95b60d9d8652dcd86104d5f3d53376edba8aa6a288cde769fe648
+    sha256: 4e6d58605b4aaca2a4edc9a717f4b31bf37b18222d556752dfa8adc7e46dd210
     proves: Visual verification of WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration
       state at 02:28:00
   - stream_offset: 02:35:00
     frame_identifier: d3_1138_steve-slack-waf-edge.png
-    sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792
+    sha256: 0718e0f1124b6fe381631161febb159293a42d52887848ae74c58d455c47cb2e
     proves: Visual verification of WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration
       state at 02:35:00
   - stream_offset: 02:40:00
     frame_identifier: d3_1655_steve-slack-waf-edge.png
-    sha256: 5baec225e228e72a8c7ced9203c58c88f9f762a2c5259e43d2fb935a27c97792
+    sha256: 0718e0f1124b6fe381631161febb159293a42d52887848ae74c58d455c47cb2e
     proves: Visual verification of WAF Edge Rate-Limit Stall & Manual Slack Reconfiguration
       state at 02:40:00
   semantic_adjudication:
@@ -240,22 +240,22 @@ adjudications:
   evidence_bundle:
   - stream_offset: 02:48:00
     frame_identifier: d3_1424_thursday-arena-start.png
-    sha256: 9739f39d4e2ae4c02c1c195b91542813fd93721a0c0a1c00982d8ae704b64729
+    sha256: 86fc2bb21beb9d6c30c7f506de778caa431eedbf950d34289525720bd898c06c
     proves: Visual verification of Arena Match Flow, Victory Screen & Visitor Funnel
       Snapshot state at 02:48:00
   - stream_offset: 02:50:00
     frame_identifier: d3_1429_build-your-team.png
-    sha256: 0999bf2f14060f326509f1422224176de902119d9a6129babff994e162cd7ebc
+    sha256: 598dc48bfdfe15e2eb72b629e34247fedaffab3bb588e946f73d972c61302e20
     proves: Visual verification of Arena Match Flow, Victory Screen & Visitor Funnel
       Snapshot state at 02:50:00
   - stream_offset: 02:55:00
     frame_identifier: d3_1430_win.png
-    sha256: 51a6da911328a3807bd75a28dad093483dfd272bf225ee3c74e7cade549c4e01
+    sha256: 84369903a6a35efc0714a4a753908cbb482f067cff6caed9d5d99df44577ad33
     proves: Visual verification of Arena Match Flow, Victory Screen & Visitor Funnel
       Snapshot state at 02:55:00
   - stream_offset: 03:00:00
     frame_identifier: d3_1440_funnel-snapshot.png
-    sha256: 3a8f39f8dde903c5a5eec87cee9f82bea68e611c1bece6b730bdcc6a2833cee4
+    sha256: 305d5fa29503acdb975c7a56f45a0c67b2318a37128334311a6613b6e4996b22
     proves: Visual verification of Arena Match Flow, Victory Screen & Visitor Funnel
       Snapshot state at 03:00:00
   semantic_adjudication:
@@ -271,27 +271,27 @@ adjudications:
   evidence_bundle:
   - stream_offset: 03:22:00
     frame_identifier: d3_0322_thursday_arena_resume.png
-    sha256: 8b38d231326054e010737a52d0318d838ccd999cb79786db542b508175103789
+    sha256: b43764461b16730160cf4cd7a84b13cbfabf7453132aaa065b326633960053a9
     proves: Visual verification of Cerebro Intelligence Dashboard & Clay Connector
       Webhook state at 03:22:00
   - stream_offset: 03:31:00
     frame_identifier: d3_0331_marketing_operations_demo.png
-    sha256: 41fb175a74a88603ec5c2ae7e059e39250f94e96ba0e3fd5406f2659fcf72016
+    sha256: cd93f5c80625516f2c851e52c968e8f2e8b5ef8e5bb778a9db71cf18050d68c8
     proves: Visual verification of Cerebro Intelligence Dashboard & Clay Connector
       Webhook state at 03:31:00
   - stream_offset: 03:36:00
     frame_identifier: d3_0336_cerebro_chat_final.png
-    sha256: addb6c81cb576469b00d301950cf61f08b67992dd97a7a528e58e26534b4d429
+    sha256: 2d34947ec694378b8de44a3fa9186f59c43e9319441e8d0b54bc27d50be553bf
     proves: Visual verification of Cerebro Intelligence Dashboard & Clay Connector
       Webhook state at 03:36:00
   - stream_offset: 03:39:00
     frame_identifier: d3_0339_cerebro_marketing-operations.png
-    sha256: 990877bea62e511213395cd41a4e71d4963bedc1516d9a7a01673fc39bb075cb
+    sha256: eb338452575e8cc92c6a88124f9058c760da969096f0da4f147b7b2555d6e3ef
     proves: Visual verification of Cerebro Intelligence Dashboard & Clay Connector
       Webhook state at 03:39:00
   - stream_offset: 03:54:00
     frame_identifier: d3_0355_cerebro_clay_prompt.png
-    sha256: ff369e053f6a4a8365f0e5ec37e5cfb284a34b8539552ae1bbfb4e12741978ef
+    sha256: c50fc26c36beb5b15f73c5b850e9bbbd1d5bb94fd765a9f04203bc0984c5cbd1
     proves: Visual verification of Cerebro Intelligence Dashboard & Clay Connector
       Webhook state at 03:54:00
   semantic_adjudication:
@@ -307,12 +307,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 03:59:00
     frame_identifier: d3_0359_why_grok_bot_tiles.png
-    sha256: ec06c30cc5974fa0f7345880f70e777cd4c2234d8c968533a340ca267a24d75e
+    sha256: b712b23babfdd35a26616daf6322a56a91958abcae9f45a1762cf5e30a2b6645
     proves: Visual verification of Enterprise Why Grok Bot Value Proposition Presentation
       state at 03:59:00
   - stream_offset: 04:10:00
     frame_identifier: d3_0426_what-we-learned.png
-    sha256: da8cc9cbd9cce7ec7691670ac8ed4c4361a73c707ad554885732cf75018d9013
+    sha256: c9882b2d6584e39c3cc7cc12aa6e80fb64351a75726955a49dc40cacf28bf1f5
     proves: Visual verification of Enterprise Why Grok Bot Value Proposition Presentation
       state at 04:10:00
   semantic_adjudication:
@@ -328,12 +328,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 04:29:00
     frame_identifier: d3_0429_questions-stage.png
-    sha256: 123780795705133b346562026194162c342239a1bf55f06aeb63fc88dee29fdd
+    sha256: dd20895cd63c51cc3dfcaf050380f30b32e1ddf275a813828f6f76f4d2f70e11
     proves: Visual verification of Stage Architecture Q&A & State Management Discussion
       state at 04:29:00
   - stream_offset: 04:45:00
     frame_identifier: d3_12459_panel-end.png
-    sha256: b14d4958f2cb5c434889ba55745d9449b311a26a4996f979cf2f649bb8c4fc73
+    sha256: 0a66ef8c67d28d8b6228f895a7d3b3e8d6877e8203d6568aa3df72977ffe1d6b
     proves: Visual verification of Stage Architecture Q&A & State Management Discussion
       state at 04:45:00
   semantic_adjudication:
@@ -349,12 +349,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 04:54:00
     frame_identifier: d3_0454_cupcake-launch-chart.png
-    sha256: db2cf4dca2f0eabad90dd00fb05440584c975ab71b59a63d10218d5b2aa1120b
+    sha256: 77856ad4da1d1c39a3535a98e1f896f09b6e8ed14eda669c45b5f31f7eca2b0a
     proves: Visual verification of Cupcake Production Launch Performance Dashboard
       state at 04:54:00
   - stream_offset: 05:05:00
     frame_identifier: d3_0505_win-screen.png
-    sha256: 6d1c734d1a06d7395666424b7978c836285c4b2fede31cb9fd42ee321593e7f0
+    sha256: a49b802e1924e62c4ca090576d04e16bdcbc7a696545905563332cca439e0c6e
     proves: Visual verification of Cupcake Production Launch Performance Dashboard
       state at 05:05:00
   semantic_adjudication:
@@ -370,17 +370,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 05:12:00
     frame_identifier: d3_0512_voice-agents.png
-    sha256: 2816363657c087eca0119f9b0fc08ca2eef2db3d23c32cfc40aceecfb6e4be4f
+    sha256: 1fdb87f4ee0e49eadd53672a82396c79cce5d0e44c9dfde98d18fdf2902302da
     proves: Visual verification of Pokemon Card CSS Layout & BaseUI Migration state
       at 05:12:00
   - stream_offset: 05:22:00
     frame_identifier: d3_0522_pokemon-cards.png
-    sha256: 51cde2d117e88aaef8ba76930d0d3a50885e24bba13a364544aeaf1794b3261b
+    sha256: 7b9598d0bd762dcdee7ecce49733f4a7b78bd0b2adef4e537ef4caccead42905
     proves: Visual verification of Pokemon Card CSS Layout & BaseUI Migration state
       at 05:22:00
   - stream_offset: 05:28:50
     frame_identifier: d3_052850_baseui-migration.png
-    sha256: d3f1de3cc412f8bc11d702cf88502130a831a4800bb375cd72a618850d729b41
+    sha256: e20287f7a4a2f531b6d4f0f99389c0442848b936ce03ade0cfe017fbdd2bfe80
     proves: Visual verification of Pokemon Card CSS Layout & BaseUI Migration state
       at 05:28:50
   semantic_adjudication:
@@ -396,17 +396,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 05:48:00
     frame_identifier: d3_0606_launching-marketing-campaign.png
-    sha256: 28e9c3369497c6e279424c7526d63c9b3405a36598d0c5ca776bdaa0b8bffaf2
+    sha256: e0bbdf8af44b1981a5ff222ddc61b21cbecfb6a78c20784566e33730da4e21e6
     proves: Visual verification of GTM Campaign Asset Synthesis & Competitor Matrix
       state at 05:48:00
   - stream_offset: 05:55:00
     frame_identifier: d3_0610_competitor-table.png
-    sha256: 21690adf46bd3f0a5bb9b6971a2f17e3031c332aa389204aa5f63bda87628b4e
+    sha256: a3fecb5dea70649e20d5c664e47df615cf5fd7df4447c0766f7b76c12da9dc31
     proves: Visual verification of GTM Campaign Asset Synthesis & Competitor Matrix
       state at 05:55:00
   - stream_offset: 06:00:00
     frame_identifier: d3_0613_positioning-brief.png
-    sha256: 01e6b562ce588f4924c7a8cb312545250710cec32ba828c7046f9751c54c9cd6
+    sha256: 4a8eba17062c4738ecd4e359e8bf31e1de6fef8cdb8d72da691b5ef54a58107b
     proves: Visual verification of GTM Campaign Asset Synthesis & Competitor Matrix
       state at 06:00:00
   semantic_adjudication:
@@ -422,17 +422,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 06:12:00
     frame_identifier: d3_0619_ui-outline-open-in-cursor.png
-    sha256: f12c710c9a9b929d3e8ea0c3a41930b7cbcfb5d8a27d5f62b27581210d09ccac
+    sha256: a8cc919848311982694ab68dfd4978af53ea5c45794ee40472edab909324a6e7
     proves: Visual verification of Project Manager Outline Export to Cursor Terminal
       Compilation state at 06:12:00
   - stream_offset: 06:16:00
     frame_identifier: d3_0620_building-from-outline-terminal.png
-    sha256: f322611ffc3f52a3f499e657e75afc758913e77986471c99ec5679c03ce38516
+    sha256: aae595eda1f61474844bbbff50f235c04bc8a4ced514e651b8140872fd0193ea
     proves: Visual verification of Project Manager Outline Export to Cursor Terminal
       Compilation state at 06:16:00
   - stream_offset: 06:22:00
     frame_identifier: d3_0625_project-manager_playing.png
-    sha256: 0c53bc4ff68fb9c34cd991dd9571f7d02804b5780de90c0f31fe35138e395191
+    sha256: f16f8f2ab84601b47f5cb421fcc8288ec76fd173845d4b3afc84f79ba20861dd
     proves: Visual verification of Project Manager Outline Export to Cursor Terminal
       Compilation state at 06:22:00
   semantic_adjudication:
@@ -448,12 +448,12 @@ adjudications:
   evidence_bundle:
   - stream_offset: 06:29:00
     frame_identifier: d3_0629_what-we-learned-qr.png
-    sha256: ddd4fab8e2df6ba41d083779fcc21a018f7372489d8c4b43d9875872b939318d
+    sha256: dac5b2d9df896c09dd04c81069f1590a5b323cdaeba8cba4a482bfd104e96e20
     proves: Visual verification of Template Marketplace & Commercial QR Routing state
       at 06:29:00
   - stream_offset: 06:35:00
     frame_identifier: d3_054457_thursday-arena-menu.png
-    sha256: 01ec95ff5d269286785efd35fe347f6a16a420e2174fa8c87d51807c6ac0091a
+    sha256: b3bc615643b0b43e6a9bd8945cdffb25f13ab6911d151737d959530c55d6ca87
     proves: Visual verification of Template Marketplace & Commercial QR Routing state
       at 06:35:00
   semantic_adjudication:
@@ -469,22 +469,22 @@ adjudications:
   evidence_bundle:
   - stream_offset: 06:46:00
     frame_identifier: d3_0646_traffic-graph.png
-    sha256: 1f32266774041a936b89642fd6257d9fcd1fa8e1f0c33a557a5f4e1546df11c2
+    sha256: 3f24bd2b03c82c0d62884b631b18045f7ab5af0f94424eb5fe4592413fa7abca
     proves: Visual verification of Traffic Surge, GitHub Checks Backlog & Bake PR
       Filtering state at 06:46:00
   - stream_offset: 06:52:00
     frame_identifier: d3_0652_leaderboard.png
-    sha256: 20af88c3ed94a498ba0a38d21af0c3f13fc698688380fb7a74ce60918636ad9f
+    sha256: 2b60eea4448a62f7ccfac394a61e38995b9328b7b9530eab29c75022470a53c7
     proves: Visual verification of Traffic Surge, GitHub Checks Backlog & Bake PR
       Filtering state at 06:52:00
   - stream_offset: 06:56:00
     frame_identifier: d3_0657_bake-chat.png
-    sha256: 932279ed3ab1e305bee8c5c3108efdd6df9e484c77a97bc67c50bc6a2470c66f
+    sha256: 7a31babac022d49d1fe23a69c437ff3741bc85750e5a81070489cf44ccfaca3e
     proves: Visual verification of Traffic Surge, GitHub Checks Backlog & Bake PR
       Filtering state at 06:56:00
   - stream_offset: 06:57:00
     frame_identifier: d3_0657_github-checks.png
-    sha256: 6fc8fe7362b229b7af4eaf8712ef6bf38b6e8fc68d05fa2e1330aa43b424010e
+    sha256: 39a05b1ed512a7fafd51656a536cea9e1c20ecc83bda451fd3435b0a59089d4d
     proves: Visual verification of Traffic Surge, GitHub Checks Backlog & Bake PR
       Filtering state at 06:57:00
   semantic_adjudication:
@@ -500,17 +500,17 @@ adjudications:
   evidence_bundle:
   - stream_offset: 07:00:00
     frame_identifier: d3_0700_projects-manager.png
-    sha256: a4a548d0e269def0c8072ccb2515f22210513bfabf8ec5435422273d9f38366d
+    sha256: 66951cb1afbbf8fe14c6d9bac81400bb2917350836e80c69f25ff954d44458a7
     proves: Visual verification of Sponsor Form Submission & Thursday Arena Rules
       Adjudication state at 07:00:00
   - stream_offset: 07:10:00
     frame_identifier: d3_0710_thursday-arena.png
-    sha256: 0c7d281c52be99e8de8a9cc4b23b2a41410520df3799f33f275d6934e74acaf9
+    sha256: b753452539407f864b3aae5ea1eab2ee441b3bd7297a1807ea5dbc9bd4c43b68
     proves: Visual verification of Sponsor Form Submission & Thursday Arena Rules
       Adjudication state at 07:10:00
   - stream_offset: 07:37:00
     frame_identifier: d3_0737_rules-thursday-arena.png
-    sha256: 67a60e20f6ca094f3ed3de1f01d80cd4e6787ffd96e5132b59647a852ca69748
+    sha256: 9dd4dfe9f4be5ab0960ec0bde51c95b62a5143f87e65d196abc025717593da4f
     proves: Visual verification of Sponsor Form Submission & Thursday Arena Rules
       Adjudication state at 07:37:00
   semantic_adjudication:
@@ -526,32 +526,32 @@ adjudications:
   evidence_bundle:
   - stream_offset: 07:45:00
     frame_identifier: d3_1950_cupcake-kpi-chart.png
-    sha256: 7c0e780f73fe97bc7ac379156ec4e0c0060008220e9715d1ab306a3e6308f675
+    sha256: a722f6befe049ec0b5b2320f75ac03fb1b023ce8f5130c35bef6b452da74fa47
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:45:00
   - stream_offset: 07:48:00
     frame_identifier: d3_1951_total-users-chart.png
-    sha256: 068c079e5f3d5e099ae68a17accbcbdbc79894263f984a681d6b4edc9443a861
+    sha256: dded5129043f6b517df98a75f15e41e013657f1abb052b4d8136e8582647ac76
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:48:00
   - stream_offset: 07:50:00
     frame_identifier: d3_1952_ship-by-thursday-roadmap.png
-    sha256: 4304cf93937536a94329cb49d0e639bd7a35b564b66a61822187df827b0a8445
+    sha256: 0fd6d4efe248aee009b0c24f7c7ecc12226c051a079b45f63df1d30187a79145
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:50:00
   - stream_offset: 07:52:00
     frame_identifier: d3_1953_mvp-factory-livestream-timeline.png
-    sha256: 5c83a4ca86a00e7a3cc95074b6db3c8af1778e990037b20b77a30950dc557c7f
+    sha256: 4f661ce5018e559d0720a2eea7d0acb84ce810278d82c2e8dcd6bf52d27f91aa
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:52:00
   - stream_offset: 07:54:00
     frame_identifier: d3_1956_ad-bid-form.png
-    sha256: c3a60a316284108e97ba2c5b51ebde852efe9e46a179fac6067fa773c50641ef
+    sha256: 26cfe7e208940e74bec6cfe8face0cd1dae5fac0213f5df6ad104795c1c2d6e3
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:54:00
   - stream_offset: 07:58:23
     frame_identifier: d3_1958_end-card-grok-bot-galaxy.png
-    sha256: 7a2249457190543197ee973eaf1f49683075666d9a87031f9fce6751a65cf1f5
+    sha256: 07b487aa193c4a3ab8deb490ba695bb2c62bef8fd61e4ddbead980af5022594e
     proves: Visual verification of Ship-by-Thursday Roadmap, Final Cupcake Metrics
       & Stream Close state at 07:58:23
   semantic_adjudication:
