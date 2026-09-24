@@ -1,7 +1,7 @@
 # Grok Bot Live Study: Empirical Field Reconstruction (xAI Galaxy 3-Day Sprint)
 
 [![Status](https://img.shields.io/badge/status-EMPIRICALLY_VERIFIED-brightgreen.svg)](STUDY_PROTOCOL.md)
-[![Scope](https://img.shields.io/badge/current%20scope-Day_1_First_90m-blue.svg)](timeline/day-1.md)
+[![Scope](https://img.shields.io/badge/current%20scope-3--Day_Full_Sprint-blue.svg)](#event-scope-lifecycle-state--evolution-roadmap)
 [![Lifecycle](https://img.shields.io/badge/lifecycle-ACTIVE__FIELD__STUDY-blue.svg)](#lifecycle-state--evolution-roadmap)
 [![License](https://img.shields.io/badge/license-MIT%20%2F%20CC%20BY%204.0-green.svg)](LICENSE)
 
